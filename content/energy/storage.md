@@ -123,12 +123,18 @@ There are not many practical ways to store large amounts of energy. The easiest 
 
  - Heat is much easier to store than electricity! 
    - Collecting it is no problem: Heat collectors, thermal storage, both on power-plant and residential scale. 
-    - Hybrid concentrating solar collectors ("sunflowers") as example.
+    - Hybrid concentrating solar collectors ("sunflowers") as example. Airlight/Dsolar's parabolic solar dishes track (?) and concentrate solar (12 kW PV + 21 kW thermal), and use several tricks to reduce material use (thin film mirrors, concenterating light on small PV chips instead of panels, transparent inflatable cover, fiber-based concrete structure rather than steel/aluminium). Hot-water cooling technology, developed by IBM to cool CPUs, cools PV chips and generate hot water (for heating/cooling/desalination). http://www.zurich.ibm.com/news/14/dsolar.html
     - Proven technology: solar collector, thermal buffer, heat pump.
     - Are there options for molten salt as small-scale storage, heated by concentrated sunlight during the day, e.g. for cooking and heating?
-   - The hard part is converting heat back to electricity. 
-    - We do this all the time: combustion engines and steam engines work by converting fossil fuel into heat, and then into movement. In power gerenators, movement is then converted into electricity. It's a ludicrous process if youthink about it. Again, we only get away with it because fossil fuel contains so much energy that we can currently afford to waste most of it.
+    - Sorption cooling (thermally driven cooling) is an interesting alternative to using electrical heat pumps.
+    - Thermochemical heat storage is also interesting: https://www.fraunhofer.de/en/press/research-news/2014/march/sorption-energy-storage.html
+   - The hard part is converting heat back to electricity.
+    - We do this all the time: combustion engines and steam engines work by converting fossil fuel into heat, and then into movement. In power gerenators, movement is then converted into electricity. It's a ludicrous process if you think about it. Again, we only get away with it because fossil fuel contains so much energy that we can currently afford to waste most of it.
     - What is the efficiency of turning low-grade heat into electricity. What are the techniques available? Is this feasible on a small scale?
+      - Thermoelectric generators currently have low output and efficiency, but are improving:
+      - http://www.sciencedirect.com/science/article/pii/S1364032114001038
+      - http://www.sciencedirect.com/science/article/pii/S1364032114000082
+      - http://www.sciencedirect.com/science/article/pii/S1364032113008447
  - Other forms of chemical storage than a redox cell? That's how nature does it (ATP etc.), but turning it back into electricity is still tricky. Carbohydrates can be made (basically oil), but combustion means a dismal efficiency. Our technology is rather primitive, still mostly relies on burning things. The best thing we have is still in essence 19th century technology, with a lot of tweaks.
  - But don't stand waiting around for new technology, especially with thermal energy. We still waste most of our high-grade energy (fossil and electrical) by turning it into heat! (And most of that escapes.)
 
