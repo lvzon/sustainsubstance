@@ -123,10 +123,17 @@ There are not many practical ways to store large amounts of energy. The easiest 
 
  - Heat is much easier to store than electricity! 
    - Collecting it is no problem: Heat collectors, thermal storage, both on power-plant and residential scale. 
-    - Hybrid concentrating solar collectors ("sunflowers") as example. Airlight/Dsolar's parabolic solar dishes track (?) and concentrate solar (12 kW PV + 21 kW thermal), and use several tricks to reduce material use (thin film mirrors, concenterating light on small PV chips instead of panels, transparent inflatable cover, fiber-based concrete structure rather than steel/aluminium). Hot-water cooling technology, developed by IBM to cool CPUs, cools PV chips and generate hot water (for heating/cooling/desalination). http://www.zurich.ibm.com/news/14/dsolar.html
+    - Hybrid concentrating solar collectors ("sunflowers") as example of a CPVT-system (https://en.wikipedia.org/wiki/Concentrator_photovoltaics#Concentrated_photovoltaics_and_thermal). Airlight/Dsolar's parabolic solar dishes track and concentrate solar (12 kW PV + 21 kW thermal), and use several tricks to reduce material use (thin film mirrors, concenterating light on small PV chips instead of panels, transparent inflatable cover, fiber-based concrete structure rather than steel/aluminium). Hot-water cooling technology, developed by IBM to cool CPUs, cools PV chips and generate hot water (for heating/cooling/desalination). http://www.zurich.ibm.com/news/14/dsolar.html
+    - Slightly more traditional: https://en.wikipedia.org/wiki/Photovoltaic_thermal_hybrid_solar_collector
+       - http://www.northburnsolar.co.uk/solarpanels/solarpvt/solarpvt.html
+       - http://www.solimpeks.com/pv-t-hybrid-solar-collectors/
+       - http://solarwall.com/en/products/pvthermal.php
+       - http://www.tessolarwater.com/index_en.html?zeuspv-t.html&2
+       - http://www.engineering.com/ElectronicsDesign/ElectronicsDesignArticles/ArticleID/6123/Photovoltaic-Thermal-System-Achieves-86-Efficiency.aspx
+       - Problems: http://www.solarblogger.net/2012/10/hybrid-pv-thermal-solar-panels-good-idea.html
     - Proven technology: solar collector, thermal buffer, heat pump.
     - Are there options for molten salt as small-scale storage, heated by concentrated sunlight during the day, e.g. for cooking and heating?
-    - Sorption cooling (thermally driven cooling) is an interesting alternative to using electrical heat pumps.
+    - Sorption cooling (thermally driven cooling) is an interesting alternative to using electrical heat pumps. There are other techniques: https://en.wikipedia.org/wiki/Solar_air_conditioning
     - Thermochemical heat storage is also interesting: https://www.fraunhofer.de/en/press/research-news/2014/march/sorption-energy-storage.html
    - The hard part is converting heat back to electricity.
     - We do this all the time: combustion engines and steam engines work by converting fossil fuel into heat, and then into movement. In power gerenators, movement is then converted into electricity. It's a ludicrous process if you think about it. Again, we only get away with it because fossil fuel contains so much energy that we can currently afford to waste most of it.
@@ -152,7 +159,8 @@ Source: Edison Foundation Institute for Electric Innovation, via http://www.forb
 [![Individual household load profiles](http://www.pv-magazine.com/typo3temp/pics/11071_Individual_household_load_profiles_3sppdf_431ed866aa.jpg)](http://www.pv-magazine.com/typo3temp/pics/11071_Individual_household_load_profiles_3sppdf_431ed866aa.jpg)
 Source: http://www.pv-magazine.com/archive/articles/beitrag/storage-has-landed-_100009059/501/#axzz3YryioctT
 
-
+http://www.agora-energiewende.de/en/
+http://www.compendiumvoordeleefomgeving.nl/indicatoren/nl0035-Energieverbruik-door-de-huishoudens.html?i=6-40
 
 
 
