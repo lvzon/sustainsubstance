@@ -159,8 +159,12 @@ Source: Edison Foundation Institute for Electric Innovation, via http://www.forb
 [![Individual household load profiles](http://www.pv-magazine.com/typo3temp/pics/11071_Individual_household_load_profiles_3sppdf_431ed866aa.jpg)](http://www.pv-magazine.com/typo3temp/pics/11071_Individual_household_load_profiles_3sppdf_431ed866aa.jpg)
 Source: http://www.pv-magazine.com/archive/articles/beitrag/storage-has-landed-_100009059/501/#axzz3YryioctT
 
+### Energy statistics:
 http://www.agora-energiewende.de/en/
+https://transparency.entsoe.eu/
 http://www.compendiumvoordeleefomgeving.nl/indicatoren/nl0035-Energieverbruik-door-de-huishoudens.html?i=6-40
+http://www.eex.com/en/market-data/market-data-download/product-contents/transparency-data
+http://www.industry.gov.au/Office-of-the-Chief-Economist/Publications/Pages/Australian-energy-statistics.aspx
 
 
 
