@@ -159,13 +159,26 @@ From a sustainability-perspective, the main reason to promote household- or comp
  - Most hydrogen fuel cells on the market today have less than 50% efficiency and are terribly expensive, so not suitable for home-scale storage.
  - Heat is much easier to store than electricity! 
    - Collecting it is no problem: Heat collectors, thermal storage, both on power-plant and residential scale. 
-    - Hybrid concentrating solar collectors ("sunflowers") as example.
+    - Hybrid concentrating solar collectors ("sunflowers") as example of a CPVT-system (https://en.wikipedia.org/wiki/Concentrator_photovoltaics#Concentrated_photovoltaics_and_thermal). Airlight/Dsolar's parabolic solar dishes track and concentrate solar (12 kW PV + 21 kW thermal), and use several tricks to reduce material use (thin film mirrors, concenterating light on small PV chips instead of panels, transparent inflatable cover, fiber-based concrete structure rather than steel/aluminium). Hot-water cooling technology, developed by IBM to cool CPUs, cools PV chips and generate hot water (for heating/cooling/desalination). http://www.zurich.ibm.com/news/14/dsolar.html
+    - Slightly more traditional: https://en.wikipedia.org/wiki/Photovoltaic_thermal_hybrid_solar_collector
+       - http://www.northburnsolar.co.uk/solarpanels/solarpvt/solarpvt.html
+       - http://www.solimpeks.com/pv-t-hybrid-solar-collectors/
+       - http://solarwall.com/en/products/pvthermal.php
+       - http://www.tessolarwater.com/index_en.html?zeuspv-t.html&2
+       - http://www.engineering.com/ElectronicsDesign/ElectronicsDesignArticles/ArticleID/6123/Photovoltaic-Thermal-System-Achieves-86-Efficiency.aspx
+       - Problems: http://www.solarblogger.net/2012/10/hybrid-pv-thermal-solar-panels-good-idea.html
     - Proven technology: solar collector, thermal buffer, heat pump.
     - Are there options for molten salt as small-scale storage, heated by concentrated sunlight during the day, e.g. for cooking and heating?
-   - The hard part is converting heat back to electricity. 
-    - We do this all the time: combustion engines and steam engines work by converting fossil fuel into heat, and then into movement. In power gerenators, movement is then converted into electricity. It's a ludicrous process if youthink about it. Again, we only get away with it because fossil fuel contains so much energy that we can currently afford to waste most of it.
+    - Sorption cooling (thermally driven cooling) is an interesting alternative to using electrical heat pumps. There are other techniques: https://en.wikipedia.org/wiki/Solar_air_conditioning
+    - Thermochemical heat storage is also interesting: https://www.fraunhofer.de/en/press/research-news/2014/march/sorption-energy-storage.html
+   - The hard part is converting heat back to electricity.
+    - We do this all the time: combustion engines and steam engines work by converting fossil fuel into heat, and then into movement. In power gerenators, movement is then converted into electricity. It's a ludicrous process if you think about it. Again, we only get away with it because fossil fuel contains so much energy that we can currently afford to waste most of it.
     - What is the efficiency of turning low-grade heat into electricity. What are the techniques available? Is this feasible on a small scale?
       - It's terrible. Mostly less than 5% or so.
+      - Thermoelectric generators currently have low output and efficiency, and require high temperatures. Things are improving with nanostructures, but only very slowly. Don't expect any short-term breakthroughs that will allow this to be feasible for small-scale thermal storage at decent capacities.
+      - http://www.sciencedirect.com/science/article/pii/S1364032114001038
+      - http://www.sciencedirect.com/science/article/pii/S1364032114000082
+      - http://www.sciencedirect.com/science/article/pii/S1364032113008447
  - Other forms of chemical storage than a redox cell? That's how nature does it (ATP etc.), but turning it back into electricity is still tricky. Carbohydrates can be made (basically oil), but combustion means a dismal efficiency. Our technology is rather primitive, still mostly relies on burning things. The best thing we have is still in essence 19th century technology, with a lot of tweaks.
  - Generating hydrogen, which can later be used to generate electricity. 
    - Main problems: hydrogen is hard to store/transport, has a low energy density and conversion back to electricity is not very efficient. You'll probably lose around 40%, a dsmal efficiency when compared to batteries or pumped storage. 
@@ -187,7 +200,12 @@ Source: Edison Foundation Institute for Electric Innovation, via http://www.forb
 [![Individual household load profiles](http://www.pv-magazine.com/typo3temp/pics/11071_Individual_household_load_profiles_3sppdf_431ed866aa.jpg)](http://www.pv-magazine.com/typo3temp/pics/11071_Individual_household_load_profiles_3sppdf_431ed866aa.jpg)
 Source: http://www.pv-magazine.com/archive/articles/beitrag/storage-has-landed-_100009059/501/#axzz3YryioctT
 
-
+### Energy statistics:
+http://www.agora-energiewende.de/en/
+https://transparency.entsoe.eu/
+http://www.compendiumvoordeleefomgeving.nl/indicatoren/nl0035-Energieverbruik-door-de-huishoudens.html?i=6-40
+http://www.eex.com/en/market-data/market-data-download/product-contents/transparency-data
+http://www.industry.gov.au/Office-of-the-Chief-Economist/Publications/Pages/Australian-energy-statistics.aspx
 
 
 
