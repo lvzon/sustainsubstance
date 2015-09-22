@@ -95,9 +95,10 @@ Moreover, one or two long holidays are preferable to a lot of short trips, espec
 **Upcoming article:** Examining your personal CO~2~-footprint.
 
 
-Interested in reading more articles like this? Follow us [on Facebook](https://www.facebook.com/duurzaamheidsweb), or through our [Atom-feed](/feeds/all.atom.xml).
+Interested in reading more articles like this? Follow us [on Facebook](https://www.facebook.com/sustainsubstance), or through our [Atom-feed](/feeds/all.atom.xml).
 
 
+This article is occasionally updated. [View the page history](https://github.com/lvzon/sustainsubstance/commits/master/content/CO2/CO2.md). 
 
 -----
 
