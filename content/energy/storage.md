@@ -44,15 +44,102 @@ The electricity grid is quite an amazing and often underrated piece of human eng
 Advocates of sustainable energy often claim that we can get rid of fossil fuels, simply by installing sufficient windmills and solar PV-panels and hooking them up to the grid. Because supply and demand always need to be balanced, it is true that a supply of electricity generated from solar and wind will at any given moment reduce the fraction of fossil-fuel powered electricity on the grid. To compensate for the renewable energy supply, especially gas-powered plants will be throttled back or powered down. But as soon as the renewable electricity supply is reduced by cloudy weather, lack of wind, or nightfall, these same power plants will have to be fired back up to compensate for the reduced supply.
 
 
-The important point here is that, while adding wind and solar power to the grid may *reduce* the use of fossil fuels, they still require a full fossil-powered energy infrastructure to be built and maintained to provide an equivalent power-generating capacity during, say, windless nights. This double investment in infrastructure greatly increases the costs of "greening" the electricity supply. And the continued *dependence* on fossil fuels, combined with their attractively low costs, doesn't provide any incentive to actually *switch* to using mainly 
-
-alternative sources of energy. After all, what's the point of switching if you need a fossil-powered backup that is actually cheaper to operate than the thing you'd want to switch to?
+The important point here is that, while adding wind and solar power to the grid may *reduce* the use of fossil fuels, they still require a full fossil-powered energy infrastructure to be built and maintained to provide an equivalent power-generating capacity during, say, windless nights. This double investment in infrastructure greatly increases the costs of "greening" the electricity supply. And the continued *dependence* on fossil fuels, combined with their attractively low costs, doesn't provide any incentive to actually *switch* to using mainly alternative sources of energy. After all, what's the point of switching if you need a fossil-powered backup that is actually cheaper to operate than the thing you'd want to switch to?
 
 
 This is where energy storage comes in. Installing for instance solar PV on a large scale, tends to generate a surplus of energy on sunny days. If this surplus generated during the day could be stored, and used at night, there would be less need to keep fossil-powered power plants around as a backup. Of course, to make a real difference, such storage must be significant, it must be at the scale of power-plants. And also, you need to have sufficient surplus energy on an average day to recharge the storage, even in winter.
 
 
-There are not many practical ways to store large amounts of energy. The easiest method is actually already in wide use: when you have too much electricity, just pump water up to a lake somewhere in the hills. Then when you have too little electricity, you can let it flow back down through a turbine. This is called Pumped Hydro Storage (PHS). 
+### Storing the grid?
+
+How much power does a typical power plant generate? It depends very much on the plant, but a typical coal-fired plant in the US can generate around 500 million watts (500 MW). New plants tend to have a larger capacity, up to 2000, 3000 or even 5000 MW especially in countries like China, where power generating capacity is being expanded at an almost unbelievable rate. A 500 MW power plant can generate around 12 million kW·h (= 12 GW·h) of electricity in a day. To store that amount of energy you would need 120,000 of Tesla's PowerPack batteries, or over 1.7 *million* Powerwall batteries (the 7 kW·h model for daily use). And that's only for *one* fairly small power plant.
+
+
+In the keynote speech where he introduced Tesla's batteries, Elon Musk showed how much land would be required to cover the entire US electricity demand with solar panels:
+
+![The "tiny blue square".](http://nerdist.com/wp-content/uploads/2015/05/MuskEnergy_2.png)
+
+On the scale of a country, it's not that much ([less than 1% of land area for the US](http://www.nrel.gov/docs/fy08osti/42463.pdf)). It's still a lot of land of course, the area shown by Musk is roughly a 100 km x 100 km square in North-West Texas. Filled with solar panels, this could generate around 500 GW of electric power on average, indeed more than the current mean US electricity demand of 425 GW.[^musksquare] On an average day, the entire US uses over 10 billion kW·h of electricity (10.2 TW·h). Storing this amount of energy would require a little over 102 million Tesla PowerPack batteries. You'd probably need a bit more storage than that to cover bad days and peak loads. Indeed, Musk himself estimates that around 160 million PowerPacks would be needed. It's by no means impossible to install that much capacity, Musk noted that around 100 million new cars and trucks are put on the market every year. But it won't be cheap: the batteries alone would cost around 4 trillion dollars, and producing them would require up to 20% of the world's currently known lithium-reserves.[^squarebatt]
+
+
+If the above sounds impractical, the situation gets worse if you realise that *electricity use* is only a small fraction of actual *energy use*. The US uses around 3 TW of energy in total, or about 72 TW·h per day on average. This is seven times the electricity use! In the US, most of this is used for transport. But remember that combustion engines are very inefficient. So say we switch everything to electricity, this would reduce heat losses, bringing the power demand down to roughly 2 TW, or 48 TW·h per day.
+
+On his blog [Do the Math](http://physics.ucsd.edu/do-the-math/2011/08/nation-sized-battery/), Tom Murphy shows that using lead-acid batteries to store a week's worth of US energy demand would require 4.5 trillion kg (4536 Mt) of lead, and cost more than the annual US GDP. Even if we would reduce the storage capacity to just one day, we would still need more lead to build the batteries (648 Mt) than the world's known lead reserves (around 80 Mt). Using Lithium-ion batteries we would fare a bit better. Based on Musk's estimate, we'd need around 753 million PowerPack batteries to cover total US energy use.[^ustotalenergy] This would require around 90% of the world's known lithium reserves.
+
+
+Elon Musk furthermore states that with 900 million PowerPacks, we could transition the entire world electricity production to solar power. And with approximately 2 billion PowerPacks, we could transition all transport and heating as well. Obviously these are purely hypothetical figures, with current technology and lithium reserves it isn't possible to transition the entire US energy demand to solar power, let alone the global energy demand. But you have to start somewhere.
+
+
+### Pump up the storage
+
+When it comes to energy storage, we tend to be focused on chemical batteries. Actually there are simpler ways of storing energy, especially when it comes to storing large amounts. And the easiest method is actually already in wide use: when you have too much electricity, just pump water up to a lake somewhere in the hills. Then when you have too little electricity, you can let it flow back down through a turbine. This is called Pumped Hydro Storage (PHS). You will lose some energy in the process of course, but the round-trip efficiency of modern systems is around 80%, which is actually pretty good.
+
+
+According to a [study](https://www.hydropower.org/study-the-hydropower-sector%E2%80%99s-contribution-to-a-sustainable-and-prosperous-europe) done for the International Hydropower Association (IHA), the current hydro storage capacity in Europe is estimated to be over 220 TW·h. That's equivalent to over 2.2 billion PowerPack batteries, enough to cover nearly 25 days of average European consumption! And what's more, contrary to Li-ion batteries, hydro storage requires less resources to produce on a large scale and doesn't need replacing every 15-20 years or so. So that solves the energy storage problem, or does it?
+
+
+Of course there's a catch. Or rather, there are two. First of all, the 220 TW·h figure includes the storage capacity of *all* European hydropower basins. Only a small fraction of this is pumped storage. The rest is conventional hydropower, which cannot actively be recharged but would have to wait for rivers to refill the basin. This might take months or years. A large country like Germany only has around 0.05 TW·h of pumped storage, which can deliver 6.8 GW (6800 MW) of power for a period of 6 to 8 hours. That's a lot of power, comparable to the output of two large coal-fired plants. But it's not nearly enough to cover the German electricity demand, which amounts to roughly 1.6 TW·h on an average day, with demand fluctuating from as low as 32 to over 90 GW. In fact, it's not even sufficient to cover the contribution of solar PV in Germany, which currently has a production capacity of around 38.5 GWp (gigawatt-peak, the power output under optimal laboratory conditions).[^germanpowerstats]
+
+![Electricity production and demand in Germany on December 4th 2014 and June 14th 2015.]({filename}/images/agora-20141204-20150614.png)
+
+ - 20141204 at 12:00: 1.7 GW solar, 3 GW wind, 2 GW pumped storage, 0.4 seasonal storage, 11.2 gas, 37.4 GW coal, 12.3 GW nuclear, 5.9 biomass, 4.9 hydro, 0.2 other, -0.8 export
+ - 20150614 at 12:00: 15.7 GW solar, 3.1 GW wind, 0.5 GW pumped storage, 0.1 seasonal storage, 1.9 gas, 15 GW coal, 9.2 GW nuclear, 4.8 biomass, 3.1 hydro, 0.3 other, -8 export
+ - In winter, much higher consumption, much more coal and gas, solar is negligable, hydro-storage plays a role. In summer, much more solar and lower consumption so lower baseload-production, significant export of energy.
+ - Sources: www.energy-charts.de and http://www.agora-energiewende.de/en/topics/-agothem-/Produkt/produkt/76/Agorameter/
+
+
+The second catch is more serious. If the problem were merely one of capacity, you could just build more pumped storage plants. But this is not so easy, because in fact the energy density of pumped hydro storage is absolutely terrible. In practice, this means that adding pumped hydro storage capacity requires space, *a lot* of space. The principle of pumped hydro is that lifting a weight to a certain height requires energy in order to overcome gravity. In this case, the weight is provided by a volume of water. To give you an idea of the amount of energy versus the volume of water needed: Storing the amount of energy in a normal AA-battery (3 W·h), would require hoisting 360 litres of water (roughly 2.5 filled bathtubs) up to a height of 3 metres, or 100 litres to a height of 10 metres. Storing the energy in a litre of gasoline or a 10 kW·h PowerWall would require lifting our 100 litres to a height of 36 km, or perhaps more practical, lifting 360 m^3^ of water (e.g. a swimming pool of 25×10×1.44 m, weighing 360 tonnes!) to a height of 10 m. Matching the capacity of the 100 kW·h PowerPack would require roughly an olympic swimming pool (50×25×2.88 m, containing 3.6 Mt water) lifted to 10 metres height. You probably get the point, the dismal energy density of pumped storage will make even a lead-acid battery look good.
+
+ - calculation, put into notes: 
+   - m*g*h, where g = 10 m/s/s, h is in m, m is in kg, and the result is in Joule (force F = m*a in N over a distance h in m), and assuming that 1 L = 1 kg.
+ - calculate for 10m, also compare with 1 L gasoline, 7 kWh PowerWall, and 100 kWh PowerPack.
+   - "For example, to get the amount of energy stored in a single AA battery, we would have to lift 100 kg (220 lb) 10 m (33 ft) to match it. To match the energy contained in a gallon of gasoline, we would have to lift 13 tons of water (3500 gallons) one kilometer high (3,280 feet). - See more at: http://physics.ucsd.edu/do-the-math/2011/11/pump-up-the-storage/#sthash.J7yQcRpw.dpuf"
+   - 10 kWh = 36 000 000 J, gives 100 L at 36 km height, or 360 tonnes (360 m3) at 10 m. 100 kWh would be 3600m3 at 10 m, or a basin 40x30x3m, or 50x25x2.88m (roughly an olympic swimming pool).
+
+To have a pumped storage plant with any significant capacity, you'll need a rather big lake on a hill, and another one at least equally big at the base of the hill. Often such large lakes are created by building dams in a valley, inflicting significant damage to the surrounding area and causing all kinds of hydrological problems. 
+
+   - TODO: Look up CAES (#2 storage method, but relatively small compared to PHS).
+   - Third alternative would be hydrogen, but low efficiency and hard to store makes this unattractive and too expensive. Interesting alternative is being tested: converting hydrogen to methane or methanol, which is much easier to store. But conversion back to electricity has a low round-trip efficiency, and technology still needs to be proven and scaled up.
+
+
+
+
+
+
+nominal PV power in Germany: 38.5 GW (GW-peak)
+would translate to ~30 GW maximum in practice
+over 22 GW was observed in May 2015
+
+
+http://www.agora-energiewende.de/fileadmin/downloads/publikationen/CountryProfiles/Agora_CP_Germany_web.pdf
+In 2014, gross electricity consumption was 576.3 TWh
+The annual load profile for Germany shows, that the annual peak of 84.0 GW was reached on December 7 at 5:00pm. 
+Similarly, in 2013, peak demand was reached on December 5 at 6 pm, totaling 83.1 GW. The lowest demand in 2013 occurred on June 2 at 7 am, totaling 32.47 GW.
+
+
+. And remember that the latter need to be replaced every 15-20 years or so.
+
+So what's the catch? 
+
+
+ - Failed to mention so far, there is a much easier and cheaper way to store large amounts of energy.
+ - So, let's look at a more realistic case: Germany. Mention plan to switch to renewables by 2050. How much storage would be needed for solar + wind capacity in that case?
+
+
+
+
+There are not many practical ways to store large amounts of energy. 
+
+ - Already used on a significant scale. Quote capacity world / US / Europe.
+   - Give a full graph for Germany, with all sources specified and point out pumped storage.
+ - Seems like the perfect low-tech alternative to batteries. So what's the catch?
+   - *Very* low energy density. Use the AA battery example, compare to a Powerwall. Not cost-effective on a small scale, and limited by locations on a large scale. Damaging to landscape (drawbacks of hydropower in general), mention example of US-scale PHS.
+ - Any more alternatives? 
+   - Connections to other countries balance out shortages/oversupply to some extent. Makes it slightly more managable, but does not solve the underlying issue.
+   - CAES is second in scale, but also limited so far.
+   - Hydrogen is tricky, also low energy density and hard to store. But fascinating possibility: conversion to methane or methanol.
+   
+
 
    - Pumped storage capacity and example(s). 
      - World: 104-127 GW, unknown storage
@@ -67,8 +154,6 @@ There are not many practical ways to store large amounts of energy. The easiest 
    - TODO: what is the demand in Germany and France, how long could you sustain this from EU pumped storage? With the storage in Germany itself, you could only sustain demand a very short time.
 
    - You do need two big lakes and a hill (or other height difference). Most really good locations are already in use, but studies for many countries show that capacity can easily be increased by ~50% (EU) or more (~105% US). Also, old hydroelectric and PHS systems can be retrofitted to add storage and improve efficiency (can be <70% for old installations, >80% for new ones). But environmental impacts can be significant for new locations, and capital investment takes decades te recover. Interesting alternatives include compressed air storage and underground and undersea storage. But it still needs big volumes of water, so constructing reservoirs will require space, capital and energy.
-
-   - TODO: Look up CAES (#2 storage method, but relatively small compared to PHS).
 
    - Calculate how many PV-panels, how much water and how many batteries would be needed to replace one average coal or gas power station.
       - A typical US coal power plant is 500 MW. Big ones are 2-5 GW. China builds mostly big ones.
@@ -158,7 +243,7 @@ From a sustainability-perspective, the main reason to promote household- or comp
 
 
 
-### Hurdles and alternatives
+### Hurdles and (small-scale) alternatives
 
  - We've seen that the Powerwall could contribute to sustainability of the electricity supply, but with a lot of ifs and maybes, and it won't be cheap.
  - Biggest challenges: Life span needs to go up, production energy cost and carbon need to go down.
@@ -202,6 +287,7 @@ From a sustainability-perspective, the main reason to promote household- or comp
  - Rather than (or in addition to) storage, bring down electricity use, and mostly use it at times when it is available. But despite much talk of and investment in smart grids, their impact so far is practically nonexistent. It is still a big mess of competing standards, with not much real-world applications to speak so far. Current applications do not proceed much beyond the pilot-project stage, and no-one basically knows yet how to organise a practical large-scale smart-grid. Certainly the technology is there, but it is an almost intractable organisational problem, and will probably remain so for a fair number of years.
  - But don't stand waiting around for new technology, especially with thermal energy. We still waste most of our high-grade energy (fossil and electrical) by turning it into heat! (And most of that escapes.)
  - And installing PV won't immediately solve the energy problem, but it goes a litle way. And at least investing in storage solutions and smart grids becomes more interesting as PV-production capacity increases.
+
 
 
 [![A graph from Bosch Solar Storage, comparing energy consumption and PV production in a European country.](http://bosch-solar-storage.com/wp-content/uploads/2012/11/aut_1.jpg)](http://bosch-solar-storage.com/wp-content/uploads/2012/11/aut_1.jpg)
@@ -276,6 +362,18 @@ The system can actually overcome faily significant load imbalances that last fro
 *If the demand for electricity falls, power plants have to be physically throttled back or taken offline. If energy demand rises, supply is increased where possible by increasing power plant output, or by bringing extra plans online.*  
 Typically, only the output of gas-fired power plants can be rapidly modified (and even that takes around ten seconds).
 
+[^musksquare]:
+*... the area shown is roughly a 100 km x 100 km square in North-West Texas. Filled with solar panels, this could generate around 500 GW of electric power, indeed more than the current mean US electricity demand of 425 GW.*   
+Andrew ZP Smith checked the statement of Musk on the UCL Energy Blog, the figures above are based on [his estimate](http://blogs.ucl.ac.uk/energy/2015/05/21/fact-checking-elon-musks-blue-square-how-much-solar-to-power-the-us/).
+Of course, literally placing all the solar panels in a 100,000 km2 square would be a silly idea. Rather, the panels would be distributed over the country, and would mostly be on roofs. And of course, this would somewhat increase the panel area needed, to compensate for the fact that you have less sun up north.
+
+
+[^squarebatt]:
+*On an average day, the entire US uses over 10 billion kW·h of electricity (10.2 TW·h). Storing this amount of energy would require a little over 102 million Tesla PowerPack batteries. You'd probably need a bit more storage than that to cover bad days and peak loads. Indeed, Musk himself estimates that around 160 million PowerPacks would be needed. It's by no means impossible to install that much capacity, but the batteries alone would cost around 4 trillion dollars, and producing them would require close to 20% of the world's known lithium-reserves.*   
+According to the EIA, [total US electricity sales in 2013](http://www.eia.gov/electricity/annual/html/epa_01_02.html) were 3725 TW·h, which comes down to 10205 GW·h per day on average. A Tesla PowerPack battery stores 100 kW·h (= 0.0001 GW·h), and costs $25000. Producing a Li-ion battery [requires 0.17-0.28 kg lithium per kW·h of storage, depending on the battery type](http://seekingalpha.com/article/654441-ev-myths-and-realities-part-1-the-battery-crisis). Using the upper boundary, we would need 2.86 Mt of lithium to produce 10205 GW·h of battery capacity, or 4.48 Mt for 160 million PowerPacks. We take 23.6 Mt as a best estimate of the known lithium reserves ([Mohr et al. 2012](http://dx.doi.org/10.3390/min2010065)).
+
+[^ustotalenergy]:
+Comparing the total US energy use (48 TWh per day if we would switch everything to electricity) to the current electricity use (10.2 TW·h per day), total energy use is a factor 4.7 higher.
 
 [^redoxflow]:
 *It is unlikely that the main role of Tesla Energy will be to provide battery power storage on the scale of entire countries, [...] A problem like that is best solved with a mix of approaches and technologies. Certainly, Tesla's Li-ion batteries may play a role, as will expansion of pumped storage and use of other battery technologies such as redox flow.*   
