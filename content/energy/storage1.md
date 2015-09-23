@@ -1,9 +1,10 @@
-Title: Energy storage and the Tesla battery 
+Title: Energy storage and the Tesla battery (part 1)
 Authors: Levien van Zon
 Date: 2015-06-03
-Modified: 2015-09-03
+Modified: 2015-09-23
 Tags: energy
-Slug: storage
+Slug: storage1
+Status: draft
 
 **By Levien van Zon**
 
@@ -96,12 +97,17 @@ The second catch is more serious. If the problem were merely one of capacity, yo
    - "For example, to get the amount of energy stored in a single AA battery, we would have to lift 100 kg (220 lb) 10 m (33 ft) to match it. To match the energy contained in a gallon of gasoline, we would have to lift 13 tons of water (3500 gallons) one kilometer high (3,280 feet). - See more at: http://physics.ucsd.edu/do-the-math/2011/11/pump-up-the-storage/#sthash.J7yQcRpw.dpuf"
    - 10 kWh = 36 000 000 J, gives 100 L at 36 km height, or 360 tonnes (360 m3) at 10 m. 100 kWh would be 3600m3 at 10 m, or a basin 40x30x3m, or 50x25x2.88m (roughly an olympic swimming pool).
 
-To have a pumped storage plant with any significant capacity, you'll need a rather big lake on a hill, and another one at least equally big at the base of the hill. Often such large lakes are created by building dams in a valley, inflicting significant damage to the surrounding area and causing all kinds of hydrological problems. 
-
-   - TODO: Look up CAES (#2 storage method, but relatively small compared to PHS).
-   - Third alternative would be hydrogen, but low efficiency and hard to store makes this unattractive and too expensive. Interesting alternative is being tested: converting hydrogen to methane or methanol, which is much easier to store. But conversion back to electricity has a low round-trip efficiency, and technology still needs to be proven and scaled up.
+To have a pumped storage plant with any significant capacity, you'll need a rather big lake on a hill, and another one at least equally big at the base of the hill. There's not many places where you will find this situation occurring naturally. And if you do, regularly emptying and refilling the lakes on a regular basis is going to have a big impact on water life. Of course you can always create a large lake by building a dam in a valley, this is how we often construct hydropower facilities. But while such projects may be good for reducing greenhouse gas emissions, the local environmental destruction that results certainly does not qualify them as "environmentally friendly".
 
 
+In short, large-scale hydro-storage isn't going to solve the energy storage problem. There simply isn't enough space. And even if there were enough space, building the required infrastructure would result in widespread environmental destruction. Of course electrochemical batteries and pumped hydro storage aren't the only large-scale energy storage options. In fact, the second most important storage method is Compressed Air Electricity Storage, or CAES. This works by using electricity to compress air, and turning the compressed air back into electricity when needed. This is a little bit more high-tech than pumped hydro storage, but still more robust than a chemical battery. Unfortunately CAES is also hard to scale up, because you need to construct a chamber to hold the compressed air. The storage capacity is limited to ...
+
+ - Possibilities for the future: combining pumped hydro and CAES, storing water and air in abandoned gas and oil fields?
+ - Another storage method I haven't mentioned yet: hydrogen. With good reason, it has been over-hyped by people who don't understand that you can't magically turn water into energy. The main problem here is that hydrogen is very hard to store, round-trip efficiency is terrible compared to other options, and it's expensive. (Most hydrogen fuel cells on the market today have less than 50% efficiency and are terribly expensive.)
+   - Considering the power needed for a complete electrolyzer system, the best energy efficiency is today around 73%. This means that about 53 kWh of electricity is needed to produce 1 kg of hydrogen.
+   - Main problems: hydrogen is hard to store/transport, has a low energy density and conversion back to electricity is not very efficient. You'll probably lose at least 40% (in the best case), but efficiency can be as low as 20-40% - a dismal round-trip efficiency when compared to batteries, pumped storage, etc. 
+ - But there's an interesting alternative that is being tested: converting hydrogen to methane or methanol, which is much easier to store. But conversion back to electricity has a low round-trip efficiency, and technology still needs to be proven and scaled up.
+   - Interesting option: turning hydrogen together with CO2 from power stations into methane or methanol (Sabatier reaction). Back-conversion still has low efficiency, but both are much easier to store/transport, combination with carbon storage may be an option and both can alternatively be used in existing transport and natural gas applications. Moreover, hydrogen can also be produced using thermal processes.
 
 
 
@@ -116,11 +122,6 @@ In 2014, gross electricity consumption was 576.3 TWh
 The annual load profile for Germany shows, that the annual peak of 84.0 GW was reached on December 7 at 5:00pm. 
 Similarly, in 2013, peak demand was reached on December 5 at 6 pm, totaling 83.1 GW. The lowest demand in 2013 occurred on June 2 at 7 am, totaling 32.47 GW.
 
-
- - And remember that the latter need to be replaced every 15-20 years or so.
-
-
- - Note: Also decentral energy is unpredictable and hard to control, and therefore does not fit well with a highly centrally managed system like the grid.
 
 
 ### The role of Tesla
@@ -143,121 +144,7 @@ There are no doubt many people and companies that can afford the luxury of batte
 
 
 
-### But is it sustainable?
-
-At first glance, promoting PV-systems with battery storage would seem to be a favourable measure in terms of sustainability, for at least two reasons. Firstly, adding battery storage may make the adoption of solar energy more attractive in many countries. And secondly, storing solar and wind energy reduces the need to keep fossil-fuel power stations around as backup during nights and periods with little wind.
-
-From a sustainability-perspective, the main reason to promote household- or company-scale PV-installations is that any electricity they produce will not have to be generated from fossil fuels. Countries like Germany or The Netherlands have it relatively easy for households to adopt PV solar panels: just have a PV-system installed on your house or company building, and hook it up to the grid. The grid operator then pays you money (up to a point) for the electricity you generate but don't use yourself. This is probably the main reason why solar energy is so widespread in Germany, even though it is not exactly the sunniest country in the world.
-
- - TODO: look up peak capacity and % of solar energy in Germany (and NL), as well as effective insolation (W/m2 and compared to places in Southern Europe, the Saharah, Australia and the US). Compare with % solar energy in Italy, Spain, Australia and US. Note that this system is effective but expensive (look up cost estimation for NL and Germany in terms of subsidies / tax money).
-
-   - The average total horizontal irradiance in Germany between 1981 and 2010 stands at 1055 kWh/m2 per year and fluctuates according to location between approximately 951 and 1257 kWh/m2 per year. Tilting the PV modules increases the total incident irradiance on the modules by around 15 percent compared to the horizontal surface. This increases the average incident irradiation to roughly 1200 kWh/m2 per year throughout Germany.
-   - Germans pay a surcharge on the grid-energy they use, which is then used to pay for the feed-in tariff. On the costs side, the cumulative amount paid for PV power fed into the grid up to and including 2013 amounted to around 41 billion euros. Energy consumers therefore pay for the energy transition. Fossil fuels however are subsidised by public money. If these costs were also to be added to the electricity price as a ‘conventional energy tariff,’ they would amount to 10.2 cts/kWh, which is almost three times the value of the Renewable Energy Tariff in 2012.
-
-
- - At first glance, yes. 
-   - The idea of promoting home-scale PV is that any electricity it produces, will not have to be produced from fossil fuels. 
-     - Germany: Based on data from 2013 giving the proportional amount of power generated from each energy source and the primary energy factors, each kWh of PV-generated electricity saved about 2.2 kWh of primary energy. In 2013, total primary energy savings amounted to 65 TWh. The consumption of 28 TWh PV electricity in 2012 avoided greenhouse gas emissions on the order of 18.6 million tons of CO2 equivalent.
-     - Germany has a (granted, somewhat ambitious) scenario for completely switching to renewables by 2050.
-   - In countries like Germany and The Netherlands, this is easy: you hook up your PV-installation to the grid, and you get money for electricity you produce. This is why PV is so widely installed in Germany, even though it is not exactly the sunniest country in the world. 
-   - In many countries the situation is different, you don't get any money for the power you produce, so your financial gain comes from using the power you produce yourself (thereby saving money on grid-power). In these cases it makes sense to install a battery, to make sure you can actually use all the power your panels produce during the day.
-   - Especially if such countries are sunny (e.g. Australia and the US), affordable batteries may speed up the adoption of PV.
-
-- From a sustainability perspective, there is a catch. Batteries are not free, they cost not only money but also energy to produce.
-  - Actually, quite a lot of energy. (How much?)
-  - Add to that the energy needed to produce the solar panels and inverter. 
-  - How long is the EROI? And how long before the carbon emissions become negative?
-    - A solar plant’s energy payback time depends on the technology used and the plant’s location. For an annual global horizontal irradiance of 1055 kWh/m2 , which is the mean value for Germany, this takes approximately two years, and falling with better manufacturing techniques. Wind power plants in Germany demonstrate even shorter energy pay back times ranging from 2-7 months. (Fraunhoffer).
-  - Presumably, battery recycling can at least reduce the manufacturing energy and material requirements. 
-
-- So, from a "weak sustainability" perspective, PV makes sense after some time (with or without battery). 
-  - Weak, in the sense that it reduces the use of fossil energy somewhat, for every house with PV. 
-  - But if it stays connected to the grid, you still need a full traditional grid-infrastructure as backup. That is, PV hardly reduces the maximum demand at night. Large-scale adoption of batteries *would* help reduce this. 
-
-  - But many claim that the point of PV is to *replace* a fossil-derived electricity production system.
-   - This means that enough stored energy must be available at night to offset the absence of sun. (Assuming that power-cables from the other side of the world are not a realistic option in the short term.)
-   - How many batteries would you need for the US? (Musk claims not that much - how much energy would this require to produce? How much would this cost? Who would pay for this?)
-   - Enough big numbers. Let's start small and keep the examples managable: scale of one house. Let's say the goal would be to take your house off-grid. (This could be attractive for more reasons than just sustainability.) (It would mean that the cost of maintaining a grid would go up for everyone else - but lets ignore that for a moment.)
-   - Using Tesla's Powerwall, we'd need the daily cycling model (7 kWh).
-    - Neat trick: using a 10 kWh battery at 70% DoD, plus thermal and load management.
-    - Max. power is a problem, if you want to go fully off-grid. How many batteries would be needed to cover load peaks (washing machines, water cookers, ovens, etc.) at night?
-    - Depends on where you live, how much electricity you use at what times, and how many solar panels you have. 
-    - Look up typical electricity use curve for several countries, how much capacity would be needed for one night?
-    - How much surplus solar energy is needed to charge this capacity during the day? 
-    - Would probably require a fair number of panels in winter, how much in e.g. NL/DE?
-    - Becomes more interesting when additive to electric car storage, could be combined with low-power lighting, smart grid equipment to limit peak loads etc. Good excercise in reducing power use.
-
-
-
-### Hurdles and (small-scale) alternatives
-
- - We've seen that the Powerwall could contribute to sustainability of the electricity supply, but with a lot of ifs and maybes, and it won't be cheap.
- - Biggest challenges: Life span needs to go up, production energy cost and carbon need to go down.
- - For it to catch on a significant scale, probably fossil fuel needs to become more expensive first (which would unfortunately also raise the price of the equipment).
- - And then still: remember that we have become very used to being able to get large amounts of energy cheaply whenever we want to (at least 16A @230V in NL for a normal house, ~3.8kW). Our lifestyle has become dependent on *a lot* of power always being available, in the form of gas, electricity, gasoline and diesel.
- - Energy transition will probably be a bumpy ride. It always is, but it usually also comes with benefits. Last time the benefit was cheap and abundant energy. This will probably not be the case this time, at least not for a while. (Oil gives you *a lot* of stored energy basically for free, you just have to pump it up.) But at the very least, a diverse and decentralised power supply for the world would certainly be more robust and in a sense more democratic (people would become responsible for locally generating the power they (directly) use, and countries would be less dependent on other countries far away for their energy). 
-
- - What about alternatives for storage? Li-ion is a fairly complicated and not very robust technology. Lots of electronics is needed to manage charge and discharge. If it gets too warm, it breaks. And it's all highly integrated, so if it breaks, you basically have to replace the entire thing.
- - Alternative battery technologies: Low-tech iron batteries (could be cheap, without deep-cycling problems), high-tech redox flow (for utility scale). 
- - Pumped storage is very simple. Could maybe be used more at sea or in disused mines, but as it requires large volumes/weights (due to low density) it isn't really practical on a small scale, unless you happen to own a reservoir on a hill.
-    - For the 3 Wh of energy stored in an AA battery, you'd need a mass of 360 kg, or about 800 lb at 3m height.
- - Flywheels and compressed air are also relatively efficient and low-tech, but not really feasible (as in: too bulky and dangerous) for storage on a small scale.
- - Most hydrogen fuel cells on the market today have less than 50% efficiency and are terribly expensive, so not suitable for home-scale storage.
- - Heat is much easier to store than electricity! 
-   - Collecting it is no problem: Heat collectors, thermal storage, both on power-plant and residential scale. 
-    - Hybrid concentrating solar collectors ("sunflowers") as example of a CPVT-system (https://en.wikipedia.org/wiki/Concentrator_photovoltaics#Concentrated_photovoltaics_and_thermal). Airlight/Dsolar's parabolic solar dishes track and concentrate solar (12 kW PV + 21 kW thermal), and use several tricks to reduce material use (thin film mirrors, concenterating light on small PV chips instead of panels, transparent inflatable cover, fiber-based concrete structure rather than steel/aluminium). Hot-water cooling technology, developed by IBM to cool CPUs, cools PV chips and generate hot water (for heating/cooling/desalination). http://www.zurich.ibm.com/news/14/dsolar.html
-    - Slightly more traditional: https://en.wikipedia.org/wiki/Photovoltaic_thermal_hybrid_solar_collector
-       - http://www.northburnsolar.co.uk/solarpanels/solarpvt/solarpvt.html
-       - http://www.solimpeks.com/pv-t-hybrid-solar-collectors/
-       - http://solarwall.com/en/products/pvthermal.php
-       - http://www.tessolarwater.com/index_en.html?zeuspv-t.html&2
-       - http://www.engineering.com/ElectronicsDesign/ElectronicsDesignArticles/ArticleID/6123/Photovoltaic-Thermal-System-Achieves-86-Efficiency.aspx
-       - Problems: http://www.solarblogger.net/2012/10/hybrid-pv-thermal-solar-panels-good-idea.html
-    - Proven technology: solar collector, thermal buffer, heat pump.
-    - Are there options for molten salt as small-scale storage, heated by concentrated sunlight during the day, e.g. for cooking and heating?
-    - Sorption cooling (thermally driven cooling) is an interesting alternative to using electrical heat pumps. There are other techniques: https://en.wikipedia.org/wiki/Solar_air_conditioning
-    - Thermochemical heat storage is also interesting: https://www.fraunhofer.de/en/press/research-news/2014/march/sorption-energy-storage.html
-   - The hard part is converting heat back to electricity.
-    - We do this all the time: combustion engines and steam engines work by converting fossil fuel into heat, and then into movement. In power gerenators, movement is then converted into electricity. It's a ludicrous process if you think about it. Again, we only get away with it because fossil fuel contains so much energy that we can currently afford to waste most of it.
-    - What is the efficiency of turning low-grade heat into electricity. What are the techniques available? Is this feasible on a small scale?
-      - It's terrible. Mostly less than 5% or so.
-      - Thermoelectric generators currently have low output and efficiency, and require high temperatures. Things are improving with nanostructures, but only very slowly. Don't expect any short-term breakthroughs that will allow this to be feasible for small-scale thermal storage at decent capacities.
-      - http://www.sciencedirect.com/science/article/pii/S1364032114001038
-      - http://www.sciencedirect.com/science/article/pii/S1364032114000082
-      - http://www.sciencedirect.com/science/article/pii/S1364032113008447
- - Other forms of chemical storage than a redox cell? That's how nature does it (ATP etc.), but turning it back into electricity is still tricky. Carbohydrates can be made (basically oil), but combustion means a dismal efficiency. Our technology is rather primitive, still mostly relies on burning things. The best thing we have is still in essence 19th century technology, with a lot of tweaks.
- - Generating hydrogen, which can later be used to generate electricity. 
-   - Considering the power needed for a complete electrolyzer system, the best energy efficiency is today around 73%. This means that about 53 kWh of electricity is needed to produce 1 kg of hydrogen.
-   - Main problems: hydrogen is hard to store/transport, has a low energy density and conversion back to electricity is not very efficient. You'll probably lose at least 40% (in the best case), but efficiency can be as low as 20-40% - a dismal round-trip efficiency when compared to batteries, pumped storage, etc. 
-   - Interesting option: turning hydrogen together with CO2 from power stations into methane or methanol (Sabatier reaction). Back-conversion still has low efficiency, but both are much easier to store/transport, combination with carbon storage may be an option and both can alternatively be used in existing transport and natural gas applications. Moreover, hydrogen can also be produced using thermal processes.
- - Rather than (or in addition to) storage, bring down electricity use, and mostly use it at times when it is available. But despite much talk of and investment in smart grids, their impact so far is practically nonexistent. It is still a big mess of competing standards, with not much real-world applications to speak so far. Current applications do not proceed much beyond the pilot-project stage, and no-one basically knows yet how to organise a practical large-scale smart-grid. Certainly the technology is there, but it is an almost intractable organisational problem, and will probably remain so for a fair number of years.
- - But don't stand waiting around for new technology, especially with thermal energy. We still waste most of our high-grade energy (fossil and electrical) by turning it into heat! (And most of that escapes.)
- - And installing PV won't immediately solve the energy problem, but it goes a litle way. And at least investing in storage solutions and smart grids becomes more interesting as PV-production capacity increases.
-
-
-
-[![A graph from Bosch Solar Storage, comparing energy consumption and PV production in a European country.](http://bosch-solar-storage.com/wp-content/uploads/2012/11/aut_1.jpg)](http://bosch-solar-storage.com/wp-content/uploads/2012/11/aut_1.jpg)
-Source: http://bosch-solar-storage.com/independence/self-reliance/
-
-[![Energy consumption and PV production in Sidney, Australia.](http://www.solarchoice.net.au/blog/wp-content/uploads/Average-NSW-household-in-summer-electricity-consumption-vs-PV-generation1.JPG)](http://www.solarchoice.net.au/blog/wp-content/uploads/Average-NSW-household-in-summer-electricity-consumption-vs-PV-generation1.JPG)
-Source: http://www.solarchoice.net.au/blog/home-energy-consumption-versus-solar-pv-generation/
-
-[![Energy consumption and PV production in the US](http://blogs-images.forbes.com/jamesconca/files/2014/11/SolarGrid.jpg)](http://blogs-images.forbes.com/jamesconca/files/2014/11/SolarGrid.jpg)
-Source: Edison Foundation Institute for Electric Innovation, via http://www.forbes.com/sites/jamesconca/2014/11/28/net-energy-metering-are-we-capitalists-or-what/
-
-[![Individual household load profiles](http://www.pv-magazine.com/typo3temp/pics/11071_Individual_household_load_profiles_3sppdf_431ed866aa.jpg)](http://www.pv-magazine.com/typo3temp/pics/11071_Individual_household_load_profiles_3sppdf_431ed866aa.jpg)
-Source: http://www.pv-magazine.com/archive/articles/beitrag/storage-has-landed-_100009059/501/#axzz3YryioctT
-
-### Energy statistics:
-http://www.agora-energiewende.de/en/
-https://transparency.entsoe.eu/
-http://www.compendiumvoordeleefomgeving.nl/indicatoren/nl0035-Energieverbruik-door-de-huishoudens.html?i=6-40
-http://www.eex.com/en/market-data/market-data-download/product-contents/transparency-data
-http://www.industry.gov.au/Office-of-the-Chief-Economist/Publications/Pages/Australian-energy-statistics.aspx
-
-
-
-Interested in reading more articles like this? Follow us [on Facebook](https://www.facebook.com/duurzaamheidsweb), or through our [Atom-feed](/feeds/all.atom.xml).
+Interested in reading more articles like this? Follow us [on Facebook](https://www.facebook.com/sustainsubstance), or through our [Atom-feed](/feeds/all.atom.xml).
 
 
 
