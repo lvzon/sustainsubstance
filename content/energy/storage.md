@@ -1,14 +1,16 @@
-Title: Energy storage and the Tesla battery (part 1)
+Title: Energy storage and the Tesla battery
 Authors: Levien van Zon
 Date: 2015-06-03
 Modified: 2015-09-23
 Tags: energy
-Slug: storage1
+Slug: storage
 Status: draft
 
 **By Levien van Zon**
 
 *The footnotes provide additional background information, and can safely be skipped or read separately.*
+
+ - TODO: look up when battery production and sales are planned to start
 
 A few months ago, Tesla's Elon Musk [announced](https://www.youtube.com/watch?v=yKORsrlN-2k) a new product for energy storage, the [Tesla Powerwall](http://www.teslamotors.com/powerwall). This announcement generated a lot of attention, both on the Internet and in the global media. Some hail it as the next disruptive technological step in the sustainable energy revolution. Others are more sceptical, pointing out the technical limitations and hidden costs of the system[^tesladiscussion]. Such discussions aside for a moment, I think it's good to take a step back and look at what all the fuss is about. The first question to ask would be this: What problem is Tesla Energy trying to solve with its new battery products? 
 
@@ -106,58 +108,102 @@ In short, large-scale hydro-storage isn't going to solve the energy storage prob
 For small-scale storage applications, portable CAES modules exist. Lightsail has developed a 750 kWh CAES storage module, the size of a shipping container. In theory, compressed air can be used to store energy on a power-plant scale, but no installation yet exists at this scale. Currently there are three large CAES-installations in operation world-wide. The newest one, commissioned in 2012, can store up to 500 MWh (0.5 GWh) of electricity, and can deliver 2 MW of power — a mere treacle compared to even a modest 500 MW coal power station. All three large CAES installations store the compressed air in disused salt mines. This is a lot cheaper and safer than building a storage unit above ground, and it takes less space. Of course the number of disused mines is fairly limited, but some projects are looking into storing compressed air in aquifers, disused oil- and gas-fields, and even in large "bags" on the ocean floor. A lot of work still needs to be done to scale up this technology to the level of pumped hydro storage, and country-scale CAES will probably never be feasible. But with regard to energy density and round-trip efficiency, CAES is roughly comparable to lead-acid batteries, and for large-scale energy storage it can probably be much cheaper than batteries (although currently, it isn't).
 
 
-There are a few more technologies for energy storage that I haven't mentioned. Fly-wheel storage is probably the least high-tech of all methods, but its capacity doesn't scale up very well. And I've put off the discussion of hydrogen fuel cells until now, because this probably the most over-hyped of storage methods. Whatever happened to the "hydrogen economy" that was promised to be just around the corner in the 1990s? Exactly, it never materialised, and with good reason. Hydrogen gas is the smallest possible molecule, making it extremely difficult (and therefore expensive) to store for long periods of time. At least producing hydrogen gas isn't hard: electricity can be applied directly to water, producing a mixture of hydrogen and oxygen. This process, known as electrolysis, will probably be familiar to anyone who had chemistry in secondary school. Unfortunately, electrolysis is not very efficient, at around 73% in the current best-case. Converting the hydrogen gas back to electricity is a lot harder that the other way around, and is also a lot less efficient. The most efficient experimental hydrogen fuel cells can do this with around 70% efficiency, but most fuel cells on the market today have an efficiency below 50%. And even these are terribly expensive. In total, the round-trip efficiency of hydrogen-based electricity storage is at best 60%, but more commonly 20-40%. Moreover, it's much more expensive than lithium-ion batteries, and it has a lower energy density.
+### Hype or hope?
+
+There are a few more technologies for energy storage that I haven't mentioned. Fly-wheel storage is probably the least high-tech of all methods, but its capacity doesn't scale up very well. And then there's hydrogen. Despite much talk of the "hydrogen economy", this never seems to have materialised, apart from a few demonstration projects. There are many reasons for this, but most have to do with efficiency, infrastructure and costs. While hydrogen is fairly easy to produce and use, it has large conversion losses and may be hard to store and transport. Hydrogen is not an energy source, it's an energy carrier. Production of hydrogen gas from water (by electrolysis) is easy, but requires electricity and is only around 70% efficient. As with compressed air, large quantities of hydrogen can be stored under high pressure in tanks, or better, in underground caverns, with an efficiency of about 85% (or more, at lower pressure). Conversion of hydrogen back to electricity requires either fuel cells (see below) or combustion in a gas-powered generator. The most efficient hybrid fuel cells should be able to do this with around 70% efficiency, but most fuel cells on the market today have an efficiency below 50%. And even these are rather expensive. In total, the round-trip efficiency of hydrogen-based electricity storage is at best around 50%, but more commonly 20-40%. In other words, you commonly *lose* around 60-80% of your energy along the way. In the current best-case, you would still lose around half. Compared to the other storage options we've seen, this is pretty bad.
+
+ - Note: the best-case assumes 73% efficiency of electrolysis, 95% efficient pressurised storage and 70% efficiency of a hybrid fuel cell, which would yield a 49% round-trip efficiency (0.73 × 0.95 × 0.70 = 0.485).
+
+For most energy storage applications, hydrogen is less than ideal. For large-scale storage, compressed air is more efficient and probably cheaper. For smaller-scale storage, Lithium-ion batteries are definitely cheaper and a lot more efficient than hydrogen, and they have a higher energy density (at least by volume). So why look at hydrogen at all? Well, it turns out that hydrogen and fuel cells have some interesting additional applications.
+
+Like a battery, a fuel cell is an electrochemical device that produces electricity. But unlike a battery, it does this by consuming fuel. 
+You can think of a fuel cell as a very controlled form of combustion. As with combustion, at least part of the energy in the fuel is released as heat. In a traditional combustion-based electricity generator, the heat from burning fuel would first be converted to movement, and then to electricity. But a fuel cell can convert part of the energy from its fuel *directly* into electricity. Therefore is is more efficient than a combustion engine, up to about 60-70%. Unfortunately, being electrochemical cells, they also have many of the disadvantages that batteries have: they are expensive, have a limited life-span and are fairly sensitive to (chemical) damage. Moreover, like a combustion engine, fuel cells that process carbon-based (fossil) fuels such as natural gas will also produce CO~2~. But, at least in certain large-scale applications, the CO~2~ produced by fuel cells can be captured relatively easily (by cooling it to -40 degrees C, which does require some energy), after which in can be stored underground. Moreover, a certain kind of fuel cell, the Molten Carbonate Fuel Cell (MCFC), actually *requires* CO~2~ to operate. This quirk enables them to capture CO~2~ from the exhaust gases of industrial installations such as power plants, whicle *producing* electricity from fuel. MCFSs are industrial devices that operate at high temperatures, but their efficiency can approach 60% and they can process a large range of fuels, including hydrogen, methane and (in principle) even liquid fuels such as methanol and ethanol.
+
+In other words, certain fuel cells can provide an efficient method to capture carbon from coal- and gas-powered power plants. Great, I hear you think, but what does this have to do with energy storage? Well, of course surplus electricity (e.g. solar energy during the day) can be used to generate hydrogen gas, which can be stored for short periods of time, or can be fed into gas distribution networks. When demand is high (e.g. in the evening), the hydrogen generated earlier would contribute to running gas-powered generators and/or fuel cells. We've already seen that this is not the most efficient form of energy storage, but it has one big advantage: Such short-term energy storage using hydrogen requires very little modification of existing energy infrastructure, especially in regions that already have a large storage- and distribution-network for natural gas.
+
+We've seen that hydrogen is not a very good option for long-term energy storage. But it is actually possible to chemically combine hydrogen gas with CO~2~, again from the exhaust of fossil-based power plants. This process is based on the so-called Sabatier reaction, and it can be used to produce, among other things, methane and methanol. Methane is the main ingredient of natural gas, and because it has a higher energy density and is less reactive than hydrogen gas, it is somewhat easier to store and transport. Methanol is a liquid fuel (basically a toxic variant of alcohol), which can relatively easily be stored for longer periods. This could open up the possibility of seasonal energy storage, whereby an energy surplus in summer can be stored and used in winter.
+
+Carbon capture techniques using fuel cells or the Sabatier reaction are promising but still experimental, and not ready for large-scale deployment. 
+
+ - TODO: name pilot projects and their capacities
+
+The main advantage of these techniques is that they do not require gigantic up-front investments in new infrastructure. They can be added incrementally to existing power plants, and can use existing infrastructure for energy storage and distribution. Modifying existing plants and technology would enable a gradual energy transition. Carbon capture and energy storage would be slowly scaled up, allowing contribution of renewable energy to increase while reducing the CO~2~ emission of existing energy sources. Power plants could grow into highly integrated energy generation and storage systems. Moreover, their efficiency and capacity would increase by adding fuel cells, while their emissions would decrease, as MCFCs don't just capture CO~2~ but also seem to capture and break down nitrogen compounds as a side-effect.
 
 
-There would be no reason to discuss hydrogen as a serious candidate for energy storage, if it weren't for a fascinating application that is currently being tested in two small-scale facilities. It is possible to combine hydrogen gas with carbon dioxide, in a process known as the Sabatier reaction. This can be used to produce either methane or methanol from the exhaust of a coal power plant, or another large source of CO~2~. One very big advantage of this is that methane and methanol are fairly easy to transport and store for long periods of time, using existing the technology and infrastructure for natural gas and gasoline. The hydrogen gas needed for the Sabatier reaction can be produced from water with surplus electricity, but it can also be produced with sunlight or with thermal energy. Methane or methanol can be used in conventional combustion engines, or can be converted back to electricity using fuel cells. The latter still have a fairly low efficiency of around 60%, but this can probably be improved over time. Granted, the round-trip efficiency isn't great, but the attractive thing about this storage method is that it can probably be scaled up fairly well, and that it can *possibly* be used to combine energy storage with CO~2~-capture. If indeed possible, this might allow the use of current coal- and gas-fired plants with greatly reduced greenhouse emissions, while at the same time providing the energy storage needed for more solar- and wind-power. But this win-win situation is so far purely hypothetical, as far as I'm aware, efficient and affordable fuel cells that provide CO~2~-capture have yet to be developed.
 
-
-
-TODO: look up fuel cell efficiency (hydrogen, methane, methanol) and CO2-capture options.
-
-
-This is a little bit more high-tech than pumped hydro storage, but still more robust than a chemical battery. Unfortunately CAES is also hard to scale up, because you need to construct a chamber to hold the compressed air. The storage capacity is limited to ...
-
- - Possibilities for the future: combining pumped hydro and CAES, storing water and air in abandoned gas and oil fields?
- - Another storage method I haven't mentioned yet: hydrogen. With good reason, it has been over-hyped by people who don't understand that you can't magically turn water into energy. The main problem here is that hydrogen is very hard to store, round-trip efficiency is terrible compared to other options, and it's expensive. (Most hydrogen fuel cells on the market today have less than 50% efficiency and are terribly expensive.)
-   - Considering the power needed for a complete electrolyzer system, the best energy efficiency is today around 73%. This means that about 53 kWh of electricity is needed to produce 1 kg of hydrogen.
-   - Main problems: hydrogen is hard to store/transport, has a low energy density and conversion back to electricity is not very efficient. You'll probably lose at least 40% (in the best case), but efficiency can be as low as 20-40% - a dismal round-trip efficiency when compared to batteries, pumped storage, etc. 
- - But there's an interesting alternative that is being tested: converting hydrogen to methane or methanol, which is much easier to store. But conversion back to electricity has a low round-trip efficiency, and technology still needs to be proven and scaled up.
-   - Interesting option: turning hydrogen together with CO2 from power stations into methane or methanol (Sabatier reaction). Back-conversion still has low efficiency, but both are much easier to store/transport, combination with carbon storage may be an option and both can alternatively be used in existing transport and natural gas applications. Moreover, hydrogen can also be produced using thermal processes.
+Notes: storing hydrogen for transport is problematic
+ - Hydrogen is not a fuel but an energy carrier.
+ - It's a small molecule and highly reactive 
+ - Hard to store because of low volume density, generally stored at high pressure or at low temperatures, both of which require energy and material.
+   - High-pressure storage is the most common
+   - Liquification isn't practical, requires cooling down to -253 degrees, is only ~60% efficient and requires energy to maintain.
+   - Both require further energy for long-term storage.
+   - Solid state storage
+ - Hard and expensive to transport due to low energy density, safety issues and interaction with other materials.
 
 
 
 
-nominal PV power in Germany: 38.5 GW (GW-peak)
-would translate to ~30 GW maximum in practice
-over 22 GW was observed in May 2015
+### Scaling up, scaling down
 
-
-http://www.agora-energiewende.de/fileadmin/downloads/publikationen/CountryProfiles/Agora_CP_Germany_web.pdf
-In 2014, gross electricity consumption was 576.3 TWh
-The annual load profile for Germany shows, that the annual peak of 84.0 GW was reached on December 7 at 5:00pm. 
-Similarly, in 2013, peak demand was reached on December 5 at 6 pm, totaling 83.1 GW. The lowest demand in 2013 occurred on June 2 at 7 am, totaling 32.47 GW.
-
+ - Been using Musk's example, assuming the goal is replacing fossil with solar PV and wind and focusing on country-scale storage.
+ - It's naive to take this literally. The future will be a diverse mix of energy sources, both central and decentral.
+ - The last example suggests that central, industrial-scale energy infrastructure may remain important, if only to provide a large-scale energy buffer in seasonal climates (where batteries won't help).
+ - But that doesn't mean that we should focus solely on large-scale infrastructure. There is much to win by also focusing on decentral energy production, storage and demand.
+ - Matching supply and demand is one issue, which will require both reducing demand (efficiency), shifting demand (smart grids) and providing energy storage for the demand that cannot be shifted (nights and winters).
+ - Decentralisation and energy conversion will play a more important role. 
+ - The current energy infrastructure is an extremely centralised and segregated infrastructure (gas and electricity). It is efficient, but not very flexible.
+ - Electricity is easy to transport, and very versatile, but hard to store. 
+ - Gas (be it hydrogen, natural gas, biogas) and liquid fuel (oil-based, bio-ethanol, methanol) is harder to transport and less versatile, but easier to store (except perhaps hydrogen).
+ - Heat is hard to transport over long distance, and the least versatile, but by far the easiest to store.
+ - We now use liquids for transport, gas for heating and electricity as multi-purpose source, but the roles will become less separated and will blend. One reason is that heat is produced as byproduct of nearly everything we do, and is easy to store. So why waste valueable gas in producing it?
+ - Examples of combined electricity and heat production (micro-CHP/WKK, solar).
+ - Heat can be used for cooling and heating, heat pumps are becoming common and heat buffers are fairly easy to build. There's enormous potential for reducing energy use for heating and cooling, and heat engines can be fed with pre-heated air/fuel/water.
+ - Only generating significant electricity out of heat is tricky. Efficiency of thermoelectric is too low. We need flexible heat/cold infrastructures in homes and offices.
 
 
 ### The role of Tesla
 
-It is unlikely that the main role of Tesla Energy will be to provide battery power storage on the scale of entire countries, no matter how trivial Elon Musk may make this sound. No doubt it would be a lucrative contract for Tesla, but reliable and durable energy storage on that scale is a hard problem that requires a significant investment. A problem like that is best solved with a mix of approaches and technologies. Certainly, Tesla's Li-ion batteries may play a role, as will expansion of pumped storage and use of other battery technologies such as redox flow[^redoxflow].
+It is unlikely that the main role of Tesla Energy will be to provide battery power storage on the scale of entire countries, no matter how trivial Elon Musk may make this sound. No doubt it would be a lucrative contract for Tesla, but as we've seen, reliable and durable energy storage on that scale is a hard problem that requires a significant investment. A problem like that is best solved with a mix of approaches and technologies. Certainly, Tesla's Li-ion batteries may play a role, as will expansion of pumped storage and use of other battery technologies such as redox flow[^redoxflow], and development of fuel-cell technologies.
 
 But for individuals and organisations, there is no need to wait for large-scale grid-based energy storage. If you want to contribute to the sustainable energy transition without relying (too much) on fossil-powered backup electricity from the grid, there is no reason why you cannot install solar panels and batteries at the scale of households or office buildings. And this is where Tesla's batteries can make a big contribution.
 
 Household-scale battery storage is not exactly a new idea. 
- - TODO: Look up early examples, pictures and cost of lead-acid and Li-ion storage systems (name some companies). 
- - Lead-acid batteries require monthly equalization and topping-off with water, have a limited number of deep cycles (500-1000 typically), and do not tolerate extended periods at low charge.
+ - Show some lead-acid examples, pictures and cost of lead-acid and Li-ion storage systems (name some companies). 
+ - Lead-acid batteries are cumbersome: flooded batteries require regular equalization and topping-off with water, have a limited number of deep cycles (500-1000 typically), do not tolerate extended periods at low charge, etc. Plus they are heavy and big, often weighing over a tonne.
+ - Other alternatives such as iron-phosphate, durable but also have many problems. Anything but an "appliance".
+
 Up until a few years ago, affordable battery storage generally required a room full of lead-acid batteries. Because the life-span of batteries quickly decreases with the depth of discharge (DoD), you usually need to install much more battery capacity than you will actually need on a day-to-day basis. Li-ion batteries may be more expensive than lead-acid, they also last longer and take up much less space. Compared to alternative systems, Tesla's batteries are small, fairly durable, look attractive and are relatively affordable due to their projected large-scale production. 
 
 In other words, while Tesla Energy is not the first to offer a home-scale electricity storage solution, they certainly have better PR and more attractive pricing than most alternative solutions currently on the market. But a more important point is perhaps this: Tesla is the first company to offer and market battery storage not as a custom niche-market solution, but rather as a mass-produced consumer appliance that should "just work".[^customsolution] 
 
 In a technical sense, Tesla's Powerwall is not a revolutionary product. It is proven technology, just nicely packaged and fitted with smart software and some other tricks to extend the inherently limited life-span of its Li-ion cells.[^teslatricks] But this is excatly the thing that Tesla does right: using and scaling up existing technologies, thereby making it more widely available to consumers and organisations, instead of waiting around for some technological breakthrough that may or may not happen soon. It is the same strategy they use with their electric verhicles: make them attractive for people who can afford them, and then gradually bring down costs. (And incidentally, Tesla's and other electric cars are excellent small-scale electricity storage devices!) 
 There are no doubt many people and companies that can afford the luxury of battery storage, or even going off-grid completely. The well-off early adopters of electric and hybrid cars may well be the same people who will want a fancy sleek power-storage device on their walls. As I wrote before, revolutions have to start somewhere, and this seems a good place to start. And this is a point that is generally missed by people who merely complain that solar power with Powerwall-storage currently tends to be more expensive than grid power.
- 
 
-*In part 2 of this article, we will take a closer look at distributed energy production and storage, and at the sustainability issues of chemical batteries.*
+ - Somewhere, mention durability tricks (12kWh, cooling, charging), special inverters needed and max. power output. These latter things will increase cost and EROI. 
+ - Tesla's vehicles and other EVs can also be used as storage. Experiments being done.
+
+
+### But is it sustainable?
+
+ - If solar + battery replaces fossil demand, yes. Mostly the battery will only make a difference if it makes solar worthwile where it wasn't before, e.g. in absence of grid-metering or when replacing a generator in off-grid systems. 
+ - May help less coal/gas plants to be built for backup, but only if solar + storage is introduced at very large-scale (doesn't seem likely yet).
+ - Energy needed to produce panels + battery, EROI, time needed to be energy-neutral. 
+ - Often used argument: Lithium is toxic and will run out. Bit of an odd argument, as this goes for a lot of resources, including oil. Recycling will reduce all of the above problems, is possible and already done for lead-acid. Certainly, lithium may run out at some point, but not yet by far, and Lithium-ion isn't the only technology.
+ - Biggest challenges: Life span needs to go up, production energy cost and carbon need to go down.
+
+
+### Wrap-up
+
+ - We've gotten used to a lot of energy.
+ - Of course energy transition will be slow, messy, expensive. It is also inevitable.
+ - Don't put eggs in one basket. We need a mix of technologies, each with its strong and weak points.
+ - This time we don't have the benefits of the fossil energy transition: pre-packaged energy almost for free. But we will get more energy democracy, and in the end a more flexible infrastructure. Mix of central and decentral. Some long-term storage and long-distance transport needed to overcome winter in case of solar.
+ - Fuel-cell development (integrated generation/storage system) and more battery development needed.
+ - Also, more investment in energy conversion, cogeneration and using/storing "waste" heat. we still waste most of our high-grade energy (fossil and electrical) by turning it into heat! (And most of that escapes.)
+ - But don't stand around waiting for new technologies. Solar + storage is not affordable, off-grid or on-grid. And think long-term, fossil energy will become more expensive in the long run, if only because the increasing EROI.
+ - The future is now. It already makes sense to electrify your home, office and transport, to use solar energy and installing heat buffers and batteries. And as fossil-derived energy will have to become more expensive, it will only make more sense in the future.
+ 
 
 
 Interested in reading more articles like this? Follow us [on Facebook](https://www.facebook.com/sustainsubstance), or through our [Atom-feed](/feeds/all.atom.xml).
