@@ -47,7 +47,20 @@ The electricity grid is quite an amazing and often underrated piece of human eng
 Advocates of sustainable energy often claim that we can get rid of fossil fuels, simply by installing sufficient windmills and solar PV-panels, which are hooked up to the grid. Because supply and demand always need to be balanced, it is true that a supply of electricity generated from solar and wind will at any given moment reduce the fraction of fossil-fuel powered electricity on the grid. To compensate for the renewable energy supply, especially gas-fired plants will be throttled back or powered down. But as soon as the renewable electricity supply is reduced by cloudy weather, lack of wind or nightfall, these same power plants will have to be fired back up to compensate for the reduced supply of renewable electricity.
 
 
-The important point here is that, while adding wind and solar power to the grid may *reduce* the use of fossil fuels on a daily or yearly basis, they still require a full fossil-powered energy infrastructure to be built and maintained to provide an equivalent power-generating capacity during, say, windless nights, or winter. This double investment in infrastructure greatly increases the costs of "greening" the electricity supply. And the continued *dependence* on fossil fuels, combined with their attractively low costs, doesn't provide any incentive to actually *switch* to alternative sources of energy. After all, what's the point of switching if you need a full fossil-powered backup infrastructure that is actually cheaper to operate than the thing you'd want to switch to?
+The important point here is that, while adding wind and solar power to the grid may *reduce* the use of fossil fuels on a daily or yearly basis, they still require a full fossil-powered energy infrastructure to be built and maintained. This infrastructure is needed to provide an equivalent power-generating capacity during, say, windless nights, or winter. This double investment in infrastructure greatly increases the costs of "greening" the electricity supply. Moreover, our electricity consumption has only been increasing, and will continue to increase as we gradually electrify the world's transport and heating systems. While using an electric vehicle may reduce your consumption of oil, it easily has the potential to double or triple your electricity consumption.
+
+ - TODO: check figures and show graph of per capita electricity consumption in several countries
+ - Calculate how much an average Dutch person would use extra if everyone would switch to using an EV or hybrid, using average driving stats:
+   - An average Dutch person drives around 22 km per day
+   - Plug-in hybrid car 16 kWh, 40 miles
+   - EV passenger car 24 kWh, 100 miles
+   - DoD ca. 67% gives effective capacity around 16 kWh
+   - EV delivery van 50 kWh, 100 miles
+   - Tesla Roadster: 53 kWh, 244 mi (393 km)
+   - Tesla Model S EV: 40-90 kWh, 240 mi (390 km) - 265 mi (426 km)
+ - In average case, it doubles electricity use
+
+What all this means that electricity derived from solar and wind currently cannot replace fossil-powered energy plants, nor prevent new ones from being built. Our continued *dependence* on fossil fuels, combined with their attractively low costs, doesn't provide any incentive to actually *switch* to alternative sources of energy. After all, what's the point of switching if you need a full fossil-powered backup infrastructure that is actually cheaper to operate than the thing you'd want to switch to?
 
 
 This is where energy storage comes in. Installing for instance solar PV on a large scale, tends to generate a surplus of energy on sunny days. If the surplus generated during the day could be stored, and used at night, there would be less need to keep fossil-powered power plants around as a backup. Of course, to make a real difference, such storage must be significant, it must be at the scale of power-plants. And also, you need to have sufficient surplus energy on an average day to recharge your storage, even in winter.
@@ -62,7 +75,7 @@ In the keynote speech where he introduced Tesla's batteries, Elon Musk showed ho
 
 ![The "tiny blue square".](http://nerdist.com/wp-content/uploads/2015/05/MuskEnergy_2.png)
 
-On the scale of a country, it's not that much ([less than 1% of land area for the US](http://www.nrel.gov/docs/fy08osti/42463.pdf)). It's still a lot of land of course, the area shown by Musk is roughly a 100 km x 100 km square in North-West Texas. Filled with solar panels, this could generate around 500 GW of electric power on average, indeed more than the current mean US electricity demand of 425 GW.[^musksquare] On an average day, the entire US uses over 10 billion kW·h of electricity (10.2 TW·h). Storing this amount of energy would require a little over 102 million Tesla PowerPack battery units. You'd probably need a bit more storage than that, to cover bad days and peak loads. Indeed, Musk himself estimates that around 160 million PowerPacks would be needed. It is by no means impossible to produce and install that much capacity, Musk noted that around 100 million new cars and trucks are put on the market every year. But it won't be cheap: the batteries alone would cost around 4 trillion dollars, and producing them would require up to 20% of the world's currently known lithium-reserves.[^squarebatt]
+On the scale of a country, it's not that much ([less than 1% of land area for the US](http://www.nrel.gov/docs/fy08osti/42463.pdf)). It's still a lot of land of course, the area shown by Musk is roughly a 100 km × 100 km square in North-West Texas. Filled with solar panels, this could generate around 500 GW of electric power on average, indeed more than the current mean US electricity demand of 425 GW.[^musksquare] On an average day, the entire US uses over 10 billion kW·h of electricity (10.2 TW·h). Storing this amount of energy would require a little over 102 million Tesla PowerPack battery units. You'd probably need a bit more storage than that, to cover bad days and peak loads. Indeed, Musk himself estimates that around 160 million PowerPacks would be needed. It is by no means impossible to produce and install that much capacity, Musk noted that around 100 million new cars and trucks are put on the market every year. But it won't be cheap: the batteries alone would cost around 4 trillion dollars, and producing them would require up to 20% of the world's currently known lithium-reserves.[^squarebatt]
 
 
 If the above sounds impractical, the situation gets worse if you realise that *electricity use* is only a small fraction of actual *energy use*. The US uses around 3 TW of energy in total, or about 72 TW·h per day on average. In other words, the energy use is seven times the electricity use! In the US, most of this energy is used for transport. But remember that combustion engines are very inefficient. So say we switch everything to electricity, this would reduce heat losses, bringing the power demand down by roughly a third, to 2 TW, or 48 TW·h per day.
@@ -105,55 +118,57 @@ For small-scale storage applications, portable CAES modules exist. Lightsail has
 
 ### Hype or hope?
 
-There are a few more technologies for energy storage that I haven't mentioned. Fly-wheel storage is probably the least high-tech of all methods, but its capacity doesn't scale up very well. And then there's hydrogen. Despite much talk of the "hydrogen economy", this never seems to have materialised, apart from a few demonstration projects. There are many reasons for this, but most have to do with efficiency, infrastructure and costs. While hydrogen is fairly easy to produce and use, it has large conversion losses and may be hard to store and transport. Hydrogen is not an energy source, it's an energy carrier. Production of hydrogen gas from water (by electrolysis) is easy, but requires electricity and is only around 70% efficient. As with compressed air, large quantities of hydrogen can be stored under high pressure in tanks, or better, in underground caverns, with an efficiency of about 85% (or more, at lower pressure). Conversion of hydrogen back to electricity requires either fuel cells (see below) or combustion in a gas-powered generator. The most efficient hybrid fuel cells should be able to do this with around 70% efficiency, but most fuel cells on the market today have an efficiency below 50%. And even these are rather expensive. In total, the round-trip efficiency of hydrogen-based electricity storage is at best around 50%, but more commonly 20-40%. In other words, you commonly *lose* around 60-80% of your energy along the way. In the current best-case, you would still lose around half. Compared to the other storage options we've seen, this is pretty bad.
+There are a few more technologies for energy storage that I haven't mentioned. Fly-wheel storage, for instance, is probably the least high-tech of all methods. But unfortunately its capacity doesn't scale up very well. And then there's hydrogen. Especially in the 1990s, grand visions were painted of a "hydrogen economy". Clean energy would be used to produce hydrogen, which would then serve as a fuel for our cars and planes. While we have seen a few demonstration projects, and some small-scale use of hydrogen, anything resembling a hydrogen economy failed to materialise. There are many reasons for this, but most have to do with efficiency, infrastructure and costs. While hydrogen is fairly easy to produce and use, it has large conversion losses and may be hard to store and transport. Hydrogen is not an energy source, it's an energy carrier. Production of hydrogen gas from water (by electrolysis) is easy, but requires electricity and is only around 70% efficient. As with compressed air, large quantities of hydrogen can be stored under high pressure in tanks, or better, in underground caverns, with an efficiency of about 85% (or more, at lower pressure). Conversion of hydrogen back to electricity requires either fuel cells (see below) or combustion in a gas-powered generator. The most efficient hybrid fuel cells should be able to do this with around 70% efficiency, but most fuel cells on the market today have an efficiency below 50%. And even these are rather expensive. In total, the round-trip efficiency of hydrogen-based electricity storage is at best around 50%, but more commonly 20-40%. In other words, you commonly *lose* around 60-80% of your energy along the way. In the current best-case, you would still lose around half[^hydogenefficiency]. Compared to the other storage options we've seen, this is pretty bad.
 
- - Note: the best-case assumes 73% efficiency of electrolysis, 95% efficient pressurised storage and 70% efficiency of a hybrid fuel cell, which would yield a 49% round-trip efficiency (0.73 × 0.95 × 0.70 = 0.485).
 
 For most energy storage applications, hydrogen is less than ideal. For large-scale storage, compressed air is more efficient and probably cheaper. For smaller-scale storage, Lithium-ion batteries are definitely cheaper and a lot more efficient than hydrogen, and they have a higher energy density (at least by volume). So why look at hydrogen at all? Well, it turns out that hydrogen and fuel cells have some interesting additional applications.
 
+
 Like a battery, a fuel cell is an electrochemical device that produces electricity. But unlike a battery, it does this by consuming fuel. 
-You can think of a fuel cell as a very controlled form of combustion. As with combustion, at least part of the energy in the fuel is released as heat. In a traditional combustion-based electricity generator, the heat from burning fuel would first be converted to movement, and then to electricity. But a fuel cell can convert part of the energy from its fuel *directly* into electricity. Therefore is is more efficient than a combustion engine, up to about 60-70%. Unfortunately, being electrochemical cells, they also have many of the disadvantages that batteries have: they are expensive, have a limited life-span and are fairly sensitive to (chemical) damage. Moreover, like a combustion engine, fuel cells that process carbon-based (fossil) fuels such as natural gas will also produce CO~2~. But, at least in certain large-scale applications, the CO~2~ produced by fuel cells can be captured relatively easily (by cooling it to -40 degrees C, which does require some energy), after which in can be stored underground. Moreover, a certain kind of fuel cell, the Molten Carbonate Fuel Cell (MCFC), actually *requires* CO~2~ to operate. This quirk enables them to capture CO~2~ from the exhaust gases of industrial installations such as power plants, whicle *producing* electricity from fuel. MCFSs are industrial devices that operate at high temperatures, but their efficiency can approach 60% and they can process a large range of fuels, including hydrogen, methane and (in principle) even liquid fuels such as methanol and ethanol.
+You can think of a fuel cell as a very controlled form of combustion. As with combustion, part of the energy in the fuel is released as heat. In a traditional combustion-based electricity generator, *all* of the energy in the fuel is converted to heat. A small part of this heat is then converted to movement, usually rotating a magnet in a coil, which then generates electricity. But a fuel cell can convert part of the energy from its fuel *directly* into electricity. Therefore it is more efficient than a combustion engine, up to about 60-70%. Unfortunately, being electrochemical cells, fuel cells also have many of the disadvantages that batteries have: they are expensive, have a limited life-span and are fairly sensitive to (chemical) damage. Moreover, like a combustion engine, fuel cells that process carbon-based (fossil) fuels such as natural gas, will also produce CO~2~. But, at least in certain large-scale applications, the CO~2~ produced by fuel cells can be captured relatively easily (by cooling it to -40°C, which does require some energy), after which in can be stored underground. Moreover, a certain kind of fuel cell, the Molten Carbonate Fuel Cell (MCFC), actually *requires* CO~2~ to operate. This quirk enables it to capture CO~2~ from the exhaust gases of industrial installations such as power plants. Rather than decreasing the power output of a plant, as most carbon-capture techniques do, this would actually combine carbon capture with producing *additional* electricity from fuel. MCFSs are industrial devices that operate at high temperatures, but their efficiency can approach 60%, which is above usual power plant efficiency. Moreover, they can process a large range of fuels, including hydrogen, methane and (in principle) even liquid fuels such as methanol and ethanol.
+
 
 In other words, certain fuel cells can provide an efficient method to capture carbon from coal- and gas-powered power plants. Great, I hear you think, but what does this have to do with energy storage? Well, of course surplus electricity (e.g. solar energy during the day) can be used to generate hydrogen gas, which can be stored for short periods of time, or can be fed into gas distribution networks. When demand is high (e.g. in the evening), the hydrogen generated earlier would contribute to running gas-powered generators and/or fuel cells. We've already seen that this is not the most efficient form of energy storage, but it has one big advantage: Such short-term energy storage using hydrogen requires very little modification of existing energy infrastructure, especially in regions that already have a large storage- and distribution-network for natural gas.
 
-We've seen that hydrogen is not a very good option for long-term energy storage. But it is actually possible to chemically combine hydrogen gas with CO~2~, again from the exhaust of fossil-based power plants. This process is based on the so-called Sabatier reaction, and it can be used to produce, among other things, methane and methanol. Methane is the main ingredient of natural gas, and because it has a higher energy density and is less reactive than hydrogen gas, it is somewhat easier to store and transport. Methanol is a liquid fuel (basically a toxic variant of alcohol), which can relatively easily be stored for longer periods. This could open up the possibility of seasonal energy storage, whereby an energy surplus in summer can be stored and used in winter.
 
-Carbon capture techniques using fuel cells or the Sabatier reaction are promising but still experimental, and not ready for large-scale deployment. 
-
- - TODO: name pilot projects and their capacities
-
-The main advantage of these techniques is that they do not require gigantic up-front investments in new infrastructure. They can be added incrementally to existing power plants, and can use existing infrastructure for energy storage and distribution. Modifying existing plants and technology would enable a gradual energy transition. Carbon capture and energy storage would be slowly scaled up, allowing contribution of renewable energy to increase while reducing the CO~2~ emission of existing energy sources. Power plants could grow into highly integrated energy generation and storage systems. Moreover, their efficiency and capacity would increase by adding fuel cells, while their emissions would decrease, as MCFCs don't just capture CO~2~ but also seem to capture and break down nitrogen compounds as a side-effect.
+We've seen that hydrogen is not a very good option for long-term energy storage[^hydrogenproblems]. But it is actually possible to chemically combine hydrogen gas with CO~2~, again from the exhaust of fossil-based power plants. This process is based on the so-called *Sabatier reaction*, and it can be used to produce, among other things, methane and methanol.[^sabatier] Methane is the main ingredient of natural gas, and because it has a higher energy density and is less reactive than hydrogen gas, it is somewhat easier to store and transport. National gas distribution networks are actually excellent energy storage facilities, generally able to store more than a year's worth of a country's energy use. And the Sabatier reaction can also produce Methanol, a liquid fuel that is basically a toxic variant of alcohol. This can relatively easily be stored for longer periods. Long-term storage using methane of methanol produced from hydrogen and CO~2~ may not have the highest efficiency, as storage goes. But it offers something that batteries or pumped storage cannot: the possibility of seasonal storage. This way, an energy surplus produced in summer by solar PV, can be stored and used in winter.
 
 
-
-Notes: storing hydrogen for transport is problematic
- - Hydrogen is not a fuel but an energy carrier.
- - It's a small molecule and highly reactive 
- - Hard to store because of low volume density, generally stored at high pressure or at low temperatures, both of which require energy and material.
-   - High-pressure storage is the most common
-   - Liquification isn't practical, requires cooling down to -253 degrees, is only ~60% efficient and requires energy to maintain.
-   - Both require further energy for long-term storage.
-   - Solid state storage
- - Hard and expensive to transport due to low energy density, safety issues and interaction with other materials.
+It is certainly an interesting option to combine coal-based based electricity production with carbon capture using fuel cells and/or the Sabatier reaction. It would be a win/win situation, drastically reducing the CO~2~-emissions of coal power plants without reducing their efficiency too much, and offering options for long-term storage of renewable energy. However, while the technology involved is already quite established, its application for this purpose and on this scale is still experimental.
 
 
+The US-based company [Fuel Cell Energy](http://www.fuelcellenergy.com/advanced-technologies/carbon-capture/) offers a fuel-cell based carbon capture and power generation system, which has been tested under laboratory conditions. A field-pilot will probably commence next year, with installing a 2.8 MW industrial fuel-cell module at a coal power plant. The second stage of the pilot will probably involve 12 modules. However, to capture 90% of the emissions of a 500 MW coal power plant, you'd need to install over 140 fuel cell modules. These fuel cells would have a combined capacity of around 400 MW, almost doubling the power output from the coal plant. So far, the biggest fuel cell power facility built by Fuel Cell Energy is located in Hwasung, South Korea. It consists of 21 modules, which use natural gas to generate 59 MW of electricity and 27 MW of steam (used for district heating). The installation does not do CO~2~-capture, although hypothetically it could capture around 48 tonnes of CO~2~ per hour. This would be enough to "clean up" the emissions of around 60 MW of coal-generated electricity.[^fuelcellplants]
+
+
+The German [Centre for Solar Energy and Hydrogen Research](http://www.zsw-bw.de/en) (ZSW, Zentrum für Sonnenenergie- und Wasserstoff-Forschung) has built a 250 kW test plant that uses electricity to produce hydrogen, which is then combined with CO~2~ into methane. It can produce up to 300 m^3^ of methane per day, which represents around 2900 kW·h (2.9 MW·h) of stored energy (although roughly half of that would probably be lost when converting it back to electricity). Based on the technology developed by ZSW, car-producer Audi has built a similar but bigger and commercial 6 MW facility in Werlte, Germany. This plant has a conversion efficiency of around 54%, and produces around 42 MW·h worth of methane per day.
+Another large commercial facility is the [George Olah carbon dioxide recycling plant](http://www.carbonrecycling.is/index.php?option=com_content&view=article&id=14&Itemid=8&lang=en) in Grindavík, Iceland. This commercial plant uses 
+around 5 MW of electricity from the 75 MW [Svartsengi Geothermal Power Station](http://www.hsorka.is/english/HSProduction/HSProductionSvartsengi.aspx) to produce hydrogen. The hydrogen is then combined with CO~2~ from the power station exhaust, to make methanol. The facility has a maximum production capacity of around 13700 L methanol per day (equivalent to roughly 59 MW·h of stored energy). The methanol is currently blended with gasoline and used as transportation fuel.[^sabatierplants]
+
+![The 250 kW ZSW power-to-gas test plant in Stuttgart](http://www.zsw-bw.de/uploads/pics/20120913_ZSW_27-screen_01.jpg)
+![The 6 MW Audi power-to-gas plant in Werlte](http://www.volkswagenag.com/content/vwcorp/info_center/en/themes/2012/12/audi_e_gas_plant.img.html/infodetail/images/textimage/imagezoom/800x550+-+AT120591_small.jpg)
+![The George Olah carbon dioxide recycling plant in Iceland, with the Svartsengi Geothermal Power Station in the background](http://i.bnet.com/blogs/cri-plant.jpg)
+
+
+The main advantage of these fuel-cell and Sabatier-based techniques is that they use existing technology, and do not require gigantic up-front investments in new infrastructure. They can be added incrementally to existing power plants, and can use existing infrastructure for energy storage and distribution. Modifying existing plants and technology would enable a gradual transition toward a sustainable, carbon-free energy supply. Carbon capture and energy storage would be slowly scaled up, allowing contribution of renewable energy to increase while reducing the CO~2~ emission of existing energy sources. Power plants could grow into highly integrated energy generation and storage systems. Moreover, their efficiency and capacity would increase by adding fuel cells, while their emissions would decrease, as MCFCs don't just capture CO~2~ but also seem to capture and break down nitrogen compounds as a side-effect.
 
 
 ### Scaling up, scaling down
 
- - Been using Musk's example, assuming the goal is replacing fossil with solar PV and wind and focusing on country-scale storage.
- - It's naive to take this literally. The future will be a diverse mix of energy sources, both central and decentral.
- - The last example suggests that central, industrial-scale energy infrastructure may remain important, if only to provide a large-scale energy buffer in seasonal climates (where batteries won't help).
- - But that doesn't mean that we should focus solely on large-scale infrastructure. There is much to win by also focusing on decentral energy production, storage and demand.
- - Matching supply and demand is one issue, which will require both reducing demand (efficiency), shifting demand (smart grids) and providing energy storage for the demand that cannot be shifted (nights and winters).
- - Decentralisation and energy conversion will play a more important role. 
- - The current energy infrastructure is an extremely centralised and segregated infrastructure (gas and electricity). It is efficient, but not very flexible.
- - Electricity is easy to transport, and very versatile, but hard to store. 
- - Gas (be it hydrogen, natural gas, biogas) and liquid fuel (oil-based, bio-ethanol, methanol) is harder to transport and less versatile, but easier to store (except perhaps hydrogen).
- - Heat is hard to transport over long distance, and the least versatile, but by far the easiest to store.
- - We now use liquids for transport, gas for heating and electricity as multi-purpose source, but the roles will become less separated and will blend. One reason is that heat is produced as byproduct of nearly everything we do, and is easy to store. So why waste valueable gas in producing it?
+So far, I've mostly been talking about techniques for centralised, grid-based energy storage. This fits well with the idea of large wind- and solar farms, and with Elon Musk's vision of entirely replacing fossil-generated electricity by PV and wind power. Of course it would be somewhat naive to take this vision literally. There are many practical reasons why 100 × 100 km PV farms, for instance, are a bad idea, if only because of maintenance, power transmission and the effects on local climate. Instead, the future will be powered by a diverse mix of energy sources, with both centralised and decentralised power generation. The possibilities of running coal plants with efficient carbon capture (and perhaps of new nuclear energy technologies such as thorium molten salt reactors), suggest that centralised industrial-scale energy infrastructure will probably remain important. Even if we would switch mostly switch to renewable energy sources, we would still need a large-scale energy buffer in seasonal climates. Solar PV with battery storage may get you through the night, but it will simply not get you through a Northern European, Canadian or Russian winter, especially not if you drive around in an electric car.
+
+For example, if everyone were to switch now to all-electric cars, the average person in The Netherlands would use roughly 7 kW·h of electricity per day (just for home use and transport, so not counting the energy used outside the house or car). Using only solar energy, and without seasonal storage, the Dutch would need roughly 62 solar panels *per person* to still generate sufficient electricity in December. That's 137 PV-panels for an average household, covering an area of 226 m^2^. With long-term energy storage, this could be reduced to something like 17 PV-panels per person, or about 38 panels per household.[^NLEVPVexample] In either case, the average household will not have space for that many panels, so some kind of centralised infrastructure will be needed to generate electricity and store energy.
+
+
+However, this does not mean that we should focus *solely* or even *mostly* on large-scale infrastructure. There is much to win by focusing also on decentral energy production, storage and control of demand. Even if the majority of people would remain dependent on grid-electricity, a decentral approach will be important to better match electricity supply and demand. A transition to sustainable energy will require reducing energy demand, mostly by increasing the efficiency of transport and heating. Matching energy demand and supply will require shifting the peak energy demand to mid-day, when most solar energy is available. And energy storage will be needed for demand that cannot be shifted, especially during nights and winters. And decentralisation and energy conversion will play an increasingly important role in all of this.
+
+Our current energy infrastructure is extremely centralised and segregated. Electricity, gas and heat are mostly treated as separate energy sources, each with their own infrastructure, both on a large scale and within buildings. Electricity is relatively easy to transport over large distances, and it is very versatile, but as we've seen it's very hard to store. Gas (be it natural gas, biogas, hydrogen or synthetic methane) and liquid fuels (oil-derivatives and alcohols) are harder to transport and are less versatile than electricity. But with the possible exception of hydrogen, gaseous and liquid energy carriers are much easier to store in large amounts and for long periods of time. Heat is hard to transport over long distances, and is the least versatile form of energy, but when a heat pump is used, it is relatively easy and cheap to store. 
+We currently tend to use liquid fuels to power our transport, gas for heating and electricity for all sorts of things. But these traditional roles of our energy carriers will probably become less clear and separated in the near future. One reason is that heat is produced as a by-product of nearly everything we do, and is fairly easy to store. Yet in Northern countries we use vast amounts of gas and electricity in our buildings, just to produce heat.
+
+Making smarter use of heat is probably the single most important step we can take to reduce our dependence on fossil fuels.
+
+
  - Examples of combined electricity and heat production (micro-CHP/WKK, solar).
- - Heat can be used for cooling and heating, heat pumps are becoming common and heat buffers are fairly easy to build. There's enormous potential for reducing energy use for heating and cooling, and heat engines can be fed with pre-heated air/fuel/water.
+ - Heat can be used for cooling (absorption chilling) and heating, heat pumps are becoming common and heat buffers are fairly easy to build. There's enormous potential for reducing energy use for heating and cooling, and heat engines can be fed with pre-heated air/fuel/water.
  - Only generating significant electricity out of heat is tricky. Efficiency of thermoelectric is too low. We need flexible heat/cold infrastructures in homes and offices.
 
 
@@ -172,7 +187,7 @@ Up until a few years ago, affordable battery storage generally required a room f
 
 In other words, while Tesla Energy is not the first to offer a home-scale electricity storage solution, they certainly have better PR and more attractive pricing than most alternative solutions currently on the market. But a more important point is perhaps this: Tesla is the first company to offer and market battery storage not as a custom niche-market solution, but rather as a mass-produced consumer appliance that should "just work".[^customsolution] 
 
-In a technical sense, Tesla's Powerwall is not a revolutionary product. It is proven technology, just nicely packaged and fitted with smart software and some other tricks to extend the inherently limited life-span of its Li-ion cells.[^teslatricks] But this is excatly the thing that Tesla does right: using and scaling up existing technologies, thereby making it more widely available to consumers and organisations, instead of waiting around for some technological breakthrough that may or may not happen soon. It is the same strategy they use with their electric verhicles: make them attractive for people who can afford them, and then gradually bring down costs. (And incidentally, Tesla's and other electric cars are excellent small-scale electricity storage devices!) 
+In a technical sense, Tesla's Powerwall is not a revolutionary product. It is proven technology, just nicely packaged and fitted with smart software and some other tricks to extend the inherently limited life-span of its Li-ion cells.[^teslatricks] But this is exactly the thing that Tesla does right: using and scaling up existing technologies, thereby making it more widely available to consumers and organisations, instead of waiting around for some technological breakthrough that may or may not happen soon. It is the same strategy they use with their electric vehicles: make them attractive for people who can afford them, and then gradually bring down costs. (And incidentally, Tesla's and other electric cars are excellent small-scale electricity storage devices!) 
 There are no doubt many people and companies that can afford the luxury of battery storage, or even going off-grid completely. The well-off early adopters of electric and hybrid cars may well be the same people who will want a fancy sleek power-storage device on their walls. As I wrote before, revolutions have to start somewhere, and this seems a good place to start. And this is a point that is generally missed by people who merely complain that solar power with Powerwall-storage currently tends to be more expensive than grid power.
 
  - Somewhere, mention durability tricks (12kWh, cooling, charging), special inverters needed and max. power output. These latter things will increase cost and EROI. 
@@ -195,7 +210,7 @@ There are no doubt many people and companies that can afford the luxury of batte
  - Don't put eggs in one basket. We need a mix of technologies, each with its strong and weak points.
  - This time we don't have the benefits of the fossil energy transition: pre-packaged energy almost for free. But we will get more energy democracy, and in the end a more flexible infrastructure. Mix of central and decentral. Some long-term storage and long-distance transport needed to overcome winter in case of solar.
  - Fuel-cell development (integrated generation/storage system) and more battery development needed.
- - Also, more investment in energy conversion, cogeneration and using/storing "waste" heat. we still waste most of our high-grade energy (fossil and electrical) by turning it into heat! (And most of that escapes.)
+ - Also, more investment in energy conversion, cogeneration and using/storing "waste" heat. we still waste most of our high-grade energy (fossil and electrical) by turning it into heat! (And most of that escapes.) Even the technology for passive houses is widely available but rarely used.
  - But don't stand around waiting for new technologies. Solar + storage is not affordable, off-grid or on-grid. And think long-term, fossil energy will become more expensive in the long run, if only because the increasing EROI.
  - The future is now. It already makes sense to electrify your home, office and transport, to use solar energy and installing heat buffers and batteries. And as fossil-derived energy will have to become more expensive, it will only make more sense in the future.
  
@@ -290,13 +305,116 @@ TODO: explain the calculations:
 
 [^lightsail]:
 *Lightsail has developed a 750 kWh CAES storage module, the size of a shipping container.*   
+ - http://www.lightsail.com/
+ - To store energy, an electric motor drives an air compressor. To deliver energy, we reverse the process–the air compressor becomes an expander, and the electric motor becomes a generator.
+ - Heat from compression is stored or routed to nearby buildings, providing heating. During expansion, heat is extracted from storage, or buildings providing air conditioning. This dramatically increases building energy efficiency.
+ - 90% Thermal efficiency, roundtrip
+ - <10°C Final temperature difference
+ - 1200 RPM, 100 kW scale; 500+ hrs reliable operation Reciprocating piston compressor/expander
+ - Air can be stored in simple, low cost air storage tanks, packed in a convenient shipping container form factor using industry standard pipes and matching ASME and ISO safety standards. For truly massive installations, air can be stored in underground caverns which is the standard for large scale natural gas storage.
+ - Storage Unit
+   - 750 kWh modules
+   - Shipping container form factor
+   - ASME certified
+
 
 [^caesexamples]:
 *Currently there are three large CAES-installations in operation world-wide.*   
+   - In December 2012, General Compression commissioned a 2 MW (500 MWh) Dispatchable Wind™ GCAES™ project in Gaines, Texas. Source: http://www.generalcompression.com/index.php/who
+   - 1978 – The first utility-scale compressed air energy storage project was the 290 megawatt Huntorf plant in Germany using a salt dome.
+   - 1991 – A 110 megawatt plant with a capacity of 26 hours was built in McIntosh, Alabama (1991). The Alabama facility's $65 million cost works out to $550 per Kilowatt hour of capacity, using a 19 million cubic foot solution mined salt cavern to store air at up to 1100 psi. Although the compression phase is approximately 82% efficient, the expansion phase requires combustion of natural gas at one third the rate of a gas turbine producing the same amount of electricity. Source: https://en.wikipedia.org/wiki/Compressed_air_energy_storage
+
 
 [^caesexperiments]:
 *some projects are looking into storing compressed air in aquifers, disused oil- and gas-fields, and even in large "bags" on the ocean floor.*   
+ - The Iowa Stored Energy Park (ISEP) will use aquifer storage rather than cavern storage. The displacement of water in the aquifer results in regulation of the air pressure by the constant hydrostatic pressure of the water. A spokesperson for ISEP claims, "you can optimize your equipment for better efficiency if you have a constant pressure."[35] Power output of the McIntosh and Iowa systems is in the range of 2–300 MW.[36]
+ - Deep water in lakes and the ocean can provide pressure without requiring high-pressure vessels or drilling into salt caverns or aquifers.[38] The air goes into inexpensive, flexible containers such as plastic bags below in deep lakes or off sea coasts with steep drop-offs. Obstacles include the limited number of suitable locations and the need for high-pressure pipelines between the surface and the containers. Since the containers would be very inexpensive, the need for great pressure (and great depth) may not be as important. A key benefit of systems built on this concept is that charge and discharge pressures are a constant function of depth. Carnot inefficiencies can thereby be reduced in the power plant. Carnot efficiency can be increased by using multiple charge and discharge stages and using inexpensive heat sources and sinks such as cold water from rivers or hot water from solar ponds. Ideally, the system must be very clever—for example, by cooling air before pumping on summer days. It must be engineered to avoid inefficiency, such as wasteful pressure changes caused by inadequate piping diameter.[39]
 
+
+[^hydogenefficiency]:
+*In total, the round-trip efficiency of hydrogen-based electricity storage is at best around 50%, but more commonly 20-40%. In other words, you commonly lose around 60-80% of your energy along the way. In the current best-case, you would still lose around half.*   
+As a hypothetical "best case", I assume 73% efficiency of electrolysis, 95% efficient pressurised storage and 70% electrical efficiency for a hybrid fuel cell. This gives 0.73 × 0.95 × 0.70 = 0.485, or a round-trip efficiency of 49%.
+ - Electrolysis is energy intensive. The power consumption at 100%  theoretical  efficiency  is  39.4  kWh/kg  of  hydrogen; however, in practice it is closer to 50-65 kWh/kg. The conversion efficiency of water to hydrogen, depending
+on the system, can be between 80 and 95%. Considering the power needed for a complete electrolyzer system, the best energy efficiency is today around 73%. This means that about 53 kWh of electricity is needed to produce 1 kg of hydrogen. Current R&D efforts are aimed at improving net system efficiencies of commercial electrolysis toward 85%.
+ - Source:
+   http://photonics.inescporto.pt/outputs/fct2009/olah-g-a-_2009.pdf
+   Chemical Recycling of Carbon Dioxide to Methanol and
+   Dimethyl Ether: From Greenhouse Gas to Renewable,
+   Environmentally Carbon Neutral Fuels and Synthetic Hydrocarbons
+   George A. Olah, Alain Goeppert, and G. K. Surya Prakash
+   J. Org. Chem. 2009
+   DOI: 10.1021/jo801260f
+
+
+[^hydrogenproblems]:
+*We've seen that hydrogen is not a very good option for long-term energy storage.*   
+Notes: storing hydrogen for transport is problematic
+ - Hydrogen is not a fuel but an energy carrier.
+ - It's a small molecule and highly reactive 
+ - Hard to store because of low volume density, generally stored at high pressure or at low temperatures, both of which require energy and material.
+   - High-pressure storage is the most common
+   - Liquification isn't practical, requires cooling down to -253 degrees, is only ~60% efficient and requires energy to maintain.
+   - Both require further energy for long-term storage.
+   - Solid state storage
+ - Hard and expensive to transport due to low energy density, safety issues and interaction with other materials.
+
+
+[^sabatier]:
+*But it is actually possible to chemically combine hydrogen gas with CO~2~, again from the exhaust of fossil-based power plants. This process is based on the so-called *Sabatier reaction*, and it can be used to produce, among other things, methane and methanol.*   
+
+[^fuelcellplants]:
+ - 21 modules, each of which can capture about 2300 kg per hour of external CO2, gives 48300 kg per hour, enough for CCS of ~60 MW of coal power? (or ~65 MW with 90% capture), and producing 59 MW of electricity
+ - http://www.fuelcellenergy.com/advanced-technologies/carbon-capture/
+   - White paper: http://www.fuelcellenergy.com/assets/DFC-Carbon-Capture-White-Paper.pdf
+   - A 500 MW pulverized coal plant requires almost as large a DFC capture plant (about 400 MW) for a 90% carbon capture rate.  In the near term, capture systems can be configured as multiple-unit systems based on the largest DFC plant currently available, the 2.8MW DFC3000. The largest such system so far is a 59 MW system consisting  of twenty one DFC3000 powerplants, a project developed by POSCO, Korea Hydro Nuclear Power Co. (KHNP) and Samchully Gas Co in South Korea.
+   - Largest CHP Power Plant installed worldwide in South Korea (Hwasung City) having 59 MW electrical and about 27 MW thermal (steam = used for district heating) Here the link for a video showing construction / installation of this park (truly impressive !) https://www.youtube.com/watch?v=yVPrbh7UHDY
+   - A conventional pulverized coal power plant with a typical CO2 emission rate of 820 kg/MWh would require a larger capture system than a large scale natural gas combined cycle plant with a CO2 emission rate of 360 kg/MWh. A 2.8MW DFC3000 
+powerplant during normal power operation is transferring about 3200 kg of CO2 per hour from the cathode to anode streams
+in the stack modules. In carbon capture mode, this system could capture and purify about 2300 kg per hour of external CO2 in addition to 
+the CO2 exhaust of the DFC powerplant.
+   - DFC® power plants are designed for a 20-years-lifespan (http://www.all-energy.co.uk/__novadocuments/54261?v=635376488533500000)
+   - http://www3.epa.gov/chp/documents/wbnr061715.pdf
+   - http://fortune.com/2015/09/04/new-tech-cleans-up-coal-plants/
+   - Carbon capture pilot financed by DOE, to start in 2016. The project requires FuelCell Energy to install a two-megawatt Direct FuelCell ("DFC") system, which will be a modification of the company’s commercial DFC3000 fuel cell power plant. The carbon capture fuel cell system will be installed beside an existing coal-fired power plant to capture carbon dioxide (CO2) from the exhaust of a coal plant apart from generating power. The second phase of the project requires the installation of 11 additional fuel cell power plants to capture roughly 700 tons of CO2 per day, while simultaneously generating about 648,000 kwh of ultra-clean power on a daily basis. http://www.greencarcongress.com/2015/09/20150902-fcedfc.html 
+   - FuelCell Energy Inc. (Danbury, CT) will design, fabricate, and test a small pilot-scale system that incorporates FuelCell Energy’s combined electric power and CO2 separation (CEPACS) system, based on electrochemical membrane (ECM) technology, to separate at least 90 percent of CO2 from a 3 MWe equivalent slipstream of pulverized coal plant flue gas and achieve 95 percent CO2 purity at a cost of $40/tonne of CO2 captured and at a cost of electricity 30 percent less than baseline CO2 capture approaches. Successful pilot-scale validation of the CEPACS system is expected to pave the path toward commercial deployment of cost-effective ECM technology for large scale coal-based carbon capture applications by 2025. Partner is AECOM.  http://energy.gov/fe/articles/doe-selects-eight-projects-receive-funding-reducing-cost-co2-capture-and-compression
+
+
+
+[^sabatierplants]:
+   - A 250 kW demonstration plant was ready in 2012 in Germany.[4] Source: https://en.wikipedia.org/wiki/Sabatier_reaction
+   - http://www.zsw-bw.de/uploads/pics/20120913_ZSW_27-screen_01.jpg
+   - http://www.zsw-bw.de/en/support/press-releases/press-detail/weltweit-groesste-power-to-gas-anlage-zur-methan-erzeugung-geht-in-betrieb.html
+     ZSW completes 250-kilowatt research plant for storing green electricity. 
+     A further hurdle en route to achieving the marketability of Power-to-Gas technology has been overcome: on 30 October 2012, the Zentrum für Sonnenenergie- und Wasserstoff-Forschung Baden-Württemberg (Centre for Solar Energy and Hydrogen Research, ZSW) inaugurated a research plant with a connected electrical load of 250 kilowatts. The plant, which has been funded by the German Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU), converts green electricity into hydrogen and methane. With a possible methane production of up to 300 cubic metres per day, it is the largest plant of its kind worldwide and ten times more powerful than the test plant constructed at ZSW three years ago. The scientists from Stuttgart are therefore close to achieving the industrial application of the new electrical storage technology.
+     Together with their colleagues from the Fraunhofer IWES research institute and the SolarFuel company, the ZSW researchers want to continue optimising the technology during operation. That should make it easier to scale up Power-to-Gas plants into the 1-20 megawatt range relevant for the energy industry. The R&D work is also concerned with assessing future storage requirements. 
+   - A 250 kilowatt methane synthesis plant was constructed by the Center for Solar Energy and Hydrogen Research (ZSW) at Baden-Württemberg and the Fraunhofer Society in Germany and began operating in 2010. It is being upgraded to 10 megawatts, scheduled for completion in autumn, 2012.[25][26] Source: https://en.wikipedia.org/wiki/Carbon-neutral_fuel
+   - The George Olah carbon dioxide recycling plant operated by Carbon Recycling International in Grindavík, Iceland has been producing 2 million liters of methanol transportation fuel per year from flue exhaust of the Svartsengi Power Station since 2011.[27] It has the capacity to produce 5 million liters per year.[28]
+   - The CO2 is captured from the Svartsengi geothermal power station. It also supplies power for the electrolysis of water to produce hydrogen. The H2 and CO2 are reacted, to produce methanol. The electrochemical process occurs at low temperatures and low pressure. The renewable methanol production facility requires about five megawatts of power generation capacity equivalent per annum. http://www.chemicals-technology.com/projects/george-olah-renewable-methanol-plant-iceland/
+**Sources:**
+ - http://www.zsw-bw.de/en/topics/fuelshydrogen/power-to-gas.html
+ - http://www.audi.com/com/brand/en/vorsprung_durch_technik/content/2013/10/energy-turnaround-in-the-tank.html
+ - http://www.etogas.com/referenzen/article///industrielle-63-mw-ptg-anlage-audi-e-gas-anlage/
+ - https://en.wikipedia.org/wiki/Methanol_economy
+
+ - The Audi plant:
+   - 1000 tonnes per year
+   - 2738 kg per day × 15.41667 kWh/kg
+   - 42208 kWh per day
+
+
+ - The Olah plant:
+   - 13689 L methanol per day (4.33 kWh/L gives 59273 kWh)
+
+
+[^NLEVPVexample]:
+*For example, if everyone were to switch now to all-electric cars, the average person in The Netherlands would use roughly 7 kW·h of electricity per day (just for home use and transport, not counting the energy used outside the house or car). Using only solar energy, and without seasonal storage, the Dutch would need roughly 62 solar panels *per person* to generate sufficient electricity in December. That's 137 PV-panels for an average household, covering 226 m^2^. With long-term energy storage, this could be reduced to something like 17 PV-panels per person, or about 38 panels per household.*   
+   - average NL family, 2.2 persons, 3500 kWh per year, so 4.5 kWh per day per person.
+   - plus ~2.5 kWh for recharging EV (assuming 22 km driving, 16 kWh effective battery capacity for a 100 mile / 160 km range, and 90% efficient charging)
+   - Total would be ~7 kWh per day per person, or 2555 kWh per year.
+   - Yearly average for NL is 1000 volle zonuren. A single 265 Wp-panel would generate around 225 kWh per year.
+   - 7 kWh per day would require around 11.4 panels per person. Let's assume long-term storage being 50% efficient, so say we'd need to generate 1.5 times the energy we need, which would require around 17 panels per person.
+   - Average in december is 0.5 volle zonuren in NL (http://www.solsolutions.nl/zonnestroom/opbrengst-zonnestroom/). A single 265 Wp PW-panel would generate 0.5×0.85×265=113 Wh = 0.113 kWh on an average December day in NL. So to generate our average 7 kWh with only short-term storage, we would need 62 solar panels *per person*. Or around 6555 modern 3 MW windmills at the coast.
+   - A standard panel is 1.650×0.991 m, or 1.64 m^2^, so we'd need 101.4 m^2^ per person. With 16,920,510 people, this would be 1,715,389,459 m^2^, or 1715.4 km2. The country is 33.883 km2, so this would be roughly 5% of land area.
 
 
 [^redoxflow]:
