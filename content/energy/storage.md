@@ -10,7 +10,7 @@ Status: draft
 
 *The footnotes provide additional background information, and can safely be skipped or read separately.*
 
- - TODO: look up when battery production and sales are planned to start
+ - TODO: look up when battery production and sales are planned to start: "Deliveries begin in late 2015", so Tesla will begin shipping PowerWall batteries any moment.
 
 Last April, Tesla's Elon Musk [announced](https://www.youtube.com/watch?v=yKORsrlN-2k) a new product for energy storage, the [Tesla PowerWall](http://www.teslamotors.com/powerwall). This announcement generated a lot of attention, both on the Internet and in the global media. Some hail it as the next disruptive technological step in the sustainable energy revolution. Others are more skeptical, pointing out the technical limitations and hidden costs of the system[^tesladiscussion]. Such discussions aside for a moment, I think it's good to take a step back and look at what all the fuss is about. The first question to ask would be this: What problem is Tesla Energy trying to solve with its new battery products? 
 
@@ -167,9 +167,15 @@ We currently tend to use liquid fuels to power our transport, gas for heating an
 Making smarter use of heat is probably the single most important step we can take to reduce our dependence on fossil fuels.
 
 
- - Examples of combined electricity and heat production (micro-CHP/WKK, solar).
- - Heat can be used for cooling (absorption chilling) and heating, heat pumps are becoming common and heat buffers are fairly easy to build. There's enormous potential for reducing energy use for heating and cooling, and heat engines can be fed with pre-heated air/fuel/water.
- - Only generating significant electricity out of heat is tricky. Efficiency of thermoelectric is too low. We need flexible heat/cold infrastructures in homes and offices.
+ - First step: keeping it in (thermal mass, insulation, draught)
+ - Second step: don't get it (all) from burning fossil fuels. Either directly from sunlight, or from the environment, or use waste-heat from power generation.
+ - Third step: Store it in heat buffers for later use. E.g. in walls and floors, in the ground or in a water reservoir.
+
+ - This does not just apply to heating, but also to cooling: absorption chillers. And to hot water, running washing machines, pre-heating heat engines etc.
+ - You can even make electricity out of heat, but the efficiency of thermoelectric is too low.
+ - Much better is to combine power generation with heat collection. Combined solar thermal and PV is an attractive option if space is limited. 
+ - While it generally still uses fossil fuels, micro-CHP is an efficient option: fuel cells are more efficient than generators, and the waste heat can be directly used for heating or cooling. Combining with solar and perhaps batteries would be a good option. But it's too expensive for most households (mostly used for companies and larger complexes). Also, lifespan is an issue. 
+
 
 
 ### The role of Tesla
@@ -179,29 +185,113 @@ It is unlikely that the main role of Tesla Energy will be to provide battery pow
 But for individuals and organisations, there is no need to wait for large-scale grid-based energy storage. If you want to contribute to the sustainable energy transition without relying (too much) on fossil-powered backup electricity from the grid, there is no reason why you cannot install solar panels and batteries at the scale of households or office buildings. And this is where Tesla's batteries can make a big contribution.
 
 Household-scale battery storage is not exactly a new idea. 
+ - Already used for years for off-grid homes, especially in places where a connection to the grid is prohibitively expensive. 
  - Show some lead-acid examples, pictures and cost of lead-acid and Li-ion storage systems (name some companies). 
  - Lead-acid batteries are cumbersome: flooded batteries require regular equalization and topping-off with water, have a limited number of deep cycles (500-1000 typically), do not tolerate extended periods at low charge, etc. Plus they are heavy and big, often weighing over a tonne.
  - Other alternatives such as iron-phosphate, durable but also have many problems. Anything but an "appliance".
 
 Up until a few years ago, affordable battery storage generally required a room full of lead-acid batteries. Because the life-span of batteries quickly decreases with the depth of discharge (DoD), you usually need to install much more battery capacity than you will actually need on a day-to-day basis. Li-ion batteries may be more expensive than lead-acid, they also last longer and take up much less space. Compared to alternative systems, Tesla's batteries are small, fairly durable, look attractive and are relatively affordable due to their projected large-scale production. 
 
+ - In notes or in main text?
+   - Mention durability tricks (12kWh, cooling, charging).
+   - However, special inverters needed and max. power output will increase cost and EROI. 
+
 In other words, while Tesla Energy is not the first to offer a home-scale electricity storage solution, they certainly have better PR and more attractive pricing than most alternative solutions currently on the market. But a more important point is perhaps this: Tesla is the first company to offer and market battery storage not as a custom niche-market solution, but rather as a mass-produced consumer appliance that should "just work".[^customsolution] 
+
 
 In a technical sense, Tesla's Powerwall is not a revolutionary product. It is proven technology, just nicely packaged and fitted with smart software and some other tricks to extend the inherently limited life-span of its Li-ion cells.[^teslatricks] But this is exactly the thing that Tesla does right: using and scaling up existing technologies, thereby making it more widely available to consumers and organisations, instead of waiting around for some technological breakthrough that may or may not happen soon. It is the same strategy they use with their electric vehicles: make them attractive for people who can afford them, and then gradually bring down costs. (And incidentally, Tesla's and other electric cars are excellent small-scale electricity storage devices!) 
 There are no doubt many people and companies that can afford the luxury of battery storage, or even going off-grid completely. The well-off early adopters of electric and hybrid cars may well be the same people who will want a fancy sleek power-storage device on their walls. As I wrote before, revolutions have to start somewhere, and this seems a good place to start. And this is a point that is generally missed by people who merely complain that solar power with Powerwall-storage currently tends to be more expensive than grid power.
 
- - Somewhere, mention durability tricks (12kWh, cooling, charging), special inverters needed and max. power output. These latter things will increase cost and EROI. 
- - Tesla's vehicles and other EVs can also be used as storage. Experiments being done.
-
+ - Notes: Tesla's vehicles and other EVs can also be used as storage. Experiments being done in Utrecht.
+   - https://www.stedin.net/over-stedin/pers-en-media/persberichten/wereldprimeur-utrecht-laadpaal-maakt-opslag-zonneenergie-mogelijk
+   - Mart van de Kam, UU
+     - http://www.uu.nl/staff/MJvanderKam
+     - http://dx.doi.org/10.1016/j.apenergy.2015.04.092
+     - Dissertation should be in http://www.narcis.nl/search/coll/person/uquery/kam/Language/nl
 
 ### But is it sustainable?
 
  - If solar + battery replaces fossil demand, yes. Mostly the battery will only make a difference if it makes solar worthwile where it wasn't before, e.g. in absence of grid-metering or when replacing a generator in off-grid systems. 
- - May help less coal/gas plants to be built for backup, but only if solar + storage is introduced at very large-scale (doesn't seem likely yet).
- - Energy needed to produce panels + battery, EROI, time needed to be energy-neutral. 
- - Often used argument: Lithium is toxic and will run out. Bit of an odd argument, as this goes for a lot of resources, including oil. Recycling will reduce all of the above problems, is possible and already done for lead-acid. Certainly, lithium may run out at some point, but not yet by far, and Lithium-ion isn't the only technology.
- - Biggest challenges: Life span needs to go up, production energy cost and carbon need to go down.
+ - May help less coal/gas plants to be built for backup, but only if solar + storage is introduced at very large-scale (doesn't seem likely yet). We probably need larger-scale storage techniques for that to happen.
+ - Energy needed to produce panels + battery leads to energy payback time, time needed to be energy-neutral.
+   - Li-ion requires ~500 kWh per kWh of capacity. A large part of this energy is utilized in mining scarce elements and achieving
+the high temperatures required to make the electrode materials.
+   - The Powerwall-cells (12 kWh) require around 6000 kWh (6 MWh) to produce. Maybe a bit less for modern production, but we also need to include electronics.
+   - Mono-Si solar-panel takes ~1200 kWh to produce, plus ~546 kWh mounting, so say 1700 kWh.
+   - Ribbon-Si is closer to ~750 kWh per panel, so ~1300 kWh per panel.
+   - A 265 Wp-panel in Spain generates ~338 kWh per year, and in NL ~199 kWh per year, with 0.75 performance ratio (TODO: check the calculation!).
+   - So energy payback time for a mono-Si module is ~5 years in Spain, and >8 years in NL. Ribbon-Si is ~4 years in Spain and ~6.5 years in NL. More optimistic figures of 1.5 years assume ribbon-Si, production in Europe, using less primary energy, and excluding frame and mounting.
+   - An installation of 20 panels would generate 6760 kWh per year in Spain, and ~4000 kWh in NL, per year. So after 4-6.5 years, an additional 1-1.5 years are needed to "pay back" the energy needed to produce a PowerWall or equivalent Li-ion battery.
+ - Often used argument: Lithium is toxic and will run out. Bit of an odd argument, as this goes for a lot of resources, including oil. Lead-acid batteries are a lot more toxic. Recycling will reduce all of the above problems, is possible and already done for lead-acid. Certainly, lithium and other components (e.g. cobalt) may run out at some point, but not yet by far, and Lithium-ion isn't the only technology.Many alternatives exist, many more are being developed. See Larcher & Tarascon.
+ - Biggest challenges: Life span needs to go up, production energy cost and carbon need to go down. This is certainly possible.
 
+
+ - Sources: 
+   - 1 MJ = 0.277778 kWh
+   - http://www.lowtechmagazine.com/2015/04/how-sustainable-is-pv-solar-power.html
+   - http://www.sciencedirect.com/science/article/pii/S0038092X14001935
+     - Energy Payback Time for PV modules ranged from 1.4 - 2.4 years, depending on type and where it was produced.
+     - Cumulative primary energy demand is 2500-5000 MJ per module, or 694-1389 kWh, say 1200 kWh average
+     - Uses data from 2004-2006, and assumes 1700 kWh/(m3 yr), typical for southern europe
+   - http://www.nrel.gov/docs/fy13osti/56487.pdf
+   - http://www.lowtechmagazine.com/2015/05/sustainability-off-grid-solar-power.html
+   - The making of 1 kWh of lithium-ion battery storage requires 400 kWh of energy.
+   - Rydh & Sanden, 2004, http://dx.doi.org/10.1016/j.enconman.2004.10.004
+     - Energy requirements for PV panel production in 2004: 32 MJ/Wp +/- 20% (8.89 kWh/Wp), or 4200 MJ/m2 (1167 kWh/m2)
+     - For panel frames: 500 MJ/m2 (139 kWh/m2)
+     - Roof mounting: 700 MJ/m2 (194 kWh/m2)
+     - Total would be 1914 kWh per panel, plus 228 kWh for its frame and 318 kWh for mounting, in total 2460 kWh per panel.
+     - For inverter, charger and AC: 1 MJ/W (278 kWh/kW)
+     - For Li-ion materials, virgin: 0.67 MJ/Wh (186 kWh/kWh)
+     - For Li-ion materials, recycled: 0.31 MJ/Wh (86 kWh/kWh)
+     - For battery production: 1.2 MJ/Wh (333 kWh/kWh)
+     - Total: 519 kWh/kWh for new Li-ion batteries, or 419 kWh/kWh for recycled ones.
+     - PbA does a bit worse for materials, but uses only about a third of energy for manufacturing (242 kWh/kWh recycled and 331 for new) 
+   - Rydh & Sanden, 2004, http://dx.doi.org/10.1016/j.enconman.2004.10.004
+     - Production and transportation of batteries contributes 24–70% to the total indirect energy use of the PV-battery system compared to 26–68% for the PV array (Fig. 6). Given a system lifetime of 30 years, the PV array contributes 1.8–3.3 yr and batteries 0.72–10 yr to the energy payback time depending on the technology. 
+     - Efficiency of total PV-battery system is ca. 80% (including indirect energy costs for production). 
+     - Energy return factor for Li-ion is 7.9, so the PV-battery system uses 8 times less fossil energy than a comparable Diesel generator would have done.
+   - Report: EPA 744-R-12-001, April 24, 2013 (Application of Life-Cycle Assessment to Nanoscale Technology: Lithium-ion Batteries for Electric Vehicles), http://www2.epa.gov/sites/production/files/2014-01/documents/lithium_batteries_lca.pdf
+     - Average primary energy use across the Li-ion battery chemistries totaled 1,780 MJ/kWh of battery capacity (= 494 kWh/kWh).
+   - D. Larcher & J-M. Tarascon, Towards greener and more sustainable batteries for electrical energy storage (2014), http://dx.doi.org/10.1038/nchem.2085
+     - While such hydroelectricity is widely used, it stores just 3 Wh for every 1 m3 (ton) of water lifted by 1m.
+     - early integrated LCA estimations 6–9 (for example, taking into account the
+production of batteries, materials and recycling) have revealed that
+more than 400  kWh are needed to make a 1  kWh Li-ion battery
+(Fig. 2), resulting in the emission of about 75 kg of CO 2 — as much
+as burning 35 l of gasoline. In comparison, the production of 1 kWh
+of electricity from coal produces around 1 kg of CO 2 (refs 10,11).
+Despite the fact that the CO 2 generated by battery manufacturing
+is undesirable, the associated energy cost is still a bigger concern.
+In other words, under these conditions, batteries will only begin
+to have an environmental benefit beyond hundreds of cycles.
+Despite the very large discrepancy in reported LCA data regarding
+the relative impacts of materials production versus cell assembly, it
+is clear (Fig. 2) that ‘materials production’ is a main contributor to
+CO 2 emissions and energy costs. It includes various aspects such as
+mining, ore transport, ore treatment, and so on. In fact, a large part
+of this energy is utilized in mining scarce elements and achieving
+the high temperatures required to make the electrode materials 16,17 .
+Consequently, the only viable path towards a ‘greener and more
+sustainable’ battery is rooted in our ability to design electroactive
+materials that have comparable performances to today’s electrodes,
+but cost less energy and release less CO 2 during production.
+Batteries have traditionally been considered to be potentially haz-
+ardous to the environment due to the wide use of toxic lead, cad-
+mium, mercury, and so on. Li-ion batteries do not contain any of
+these materials but 3d metals such as nickel or cobalt are used in
+most of them. Their use together with lithium is problematic due to
+limited supply, their continuously increasing cost and the environ-
+mentally questionable extraction methods. Furthermore, a wide-
+spread use of Li-ion batteries for automotive or grid applications
+will, over time, require that either the 3d metals (cobalt, nickel) are
+partially substituted and/or that an efficient recovery or recycling
+method for batteries is adopted. In today’s Li-ion batteries for port-
+able electronics, cobalt and lithium contents range between about
+5 and 15  wt% and 2 and 7  wt%, respectively 105 . Several hundred
+thousand tons of batteries are sold annually; this constitutes an
+‘urban mine’ for the recovery of thousands of tons of metal with
+cost advantages over direct mining.
 
 ### Wrap-up
 
