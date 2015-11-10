@@ -8,17 +8,17 @@ Status: draft
 
 **By Levien van Zon**
 
-*Dit artikel is gepubliceerd op [Foodlog](http://www.foodlog.nl/artikel/the-future-of-food-voor-rijke-consumenten/).
-De voetnoten in dit artikel bevatten extra achtergrondinformatie en bronnen, en zijn straffeloos over te slaan of apart te lezen.*
+*This article was originally published in Dutch on the website [Foodlog](http://www.foodlog.nl/artikel/the-future-of-food-voor-rijke-consumenten/).
+The footnotes provide additional background information, and can safely be skipped or read separately.*
 
-Op 15 oktober werd de documentairefilm [The Future of Food](http://commerceoftomorrow.com/food) gelanceerd, gemaakt in opdracht van PostNL. Het lijkt het eerste deel te zijn van [Commerce of Tomorrow](http://commerceoftomorrow.com/) een "multi chapter documentary" over de toekomst van *e-commerce*. De introductie spreekt van "A conversation with leading voices", en "A 360° journey". De makers zeggen:   
+On October 15th, the Dutch national postal company PostNL launched the documentary film [The Future of Food](http://commerceoftomorrow.com/food). This seems to be the first part of [Commerce of Tomorrow](http://commerceoftomorrow.com/), a multi chapter documentary on the future of e-commerce. The introduction speaks of "A conversation with leading voices" and "A 360° journey". According to the makers:   
 *The world is continually changing and with a population approaching 8 billion, our behaviour needs to change with it. Commerce of Tomorrow is inviting thought leaders to share their vision, their understanding of how we can shape the future we envision. Please join the conversation. Together we can make a difference. PostNL and Present Plus present: [The Future of Food](http://commerceoftomorrow.com/food).*
 
 <iframe src="https://player.vimeo.com/video/142278154" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+**Dominant views**   
+It is perhaps not surprising that PostNL is interested in the logistics that follow from new sales models, such as web shops for food. However, the title "The Future of Food" suggests a broader vision. And it is this vision that I would like to dissect, as it presumably shows the dominant views in the way we deal or should deal with food. To build up the tension somewhat: so far I cannot discern a reassuring image for the future of food in the world as a whole. 
 
-**Dominante toekomstbeelden**   
-Uiteraard is PostNL geïnteresseerd in de logistiek die volgt uit de verkoopmodellen van de toekomst, zoals webwinkels voor voedsel. De titel "The Future of Food" suggereert echter een bredere visie. Die wilde ik graag ontleden omdat die visie vermoedelijk laat zien wat de dominante toekomstbeelden over onze omgang met voedsel zijn. Om de spanning alvast op te bouwen: ik kan er nog geen geruststellend beeld voor de wereld als geheel in ontdekken. 
 
 
 **Vervreemding**   
