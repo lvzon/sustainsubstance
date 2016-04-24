@@ -23,7 +23,7 @@ MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'subscript', 'supers
 #MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'subscript', 'superscript', 'sane_lists', 'smarty']
 
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
-STATIC_PATHS = ['theme/images', 'images']
+STATIC_PATHS = ['theme/images', 'images', 'files', 'offline']
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
