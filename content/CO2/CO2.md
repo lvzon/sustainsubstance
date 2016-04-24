@@ -1,13 +1,12 @@
 Title: Why CO2 Should Worry You (Yes, Sceptics Too!)
 Authors: Levien van Zon
 Date: 2014-10-30
-Modified: 2014-10-30
 Tags: CO2, climate
 Slug: co2
 
 **By Levien van Zon**
 
-*This article is also available in [Dutch](http://duurzaamheidsweb.nl/co2.html). The footnotes provide additional background information, and can safely be skipped or read separately.*
+*This article is also available in [Dutch](http://duurzaamheidsweb.nl/co2.html), and as [PDF]({filename}/offline/sustainsubstance-20141030-why_co2_should_worry_you.pdf) or ebook ([EPUB]({filename}/offline/sustainsubstance-20141030-why_co2_should_worry_you.epub) and [Kindle]({filename}/offline/sustainsubstance-20141030-why_co2_should_worry_you.azw3)) for offline reading. The footnotes provide additional background information, and can safely be skipped or read separately.*
 
 I had originally planned to write my first article on a different subject, the ecological footprint. But World Climate Action Day and the UN Climate Summit last month persuaded me to write about CO~2~ instead. I must admit, I think that maybe too much emphasis has been put on climate change over the last few years. It is but one aspect of an underlying problem, that of energy sources and energy use. Moreover, it distracts from other important problems, such as land use, biodiversity decrease and ethical issues. Sometimes one gets the impression that sustainability is equal to reducing CO~2~-emissions, which is obviously not the case.
 Many people are tired of the discussion surrounding climate change. The arguments of climate sceptics and "climate deniers" have been quite effective in generating doubt among the general public. More than half of people worldwide do not believe climate change to be a serious problem.[^polls] Yet, despite all this, it is still important to talk about CO~2~. Even if you doubt that climate change occurs, there are still good reasons to seriously reduce CO~2~ emissions as soon as possible. 

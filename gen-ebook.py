@@ -17,6 +17,8 @@ infile  = open(ifname, "r")
 outfile_pdf  = open(ofname_pdf, "w")
 outfile_epub  = open(ofname_epub, "w")
 
+ofbasename = sys.argv[2]
+
 print ("Input file:", ifname)
 
 keyval = re.compile(r'(.*?):\s+(.*)'    )
@@ -54,7 +56,10 @@ yaml += "\n---\n\n"
 outfile_epub.write(yaml)
 
 yaml = "---\ntitle: " + title + "\n"
-yaml += "author: " + header["Authors"] + "\n"
+if (email[header["Authors"]]):
+    yaml += "author: " + header["Authors"] + " (<" + email[header["Authors"]] + ">) \n"
+else:
+    yaml += "author: " + header["Authors"] + "\n"
 yaml += "date: " + header["Date"] + "\n"
 yaml += "papersize: A4\n"
 yaml += "fontsize: 11pt\n"
@@ -87,7 +92,7 @@ for line in infile:
         line = line.replace(r'{filename}' + match.group(1) + ".md", match.group(1) + ".html")
         print(line)
 
-    match = re.search(r'[\(\<\"](\/.*?)[\)\>\"]', line)
+    match = re.search(r'[\(\"](\/.*?)[\)\"]', line)
     if (match):
         print("Fixing link to", match.group(1))
         line = line.replace(match.group(1), base_url + match.group(1))
@@ -131,9 +136,12 @@ infile.close()
 outfile_epub.close()
 outfile_pdf.close()
 
-cmd_pdf = "pandoc -o \"" + title + ".pdf\" --latex-engine=xelatex -H latex-header.tex tmp_latex.md"
-cmd_epub = "pandoc -o \"" + title + ".epub\" tmp_epub.md"
-cmd_mobi = 'ebook-convert "' + title + '.epub" "' + title + '.azw3"'
+if not ofbasename:
+    ofbasename = title
+
+cmd_pdf = "pandoc -o \"" + ofbasename + ".pdf\" --latex-engine=xelatex -H latex-header.tex tmp_latex.md"
+cmd_epub = "pandoc -o \"" + ofbasename + ".epub\" tmp_epub.md"
+cmd_mobi = 'ebook-convert "' + ofbasename + '.epub" "' + ofbasename + '.azw3"'
 
 print("Running", cmd_epub)
 os.system(cmd_epub)
