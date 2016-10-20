@@ -104,7 +104,7 @@ For older buildings where floor-heating and heat pumps are not an option, [local
 10. Last but not least, do you feel that your work does not make a positive contribution to society? Consider looking for a different job.[^work]. The government, the service-sector and the private companies are responsible for much of our emissions, and we want them to start changing the world for the better. But in the end, governments, companies and other institutions are all run by us. There is such a thing as "the system", but you should never forget that you're a part of it, and therefore you can help change it.
 
 
-Interested in more articles? Follow us [on Facebook](https://www.facebook.com/sustainsubstance), or via our [Atom-feed](/feeds/all.atom.xml).
+Interested in more articles? Follow us [on Facebook](https://www.facebook.com/sustainsubstance), on [Twitter](https://twitter.com/levienvanzon), or subscribe to our [mailing list](https://groups.google.com/d/forum/sustainsubstance) or [Atom-feed](/feeds/all.atom.xml).
 
 ----
 **Footnotes:**
