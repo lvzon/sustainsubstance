@@ -43,9 +43,9 @@ What you can see here is that the energy consumption *per person* has gone up to
 
 #### The kWh and other animals
 
-Two centuries ago, in 1800, the average human used just over 16 kWh per day. A century ago this had increased to just over 24 kWh per day. Today, the average person uses around 60 kWh per day. Before we continue, what is this kWh-thing exactly? Well, the technical description would be this: If we take a device that draws 1000 Watts of power (1 kiloWatt), say a decent toaster, 1 kiloWatt-hour (kWh or kW·h) is the amount of *energy* that it will consume in one hour. So kWh is a measure of energy, and a fair amount of energy at that. For people who like standard units: 1 kWh is qual to 3.6 MJ (megaJoules). Let's look at a few examples. 
+Two centuries ago, in 1800, the average human used just over 16 kWh per day. A century ago this had increased to just over 24 kWh per day. Today, the average person uses around 60 kWh per day. Before we continue, what is this kWh-thing exactly? Well, the technical description would be this: If we take a device that draws 1000 Watts of power (1 kiloWatt), say a decent toaster, 1 kiloWatt-hour (kW·h or kWh) is the amount of *energy* that it will consume in one hour. So kWh is a measure of energy, and a fair amount of energy at that. For people who like standard units: 1 kWh is qual to 3.6 MJ (megaJoules). Let's look at a few examples. 
 
-**TODO:** Make a figure which shows what you can do with 1 kWh, how much energy is in some other fuels, how much is used for some common activities (driving a car, powering a house, average daily use).
+**TODO:** Make a figure which shows what a kWh is, what you can do with 1 kWh, how much energy is in some other fuels, how much is used for some common activities (driving a car, powering a house, average daily use).
 
 1 kWh of energy will keep my small 2000 W electrical space heater running for half an hour. It will keep an old-fashioned 40 W lightbulb burning for roughly 24 hours, and it's enough energy to boil a bucket of water.[^waterboiling] However, an average (gasoline) car will only drive around 1 to 1.5 km on 1 kWh of energy.[^carenergy] Being derived from crude oil, a litre of gasoline contains almost 9 kWh of energy (or 33 kWh per gallon). And a cubic metre of natural gas contains around 11 kWh (or 0.3 kWh per cubic foot).[^energycontent]    
 Worldwide, an average electrified household uses around 10 kWh of *electricity* per day inside their home, although in Australia and France it's almost double this amount, and in the US and Canada it's easily three time this figure.[^electricityuse] 
@@ -65,9 +65,26 @@ As you can see in this figure, countries vary quite a lot in how much energy the
 
 
 **TODO:**
-
-   - Point out average, most countries are below this, some are (far) above.
-   - Point out some similarities between industrialised countries: oil for transport, mostly fossil fuel for electricity and heat production (coal or nuclear and increasingly gas for electricity, will talk a bit more about industry and electricity vs. heat in next article).
+   - Create a full ranking graph of primary energy consumption, using IEA-data
+      - Make Python-script to extract and convert IEA data from spreadsheet table (TPES for various energy sources)
+      - Extract TPES (and TPES/person?) from the indicator tables in the IEA PDF. Either manually, or transform PDF, or find data online. 
+      - Manually add data estimates for China, India and regions (Latin America, North America, Europe, Middle East, North/South/Central Africa) if needed
+      - Plot in R or Python and show in extras: total daily primary consumption per person in kWh and absolute in TWh, based on full data, ranked with biggest first
+      - Plot in R or Python and show in extras: same with subdivisions in colour for various energy sources, based on free data subset (+ some extra estimates?)
+      - Show subset of data in text? (main regional averages, OECD countries, several countries with very low figures) 
+   - Point out average, most countries are below this, some are (far) above (up to 4x).
+      - An average person in France, Germany, Japan or New Zealand will use more than twice the world average, over 125 kWh per person per day.
+      - An average Australian, Korean, Norwegian or Swede uses close to three times the world average.
+      - An American or Canadian uses close to four times the average.
+      - Most humans however do not live in North America, Europe or Australia. Over three quarters of humanity lives in Asia (ca. 51.7%), Africa (15.5%) and Latin America (8.6%). 
+      - But energy use per person is a lot lower there than the average (around 40 kWh/person/day in Latin America and Asia, roughly half that figure for Africa and Asia minus China).
+      - And within regions there are large differences. Asians use 40 kWh/person/day, but if you leave out China the average drops to 22, and in a country like Bangladesh it's only 7. Africans use 21 kWh/day, but someone in Central Africa uses only 8.5 kWh per day on average. In Eritrea, Mali and Niger, average energy use is under 5 kWh/person/day, in South Sudan and Burundi it's around 2 and in Chad it's even less, just over 1 kWh/person/day. And most of that is actually biomass, in the form of firewood for cooking.
+      - On the other extreme: the US by itself houses a mere 4.4% of the world population (less than Bangladesh and Pakistan combined), but uses over 16% of the world energy supply (Bangladesh and Pakistan together use 0.9%, at 4.7% of the world's population).
+      - China and India are often mentioned as big users of fossil energy. And indeed, they use a lot of energy compared to other *countries*, but they're also a lot bigger than any other country: together they house well over a third (37%) of the world's people. China, which uses just over a fifth of the world's energy supply (22%). But it also houses around a fifth of the world's population (19%), which means that energy use per person is actually only just above average in China (61 to 71 kWh/person/day, depending on the source). India  has almost as many inhabitants as China (18% of world population), but its energy use is well below average, at 19 kWh/person/day, and it uses less than 6% of the world's energy supply. And especially in China most of the energy is used for export to Western countries (more than two-thirds, close to 70% of energy consumption is for industry). 
+   - Show more detailed graph for a subset of countries, with energy sources.
+   - Point out some similarities between "industrialised" countries: oil for transport, mostly fossil fuel for electricity and heat production (coal or nuclear and increasingly gas for electricity, will talk a bit more about industry and electricity vs. heat in next article).
+      - There are large differences between countries, but we can see that the European and North American countries shown here all have one thing in common: they use more energy thann the world average, and they use at least twice as much oil. 
+      - The Netherlands alone uses more oil than the 40+ countries in sub-saharan africa together (minus South Africa and Nigeria), which have 30 times more people.
    - Some exceptions: countries with hydro-electricity (Norway, Switzerland, Austria), although almost always low percentage of total energy use, and countries with geothermal (Iceland).
    - Percentage of "renewable" energy includes a lot of biomass. If you leave that out, things look pretty bad for most countries. Especially solar energy lags behind, both globally and nationally. In Europe, the frontrunner is actually Spain, rather than Germany.
    - There is a lot to be improved. Solar is growing rapidly, which is good, but it has to grow faster if it is to make any impact the coming decade. 
