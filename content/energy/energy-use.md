@@ -1,11 +1,13 @@
-Title: On Energy, part 2: Where does the energy go?
+Title: On Energy, part 2: Where does it go?
 Authors: Levien van Zon
-Date: 2016-11-02
+Date: 2017-02-12
 Tags: energy
 Slug: energyseries-energyuse
 Status: draft
 
-**By Levien van Zon**
+**By Levien van Zon**   
+*Reading time: ... minutes*
+
 
 **TODO:**
    - Say something about the energy footprint relative to the TPES for a country. Roughly this adds about a third to the energy use of affluent countries. Use UK as an example, show 
@@ -54,7 +56,11 @@ US just uses a lot of everything.*
 *It seems that there is plenty of room for improvement, right?
 In the next article I will examine the potential for non-fossil energy sources.*
 
+Interested in more articles? Follow us [on Facebook](https://www.facebook.com/sustainsubstance), on [Twitter](https://twitter.com/levienvanzon), or subscribe to our [mailing list](https://groups.google.com/d/forum/sustainsubstance) or [Atom-feed](/feeds/all.atom.xml).
+
 ----
+**Footnotes:**
+
 
 [^china]:
 Of course, there are some exceptions, such as China. Moreover, absolute energy use is still rather high for Asia and Latin America, simply because so many people live there. As people in the West often point out, China is the world's biggest emitter of greenhouse gases, as well as the world's biggest consumer of coal. This is true, but in fact most of this energy is used for making export products. And even if we would count everything as domestic energy use, the population of China is so big that it comes down to only around 72 kWh per person per day, just above world average but well below the energy use of European countries. 
