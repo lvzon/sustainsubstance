@@ -37,6 +37,7 @@ Source: Edison Foundation Institute for Electric Innovation, via http://www.forb
 Source: http://www.pv-magazine.com/archive/articles/beitrag/storage-has-landed-_100009059/501/#axzz3YryioctT
 
 
+
 ### But is it sustainable?
 
 At first glance, promoting PV-systems with battery storage would seem to be a favourable measure in terms of sustainability, for at least two reasons. Firstly, adding battery storage may make the adoption of solar energy more attractive in many countries. And secondly, storing solar and wind energy reduces the need to keep fossil-fuel power stations around as backup during nights and periods with little wind.
@@ -80,6 +81,12 @@ From a sustainability-perspective, the main reason to promote household- or comp
     - How much surplus solar energy is needed to charge this capacity during the day? 
     - Would probably require a fair number of panels in winter, how much in e.g. NL/DE?
     - Becomes more interesting when additive to electric car storage, could be combined with low-power lighting, smart grid equipment to limit peak loads etc. Good excercise in reducing power use.
+
+
+### The role of electrical transport 
+
+ - Using EVs to store power and reduce fossil fuel use.
+ - Current EV battery capacity is ~16 kWh for a plug-in hybrid, ~24 kWh for a passenger EV and ~50 kWh for a transport van. Assuming 67% DoD, the effective capacities are 10, 16 and 33 kWh. The Tesla model S has a bigger range than the typical 100 miles, and 40-90 kWh capacity (effectively less) for 240 mi (390 km) - 265 mi (426 km) of driving. Part of this could be used for storage, although some should of course remain for driving in the morning. But few people will want/need to drive 250 miles / 400 km every morning.
 
 
 

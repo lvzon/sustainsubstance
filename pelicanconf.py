@@ -15,12 +15,47 @@ DEFAULT_DATE = 'fs'
 
 #TYPOGRIFY = True
 
-THEME = "pelican-elegant-1.3/"
+#THEME = "pelican-elegant-1.3/"
+THEME = "../elegant"
 
 #PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
 
-MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'subscript', 'superscript', 'sane_lists', 'smarty', 'headerid', 'toc']
+#MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'subscript', 'superscript', 'sane_lists', 'smarty', 'headerid', 'toc']
 #MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'subscript', 'superscript', 'sane_lists', 'smarty']
+
+# see https://pythonhosted.org/Markdown/reference.html#markdown
+# format required for Pelican 3.7
+MARKDOWN = {
+    'extension_configs': {
+        # set linenums=True for line numbers
+        # https://pythonhosted.org/Markdown/extensions/code_hilite.html
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        # on by default
+        # see https://pythonhosted.org/Markdown/extensions/extra.html
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        # https://facelessuser.github.io/pymdown-extensions/extensions/superfences/
+        'pymdownx.superfences': {},
+        # use single caret for superscript
+        # use double caret for insertion (underline?)
+        # https://facelessuser.github.io/pymdown-extensions/extensions/caret/
+        'pymdownx.caret': {},
+        # use single tildes for subscript
+        # use double tildes for deletion
+        # https://facelessuser.github.io/pymdown-extensions/extensions/tilde/
+        'pymdownx.tilde': {},
+        # https://pythonhosted.org/Markdown/extensions/smarty.html  
+        'markdown.extensions.smarty': {},
+        # so MathJax equations (always) make it through
+        # https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
+        'pymdownx.arithmatex': {},
+        # Auto-convert special symbols, like (tm) to ™
+        # https://facelessuser.github.io/pymdown-extensions/extensions/smartsymbols/
+        'pymdownx.smartsymbols': {},
+    },
+    'output_format': 'html5',
+    'lazy_ol': False,
+}
 
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 STATIC_PATHS = ['theme/images', 'images', 'files', 'offline']
@@ -45,6 +80,15 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+
+# Navbar setup, currently not supported by the Elegant theme: https://github.com/Pelican-Elegant/elegant/pull/733
+
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
+
+MENUITEMS = (
+('NL', '//sustainsubstance.org/nl')
+)
 
 DEFAULT_PAGINATION = 10
 

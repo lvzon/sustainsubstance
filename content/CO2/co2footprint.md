@@ -7,10 +7,10 @@ Slug: co2footprint
 
 **By Levien van Zon**
 
-*This article is also available in [Dutch](http://www.duurzaamheidsweb.nl/co2footprint.html), and as [PDF]({filename}/offline/sustainsubstance-20160422-co2_and_the_average_you.pdf) or ebook ([EPUB]({filename}/offline/sustainsubstance-20160422-co2_and_the_average_you.epub) and [Kindle]({filename}/offline/sustainsubstance-20160422-co2_and_the_average_you.azw3)) for offline reading.*
+*This article is also available in [Dutch](http://sustainsubstance.org/nl/co2footprint.html), and as [PDF]({static}/offline/sustainsubstance-20160422-co2_and_the_average_you.pdf) or ebook ([EPUB]({static}/offline/sustainsubstance-20160422-co2_and_the_average_you.epub) and [Kindle]({static}/offline/sustainsubstance-20160422-co2_and_the_average_you.azw3)) for offline reading.*
 
 Today, on Earth day, [countries will start signing the Paris climate treaty](http://www.un.org/sustainabledevelopment/blog/2016/04/what-exactly-is-going-to-happen-at-the-climate-signing-ceremony-on-22-april/) that was reached last December by the representatives of 195 countries. A lot has already been said and written about this Paris Agreement, which in 2020 should succeed the venerable 1997 Kyoto protocol.[^cop21] 
-While the agreement is a great step forward, we're certainly not there yet. There's a lot of work ahead for governments, civil society and the private sector. The key to controlling global warming basically lies in [keeping government-owned fossil fuel reserves in the ground, and halting the exploration of new reserves by private companies](http://www.theguardian.com/commentisfree/2015/dec/16/new-form-climate-denialism-dont-celebrate-yet-cop-21). This is possible, but not exactly trivial given the huge economic interests involved and the significant challenges inherent in transitioning to a new energy system. 
+While the agreement is a great step forward, we're certainly not there yet. There's a lot of work ahead for governments, civil society and the private sector. The key to controlling global warming basically lies in [keeping government-owned fossil fuel reserves in the ground](http://www.theguardian.com/commentisfree/2015/dec/16/new-form-climate-denialism-dont-celebrate-yet-cop-21), [and halting the exploration of new reserves by private companies.](http://www.theguardian.com/commentisfree/2015/dec/16/new-form-climate-denialism-dont-celebrate-yet-cop-21) This is possible, but not exactly trivial given the huge economic interests involved and the significant challenges inherent in transitioning to a new energy system. 
 
 [In an earlier article](/co2.html) I described why it is important to reduce the emission of greenhouse gasses such as CO~2~, even if you're sceptical about the warnings of an impending climate apocalypse.[^co2importance] Recognising that something should probably be done to reduce emissions is an important step, one that our governments finally seem to have taken. But the more difficult problem is really: how do we do that? Reducing greenhouse gas emissions is much easier said than done. For the most part, they are caused by the burning of fossil fuels to meet our energy requirements. If we want to reduce these emissions, we will need two things: alternative energy sources and more efficient use of energy.[^energy] Governments will no doubt play an important role in reducing emissions, but the role of citizens and companies will probably be at least as important, if not more so.
 
@@ -20,7 +20,7 @@ The figure below shows the daily greenhouse gas emission for an average consumer
 
 <div style="display: block; margin: 30px 0; width: 80vw; margin-left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%);">
 <a href="{filename}/pages/ghg-consumption-nl.md">
-<img src="{filename}/images/carbon-footprint-consumption-nl.png" alt="greenhouse gas emissions from average consumption in NL">
+<img src="{static}/images/carbon-footprint-consumption-nl.png" alt="greenhouse gas emissions from average consumption in NL">
 </a>
 </div>
 
@@ -32,7 +32,7 @@ So within a country, the differences in emission between people can be quite lar
 
 <div style="display: block; margin: 30px 0; width: 80vw; margin-left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%);">
 <a href="{filename}/pages/ghg-consumption-countries.md">
-<img src="{filename}/images/carbon-footprint-consumption-countries.png" alt="greenhouse gas emissions from average consumption in various countries">
+<img src="{static}/images/carbon-footprint-consumption-countries.png" alt="greenhouse gas emissions from average consumption in various countries">
 </a>
 </div>
 
@@ -44,7 +44,7 @@ When people talk about saving energy or installing solar panels, a lot of attent
 
 **Mobility**, especially road and air traffic, contribute around the same order of magnitude as our housing. In The Netherlands, mobility is responsible for 9 kg CO~2~-eq. per person per day, around a fifth of the total emissions. The figure below shows the source of some of these in more detail for 2010/2012 (click on the figure for more details):
 
-[![greenhouse gas emissions by transport]({filename}/images/carbon-footprint-transport-nl.png)]({filename}/pages/ghg-transport-nl.md)
+[![greenhouse gas emissions by transport]({static}/images/carbon-footprint-transport-nl.png)]({static}/pages/ghg-transport-nl.md)
 
 We should note that the contributions of especially air traffic and transport of goods are underestimated here, because only traffic within the country counts in this figure. Nonetheless, you can clearly see that **air travel** contributes significantly (probably more than 2 kg), but that **cars** contribute even more to emissions (almost 3.5 kg). Emissions from public transport on the other hand are almost negligible. Commuting and private car-use emit about as much as electricity use at home does. And this is despite the fact that only around half of land-based travel in the Netherlands is by car.[^nltransport] Compared to other European countries, a relatively high percentage of Dutch people travel mainly with public transport or on bicycle. The average emission figures actually include a lot of people that either have no car or hardly use their car, so the daily emission *per car driver* will certainly be higher than 3.5 kg!
 
@@ -56,7 +56,7 @@ Because it's not so easy to think in averages, it's good to see how much greenho
 
 <div style="display: block; margin: 30px 0; width: 80vw; margin-left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%);">
 <a href="{filename}/pages/ghg-products.md">
-<img src="{filename}/images/carbon-footprint-products-nl.png" alt="greenhouse gas emissions for consumption goods and activities">
+<img src="{static}/images/carbon-footprint-products-nl.png" alt="greenhouse gas emissions for consumption goods and activities">
 </a>
 </div>
 
@@ -65,7 +65,7 @@ Here the same caveats apply: these are not exact figures, and estimates for emis
 For most of us, this figure will contain a few surprises. The emissions from public transport, taking a shower or using electricity are perhaps surprisingly small. On the other hand, things like paper, cheese and food or flowers grown under glass have an unexpectedly large emission footprint. Most people will not be very surprised by the fact that meat, shrimp and driving a car all have a relatively large carbon-footprint. The contribution of driving however depends very much on the size of the car (and its speed, but that is not shown here). And many people probably wouldn't guess that, as a passenger, we emit roughly the same amount per kilometre when we fly as when driving an average car. But because we generally travel much longer distances when we fly, one trip by plane will have a large impact on our emission figures. However, the impact of an intercontinental trip is dwarfed by the amount of CO~2~ released when making a new car. Buying a car has a huge impact, even if no-one ever drives in it, especially if the car in question is big and luxurious. Finally, because our first two figures use data from 2000/2001, they may somewhat underestimate the current contribution of electronics devices. As an example, producing one computer emits roughly as much CO~2~ as 1-3 months' worth of food, or driving an average car for 12-40 hours.
 
 
-![Roses in a greenhouse, with additional "assimilation lighting".]({filename}/images/storage/rose-greenhouse.jpg)
+![Roses in a greenhouse, with additional "assimilation lighting".]({static}/images/storage/rose-greenhouse.jpg)
 
 And in case you were wondering why roses have such a large climate footprint (relative to many other producs), this is a matter of energy and climate. A single-stem rose takes [roughly two months](http://ageconsearch.umn.edu/bitstream/42312/2/staff369.pdf) to grow, and it requires additional lighting and heating in winter, when most roses are bought (think Valentines Day!). Although heat pumps and modern LED-lights can significantly reduce energy use in modern greenhouses, a single greenhouse complex easily requires several megawatts of electrical power just to keep the lights on.
 
@@ -104,7 +104,7 @@ For older buildings where floor-heating and heat pumps are not an option, [local
 10. Last but not least, do you feel that your work does not make a positive contribution to society? Consider looking for a different job.[^work]. The government, the service-sector and the private companies are responsible for much of our emissions, and we want them to start changing the world for the better. But in the end, governments, companies and other institutions are all run by us. There is such a thing as "the system", but you should never forget that you're a part of it, and therefore you can help change it.
 
 
-Interested in more articles? Follow us [on Facebook](https://www.facebook.com/sustainsubstance), on [Twitter](https://twitter.com/levienvanzon), or subscribe to our [mailing list](https://groups.google.com/d/forum/sustainsubstance) or [Atom-feed](/feeds/all.atom.xml).
+Interested in reading more articles like this? Subscribe to my [Substack](https://lvzon.substack.com/), or follow me on [Facebook](https://www.facebook.com/sustainsubstance), [Bluesky](https://bsky.app/profile/lvzon.bsky.social) or [Twitter/X](https://twitter.com/levienvanzon). You can also subscribe to our [Atom-feed](/feeds/all.atom.xml).
 
 ----
 **Footnotes:**
@@ -112,7 +112,7 @@ Interested in more articles? Follow us [on Facebook](https://www.facebook.com/su
 
 [^cop21]:
 *A lot has already been said and written about this Paris Agreement, which in 2020 should succeed the venerable 1997 Kyoto protocol.*   
-[The Guardian](http://www.theguardian.com/environment/cop-21-un-climate-change-conference-paris) has provided excellent coverage of and commentary on the Paris talks and the resulting agreement. Read their [5 reasons to be glad, 5 to be gloomy](http://www.theguardian.com/global-development/2015/dec/15/climate-change-deal-five-reasons-glad-five-reasons-gloomy) for a short summary. While [James Hansen](http://www.theguardian.com/environment/2015/dec/12/james-hansen-climate-change-paris-talks-fraud) and [George Monbiot](http://www.theguardian.com/environment/georgemonbiot/2015/dec/12/paris-climate-deal-governments-fossil-fuels) see the Paris agreement as grossly insufficient, others have pointed out that it represents a [flame of hope](http://www.theguardian.com/environment/2016/jan/17/paris-climate-deal-flame-of-hope-diplomacy-christiana-figueres), that [its goals can be reached if governments and the private sector increase energy efficiency and scale up renewable energy to 36% by 2030](http://www.theguardian.com/environment/2016/jan/16/rapid-switch-to-renewable-energy-can-put-paris-climate-goals-within-reach), and that the agreement at least provides a [reason to run harder](http://www.theguardian.com/commentisfree/2015/dec/13/paris-climate-talks-15c-marathon-negotiating-physics). 
+[The Guardian](http://www.theguardian.com/environment/cop-21-un-climate-change-conference-paris) has provided excellent coverage of and commentary on the Paris talks and the resulting agreement. Read their [5 reasons to be glad, 5 to be gloomy](http://www.theguardian.com/global-development/2015/dec/15/climate-change-deal-five-reasons-glad-five-reasons-gloomy) for a short summary. While [James Hansen](http://www.theguardian.com/environment/2015/dec/12/james-hansen-climate-change-paris-talks-fraud) and [George Monbiot](http://www.theguardian.com/environment/georgemonbiot/2015/dec/12/paris-climate-deal-governments-fossil-fuels) see the Paris agreement as grossly insufficient, others have pointed out that it represents a [flame of hope](http://www.theguardian.com/environment/2016/jan/17/paris-climate-deal-flame-of-hope-diplomacy-christiana-figueres), that [its goals can be reached](http://www.theguardian.com/environment/2016/jan/16/rapid-switch-to-renewable-energy-can-put-paris-climate-goals-within-reach) if governments and the private sector increase energy efficiency] [and scale up renewable energy to 36% by 2030, and that the agreement at least provides a [reason to run harder](http://www.theguardian.com/commentisfree/2015/dec/13/paris-climate-talks-15c-marathon-negotiating-physics). 
 
 
 [^co2importance]:

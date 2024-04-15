@@ -9,22 +9,16 @@ Slug: about
 https://github.com/wrobstory/pelican_dynamic
 --->
 
-The goal of this website is to collect balanced, well-supported and where possible quantitative information on the sustainability aspects of our society, our consumption and our behaviour. The site is meant to fill the gap that currently exists between superficial short articles on one hand, and tough reports and scientific articles on the other.
+<img src="{static}/images/levien-portrait-2023-small-lighter.jpg" alt="Levien van Zon" style="float:right;padding-left:30px;border:none;width:40%;height:auto;" />
+The stories we tell ourselves and each other about sustainability are usually oversimplified. Most tend to revolve around either technical solutions ,or around a kind of modern romanticism. 
+*The Substance of Sustainability* is a personal research project that looks at what would be needed for human societies to be truly sustainable. What can we learn from complex natural systems in this regard? And which alternative stories can we tell about sustainability, that may actually help rather than hinder us?
 
+This project started out in 2014, and it initially focused on greenhouse gas emissions, environmental footprints and  energy systems. Over time, the focus shifted more toward agriculture, system health, general problems with the metabolism of societies and the role of stories in how we understand and shape the world around us. A new series of articles on these subjects will be published in 2024.
 
-<img src="{filename}/images/levien-small.jpg" alt="Levien van Zon" style="float:right;padding-left:30px;border:none;"> *The Substance of Sustainability* is the personal research project of Levien van Zon. Levien is an Environmental scientist as well as a Theoretical Biologist, and he currently works in sustainable energy. However, as a consumer and citizen, he is just as confused as the rest of us.
+Levien van Zon was trained a Theoretical Biologist and Environmental Scientist, with an active interest in complex systems. He lives and works in Amsterdam and has spent the past decade thinking, talking and reading a lot about sustainability. 
 
+If you want occasional updates on new articles and other things of interest, subscribe to my [Substack](https://lvzon.substack.com/), or follow me on [Facebook](https://www.facebook.com/sustainsubstance), [LinkedIn](https://www.linkedin.com/in/lvzon), [Bluesky](https://bsky.app/profile/lvzon.bsky.social) or [Twitter/X](https://twitter.com/levienvanzon), or subscribe to our [Atom-feed](/feeds/all.atom.xml).
 
-The central question that interests me is the following: To what extent is true sustainability possible, and to what extent can we contribute to this as individuals? Not just (or even primarily) as consumers, but as citizens, employees, managers, entrepreneurs, farmers, voters, activists, parents and students, in general as people who participate in society and have to choose how we shape our vocation.  
-It is not hard to show that our current society is in many ways not sustainable. To continue as we do now, business as usual, is not really an option in the long term. But in practise this does not happen, society is constantly adapting.
-The reasons why our society isn't sustainable are also mostly known. But what alternatives do we have, and what choices do we need to make? This is not so clear, as things are rarely as simple as we'd like them to be. Opinions tend to differ greatly on the best way forward, and fact is that nobody can predict the future with certainty.  
-The primary goal of this blog is for me to form an opinion, guided by the information that is out there, and to share this with others.
+For questions, suggestions or other types of feedback, you can contact me on feedback@sustainsubstance.com.
 
-
-This website is hosted on a Raspberry Pi and is still under development. We apologise for the somewhat Spartan looks and minimalist setup...
-
-
-**Contact:** feedback@sustainsubstance.com
-
-Follow us on [Facebook](https://www.facebook.com/sustainsubstance), on [Twitter](https://twitter.com/levienvanzon), or subscribe to our [mailing list](https://groups.google.com/d/forum/sustainsubstance) or [Atom-feed](/feeds/all.atom.xml).
 
