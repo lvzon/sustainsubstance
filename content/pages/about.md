@@ -9,13 +9,16 @@ Slug: about
 https://github.com/wrobstory/pelican_dynamic
 --->
 
-<img src="{filename}/images/levien-small.jpg" alt="Levien van Zon" style="float:right;padding-left:30px;border:none;" />
-Let me introduce myself. My name is Levien van Zon, I have a background in environmental science and theoretical biology, I work in the sustainable energy sector and I've had a life-long fascination for the subject of sustainability. As most people, I struggle with this subject, which is both extremely important and extremely complex and difficult. This blog documents my search for a vision of what a truly sustainable society might look like, and what we need to do to get there. What are the major obstacles, and what could conceivably be done to overcome them? How can we contribute, as citizens, as consumers, as employees, managers, entrepreneurs, farmers, voters, activists, parents and students, in general as people who participate in society and have to choose how we shape our vocation? 
+<img src="{static}/images/levien-portrait-2023-small-lighter.jpg" alt="Levien van Zon" style="float:right;padding-left:30px;border:none;width:40%;height:auto;" />
+The stories we tell ourselves and each other about sustainability are usually oversimplified. Most tend to revolve around either technical solutions ,or around a kind of modern romanticism. 
+*The Substance of Sustainability* is a personal research project that looks at what would be needed for human societies to be truly sustainable. What can we learn from complex natural systems in this regard? And which alternative stories can we tell about sustainability, that may actually help rather than hinder us?
 
-The articles I write are rarely short, and they involve numbers (because numbers matter). However, I will try to make the articles as readable as I can. Currently, this website is hosted on a Raspberry Pi in my living room, so I apologise for the somewhat Spartan look and long loading times. As the content grows, I will probably migrate to a somewhat more professional platform. However, all articles on this blog can also be downloaded as an e-book or PDF file for offline reading at your leisure.
+This project started out in 2014, and it initially focused on greenhouse gas emissions, environmental footprints and  energy systems. Over time, the focus shifted more toward agriculture, system health, general problems with the metabolism of societies and the role of stories in how we understand and shape the world around us. A new series of articles on these subjects will be published in 2024.
 
-If you want occasional updates on new articles and other things of interest, please do subscribe to our [mailing list](https://groups.google.com/d/forum/sustainsubstance), follow us on [Facebook](https://www.facebook.com/sustainsubstance) or [Twitter](https://twitter.com/levienvanzon), or subscribe to our [Atom-feed](/feeds/all.atom.xml).
+Levien van Zon was trained a Theoretical Biologist and Environmental Scientist, with an active interest in complex systems. He lives and works in Amsterdam and has spent the past decade thinking, talking and reading a lot about sustainability. 
 
-If you have any questions, suggestions or other types of feedback, don't hesitate to contact me via e-mail (feedback@sustainsubstance.com), Facebook or Twitter. Hateful comments will probably be ignored, but in all other cases I will try to get back to you!
+If you want occasional updates on new articles and other things of interest, subscribe to my [Substack](https://lvzon.substack.com/), or follow me on [Facebook](https://www.facebook.com/sustainsubstance), [LinkedIn](https://www.linkedin.com/in/lvzon), [Bluesky](https://bsky.app/profile/lvzon.bsky.social) or [Twitter/X](https://twitter.com/levienvanzon), or subscribe to our [Atom-feed](/feeds/all.atom.xml).
+
+For questions, suggestions or other types of feedback, you can contact me on feedback@sustainsubstance.com.
 
 
