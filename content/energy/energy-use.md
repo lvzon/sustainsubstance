@@ -1,4 +1,4 @@
-Title: On Energy, part 2: Where does it go?
+Title: On Energy, part 4: Where does it go?
 Authors: Levien van Zon
 Date: 2017-02-12
 Tags: energy
@@ -7,6 +7,62 @@ Status: draft
 
 **By Levien van Zon**   
 *Reading time: ... minutes*
+
+Recap:
+ - It seems that the "big three" non-fossil energy sources cannot grow much.  
+ - Luckily there are energy sources that still can be seriously scaled up: Wind and especially solar. There is also some potential geothermal, as well as for wave and other "blue" energy and watermills, but it is more limited.
+ - The problem: currently these sources provide <2%. How on earth are they going to take over the 80% or so that fossil fuels currently provide? 
+ - Part of the answer: they might not have to. We might be able to reduce our current energy use by half.
+
+ - Recap energy sources and scale. We use a lot of fossil energy. Where does all this energy go? 
+ - Surprise: a third of primary energy is "wasted" due to inefficiencies and overhead.
+ - And that's just in the energy system - industrial installations, homes, offices and transport also waste a large fraction of the energy they get from fossil fuels.
+
+ - Discuss difference between primary and end-use energy: fossil fuels are rather inefficient.
+ - Fossil fuel mining and conversion and transport require energy.
+
+ - Transport sector uses a lot of energy, and also wastes most of it. Show how much energy an aeroplane uses. Explain energy requirements and energy balance of a car. Only a tiny fraction of the energy from fuel goes into moving the actual driver. For aeroplanes this is even worse, as the thing has to fight not just air friction but also gravity, in order to get and stay airborne. This is why Elon Musk proposed the Hyperloop as an alternative to flying, and the future of driving is probably in electric vehicles. 
+ 
+ - Infrastructure, agriculture etc. use a fair amount of energy, but this is important as we need food and schools and hospitals and government services. People easily forget that building and maintaining things requires a lot of energy. But most inefficiency is probably in heating and cooling. In winter we burn fossil fuels to heat up our buildings, in summer we burn fossil fuels to cool them. There are smarter ways to do this. There are building techniques that keep the heat in (insulation) or out. Even with current technology, we can fairly easily store heat in summer and extract it again in winter, sgnificantly reducing energy use for heating. Also, we're still heating spaces with the windows open, heating or cooling spaces when they're not used, etc. So even without any structural modifications, we can already reduce energy use for heating and cooling, just by improving control systems and changing human behaviour.
+
+ - Industry: uses energy not just to produce the stuff we use (consumer goods), but also the equipment we need in other sectors. Use fossil fuels both as material resource and energy resource. Part used in mining, lot of energy used in melting stuff. Metals and chemical industry are obvious examples, but even electronics and things like solar panels require high temperature and pressure.
+
+ - Estimate how much energy is effectively needed, after inefficiencies are subtracted. Large difference, so large opportunity for reduction!
+
+ - Also here, we are looking at average energy use. Note that average transport energy use won't get us very far.
+ - Show differences between countries. Note that air and boat travel isn't included. 
+ - Complication for country stats: lot of industry is export-oriented, and we import a lot of industrial products from other cuntries.
+ - This especially distorts the Asian country stats, as China produces large fraction of the world's industrial products.
+ - Explain energy footprint. Import adds around a third to the energy footprint of consumer societies (notably Europe, N-America, Australia, N-Zealand, Japan). Show example for UK. Do we have information for other countries?
+ - Show energy requirements for some products/activities? 
+
+ - Mention focus on "energy savings" by reducing standby consumption. "Every little helps" vs. we need big reductions.
+ - Significant energy reduction possible in built environment (better insulation and smarter heating), industry (example of PV-production), transport (less and smaller cars, self-driving electrical transport), energy sector itself (switching to alternative sources and conversion already helps - although we also require energy to produce things like solar panels and batteries).
+
+ - Even when reduced, we will still need a lot of energy, and this will increase due to population growth and development. As mentioned, solar and wind energy supplemented by geothermal, hydro, biomass, nuclear and some smaller sources may provide most of it. The next article will look at some of the opportunities and difficulties of scaling up solar energy.
+
+
+
+
+
+
+
+
+
+TODO / look up:
+ - more detailed data on energy use of sectors
+ - estimates of specific losses (transport, mining, etc.)
+ - energy use of flying, from earlier notes
+ - energy balance of cars/driving (from MacKay?)
+ - check energy requirements for electronics and PV
+ - check energy needs for making plastic bottles (from references in VK-article)
+ - differences between TPES and end-use
+ - import-export balances for various countries
+ - consumer energy footprints of various countries (UK from MacKay, US, Germany, NL? Also check earlier notes.)
+ - Make some figures of energy footprints (breakdown and vs. TPES & end-use).
+
+Check this figure: http://www.iea.org/Sankey/
+
 
 
 **TODO:**
