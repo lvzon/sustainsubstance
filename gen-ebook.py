@@ -91,6 +91,12 @@ for line in infile:
         print("Fixing link to", match.group(1) + ".md")
         line = line.replace(r'{filename}' + match.group(1) + ".md", match.group(1) + ".html")
         print(line)
+    match = re.search(r'\{static\}(\/[\w\-\/]+).md', line)
+    if (match):
+        #print(match)
+        print("Fixing link to", match.group(1) + ".md")
+        line = line.replace(r'{static}' + match.group(1) + ".md", match.group(1) + ".html")
+        print(line)
 
     match = re.search(r'[\(\"](\/.*?)[\)\"]', line)
     if (match):
@@ -99,6 +105,7 @@ for line in infile:
         print(line)
 
     line = line.replace(r'{filename}', base_path)
+    line = line.replace(r'{static}', base_path)
 
     pdfline = str(line)
     if pdfline.startswith("**Footnotes:**"):
@@ -139,7 +146,7 @@ outfile_pdf.close()
 if not ofbasename:
     ofbasename = title
 
-cmd_pdf = "pandoc -o \"" + ofbasename + ".pdf\" --latex-engine=xelatex -H latex-header.tex tmp_latex.md"
+cmd_pdf = "pandoc -o \"" + ofbasename + ".pdf\" --pdf-engine=xelatex -H latex-header.tex tmp_latex.md"
 cmd_epub = "pandoc -o \"" + ofbasename + ".epub\" tmp_epub.md"
 cmd_mobi = 'ebook-convert "' + ofbasename + '.epub" "' + ofbasename + '.azw3"'
 
