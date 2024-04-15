@@ -6,7 +6,7 @@ Tags: CO2, klimate, consumption
 Slug: ghg-consumption-nl
 Status: hidden
 
-[![The climate-footprint of an average person in The Netherlands around 2001]({filename}/images/carbon-footprint-consumption-nl.png)]({filename}/images/carbon-footprint-consumption-nl.png)
+[![The climate-footprint of an average person in The Netherlands around 2001]({static}/images/carbon-footprint-consumption-nl.png)]({static}/images/carbon-footprint-consumption-nl.png)
 
 The daily greenhouse gas emission for an average consumer in the Netherlands (click on the figure to enlarge).
  

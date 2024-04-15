@@ -6,7 +6,7 @@ Tags: CO2, climate, transport
 Slug: transport
 Status: hidden
 
-[![The climate-footprint of transportation in The Netherlands]({filename}/images/carbon-footprint-transport-nl.png)]({filename}/images/carbon-footprint-transport-nl.png)
+[![The climate-footprint of transportation in The Netherlands]({static}/images/carbon-footprint-transport-nl.png)]({static}/images/carbon-footprint-transport-nl.png)
 
 This figure gives a rough overview of the carbon-emissions caused by transport in The Netherlands, in kg CO~2~-eq. per average Dutch person per day in 2012 (click on the image to enlarge). You can see that road traffic is responsible for by far the most emissions (5.4 kg). Especially cars contribute a lot (3.45 kg). The average Dutchman in 2012 traveled around 22 km by car. Nearly 8 km of this distance was for work, and 9 km was for recreation and social purposes (including vacations). While the average Dutchman also traveled 2.2 km per day by train, this caused almost negligible emissions. 
 

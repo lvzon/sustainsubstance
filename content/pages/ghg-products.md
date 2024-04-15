@@ -6,7 +6,7 @@ Tags: CO2, klimate, consumption
 Slug: ghg-products
 Status: hidden
 
-[![Estimated climate footprints of some products and activities]({filename}/images/carbon-footprint-products-nl.png)]({filename}/images/carbon-footprint-products-nl.png)
+[![Estimated climate footprints of some products and activities]({static}/images/carbon-footprint-products-nl.png)]({static}/images/carbon-footprint-products-nl.png)
 
 This figure shows estimated greenhouse gas emissions for several consumption goods and activities, in kg CO~2~-equivalents (click on the image to enlarge).
  
