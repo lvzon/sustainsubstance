@@ -21,4 +21,5 @@ If you want occasional updates on new articles and other things of interest, sub
 
 For questions, suggestions or other types of feedback, you can contact me on feedback@sustainsubstance.com.
 
+Photo credit: Io Cooman (2023)
 
