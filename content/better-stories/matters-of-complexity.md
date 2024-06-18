@@ -1,20 +1,23 @@
 Title: Entwined: Matters of Complexity
 Authors: Levien van Zon
-Date: 2024-05-30
+Date: 2024-06-17
 Tags: complexity
 Slug: matters-of-complexity
 Status: draft
 
-Reading time: ca. 17-25 minutes
+Reading time: ca. 15-25 minutes
 
-*This is a draft version (revision 4), the final version will be published on [https://lvzon.substack.com](https://lvzon.substack.com) and here on [https://sustainsubstance.org](http://sustainsubstance.org).*
+*This is a draft version (revision 5), the final version will be published on [https://lvzon.substack.com](https://lvzon.substack.com) and here on [https://sustainsubstance.org](http://sustainsubstance.org).*
 
 This article and the next will be a little more technical, we will look at so-called *complex systems*. 
-I will refer back to complexity in future articles, and here I will explain what it is, how we can talk about it and what this all means for scientific understanding, predictability and the possibilities of control.
+I will refer to complexity in future articles, and here I will explain what it is, how we can talk about it and what this all means for scientific understanding, predictability and the possibilities of control.
 
------
+<div style="text-align: center; margin-left: auto; margin-right: auto;">
+<img src="{static}/images/red-thread.jpg" style="width: 80%; height: auto; border: 0px;">
+</div>
 
-**By Levien van Zon** (image by Io Cooman)
+
+**By Levien van Zon**
 
 We understand our world through stories.
 As I wrote in my [previous article](https://sustainsubstance.org/beyond-optimists-and-pessimists.html), how we see and how we talk about the world matters a lot for the way we understand our surroundings.
@@ -24,7 +27,7 @@ They are internal models of the world that we share with others through the magi
 Stories constitute knowledge, both for us as individuals and as a species.
 
 Many of our day-to-day stories about the world are sloppy and inconsistent.
-Yet much of our modern knowledge derives from science. 
+Therefore much of our modern knowledge derives from science. 
 Science aims to tell stories that are more formal and more precise, and that can be examined for their accuracy.
 When we're looking for better stories, science is not a bad place to start.
 
@@ -41,7 +44,7 @@ The Industrial Revolution in the 18th and 19th centuries saw the development, st
 This yielded further insights into all kinds of mechanical laws, but also into the role of energy, including the behaviour of heat, electricity, magnetism and light.
 Increasingly, nature was seen as something that could and *should* be controlled and improved for the benefit of humans.
 The forests of Europe were turned into artificial monocultures, optimised for the greatest yield of wood.
-In the 20th century, the efficiency of factories was maximised according to the "rational" principles of ["scientific management"](https://en.wikipedia.org/wiki/Scientific_management) devised by Frederick Taylor and others. 
+In the 20th century, the efficiency of factories was maximised according to the "rational" principles of ["scientific management"](https://en.wikipedia.org/wiki/Scientific_management) devised by Frederick Taylor and others.[^taylorism] 
 Buildings and cities were reimagined as "machines for living and working" by the architects and designers of [CIAM](https://en.wikipedia.org/wiki/Congr%C3%A8s_Internationaux_d%27Architecture_Moderne), the International Congresses of Modern Architecture.
 Much of agriculture was also modelled after the ideal of the factory, which was based on mechanisation, standardisation, scale and control. The aim was to replace the seeming chaos of nature by the efficiency of the factory, in order to increase the production and predictability of food, vegetable oil and fibre. This also resulted in driving down their cost.
 
@@ -51,7 +54,7 @@ But these successes did come at a cost.
 Some of these costs took (and still take) the form of human and non-human suffering, for instance in the former colonies and in industrial production chains, including those of agriculture.
 Moreover, while over the past centuries we collectively managed to reduce some problems, we've created many new ones, or made existing problems worse.
 One unintended consequence of mechanisation turned out to be climate change. 
-Other examples of the darker sides of "progress" include biodiversity loss, soil degradation, water shortages, microbial resistance, a pandemic of chronic metabolic diseases (such as diabetes) and some aspects of social and economic inequality.
+Other examples of the darker sides of "progress" include biodiversity loss, soil degradation, water shortages, microbial resistance and a pandemic of chronic metabolic diseases (such as diabetes). Also some aspects of social and economic inequality have been created or made worse by technological progress.
 
 If we want to solve and prevent such problems, it is important to figure out why they occur in the first place.
 Many "modern" problems are unintended and unexpected side effects of our attempts to improve human wellbeing.
@@ -72,11 +75,11 @@ In principle, the way in which science works is not much different.
 Scientific theories are basically explanatory and predictive stories, and we constantly compare them with observations to see if they are accurate.
 However, there is at least one important thing that sets scientific explanations apart from other types of stories.
 Regular stories tend to act as a source of certainty, they provide a framework on which we build our beliefs. 
-If we encounter observations that are inconsistent with our explanatory stories, we tend to resist giving up our stories and we often ignore or explain away the inconsistent observations.
+If we encounter observations that are inconsistent with our explanatory stories, we tend to hold on to our stories and we often ignore or explain away the inconsistent observations.
 This also happens in science, of course, simply because scientists are humans. 
-But science has the underlying, collective rule that, at least in principle, observations are *always* more important than the story used to explain it. 
+But science has the underlying, collective rule that, at least in principle, observations are *always* more important than the story used to explain them. 
 Philosopher [Michael Strevens](https://www.strevens.org/scientia/) has called this "the iron rule of science".
-And this rule is considered sufficiently important that (eventually) it tends to win out against human nature:
+And this rule is considered sufficiently valuable that (eventually) it tends to win out against human nature:
 If the explanation doesn't match the observation, the story isn't good enough and should be modified.
 
 Observations in science often involve active and repeatable manipulations of the world, in the form of experiments.
@@ -124,7 +127,9 @@ You cannot really take them apart without changing the way they work.
 And performing controlled experiments on the interacting parts of a fully functional system isn't easy. 
 Reliably repeating such experiments is even harder.
 
-![]({static}/images/complexity-tangle.jpg)
+<div style="text-align: center; margin-left: auto; margin-right: auto;">
+<img src="{static}/images/complexity-tangle-cropped-small.jpg" style="border: 0px;">
+</div>
 
 We should point out that complexity isn't a binary category. 
 It's not that something is either simple or complex. 
@@ -153,7 +158,7 @@ Water is formed from interacting molecules, but a single water molecule cannot b
 And even though all water molecules are alike, the [many properties of water](https://en.wikipedia.org/wiki/Properties_of_water) cannot easily be predicted from knowing the properties of a water molecule.
 
 Water molecules are the building blocks of liquid water, they can also form ice or water vapour.
-In general, interacting molecules form gases, fluids or solids. 
+In general, interacting molecules give rise to gases, fluids or solids. 
 We can think of these "states of matter" as new *levels of organisation*, which *emerge* from the interactions between molecules. 
 A fluid or solid is a "thing" in itself, which has its own properties and follows its own peculiar rules. 
 Water and ice are clearly very different, even though they are both made up of identical water molecules. 
@@ -167,7 +172,7 @@ we can interact with things that are made up of molecules,
 because such emergent levels of organisation have their own emergent properties of "thingness". 
 You can simply sit on a chair without being aware of the molecules of iron, nickel and nitrogen that interact to form crystal microstructures that (hopefully) keep the steel frame of the chair together. 
 
-Even if we *are* interested in the finer details of things, a medical specialist can study and treat heart problems without knowing all of the processes going on in the human body, or all of the molecular components that make up the human heart. 
+Even if we *are* interested in the finer details of things, a medical specialist can study and treat heart problems without knowing all of the processes going on in the human body, or all the molecular components that make up the human heart. 
 And an economist can say something about the global market for office chairs without having to study the detailed neural patterns in the brains of all the people that are involved in producing, selling and buying such chairs.
 Emergent properties allow us to know things without having to know all of the underlying details.
 
@@ -179,7 +184,7 @@ Finding the laws of nature was like unveiling the mind of God.
 Over the subsequent centuries, especially physicists proved to be very successful in finding such scientific laws. 
 Notably at the subatomic level, many of the rules that govern quantum mechanics seem to be static, fundamental properties of the universe in some way.
 
-One example is the *Pauli exclusion principle*, a [simple rule](https://en.wikipedia.org/wiki/Pauli_exclusion_principle) that prescribes the structure of the periodic table of elements and much of the properties of matter. 
+One example is the little-known *Pauli exclusion principle*, a [simple rule](https://en.wikipedia.org/wiki/Pauli_exclusion_principle) that prescribes the structure of the periodic table of elements and many of the properties of matter in our universe. 
 A rule like this has a huge effect on the structure of reality, yet is not entirely clear where it comes from.
 
 Following the successes in physics and chemistry, scientists in other fields also started searching for scientific laws. 
@@ -197,7 +202,7 @@ But at least water molecules are all the same, so the effects of such external i
 
 However as I already mentioned, discovering the behavioural rules of a system becomes much more difficult if the interacting parts *aren't* constant over time. 
 In complex adaptive systems, "natural laws" at the level of the system aren't fixed, they can change over time as the interacting parts change. 
-For example, the rules that seem to govern the economy depend on the structure of the economy, and on the usual, average behavioural patterns of people. 
+For example, the rules that seem to govern the economy depend on the structure of the economy, and on the usual, average behaviour of people. 
 If these things change, so sometimes do the rules.
 Even worse, a seemingly small change in the underlying parts or interactions can occasionally lead to dramatically different system rules and behaviours. 
 Minor interaction details can therefore matter a lot.
@@ -225,14 +230,14 @@ Even if we would have full knowledge about *all* details of physics and chemistr
 
 Let's take an example from a complex social system: What happens in, say, regional politics cannot really be reduced to physics and chemistry, or even to neuroscience.[^reductionism]
 It depends mostly on interactions between, in this case, politicians and other groups in a society. 
-It also depends on interactions with other systems (for instance, economics) and other levels of organisation (like
+It also depends on interactions with other systems (for instance, economies) and other levels of organisation (like
 national and international politics and geopolitical power relations).
 
 In my [previous article](https://sustainsubstance.org/beyond-optimists-and-pessimists.html),
 I talked about various ways of seeing the world in relation to sustainability. 
 The ecomodernist worldview tends to emphasise the potential for large-scale technological solutions to sustainability problems, based on existing institutions and economic growth.
 Ecomodernists strongly believe in the power of science and engineering.
-In contrast, the antimodernist or neo-romantic worldview tends to promote smaller-scale solutions with a bigger role for nature and local communities. Neo-romantics often have much less confidence in the explanatory abilities of science, and tend to distrust large-scale application of industrial approaches.
+In contrast, the antimodernist or neo-romantic worldview tends to promote smaller-scale solutions with a bigger role for nature and local communities. Neo-romantics often have much less confidence in the explanatory abilities of science, and they tend to distrust large-scale application of industrial approaches.
 
 Neo-romantics often point out the fact that we live in a world that is dominated by complex systems. 
 This has consequences for how much we can rely on large-scale control and on stable economic growth. 
@@ -248,7 +253,7 @@ The expectation was that we would be able to uncover simple rules to explain the
 Indeed, there has been much progress in our understanding. 
 But the more we learn, the more it seems that the potential for prediction and generalisation is limited. 
 
-The specific details of a system can matter a lot. 
+The details of a specific system can matter a lot. 
 Even if there are simple rules underlying its behaviour, we still have to *find* those rules for every different system. 
 And if conditions change, the rules can change as well and our predictions may no longer work.
 Yet we would overstate the problem if we conclude that the world is too complex for us to understand, or that control is utterly impossible. 
@@ -261,9 +266,9 @@ Often the response has been to simplify complex systems.
 Removing parts and interactions and reducing diversity makes a system more predictable, and easier to control and optimise.
 This is for instance the approach that industrial agriculture has taken.
 
-The problem is that in complex *adaptive* systems, the parts have often adapted *to each other*.
+The problem is that in complex *adaptive* systems, the parts have usually adapted *to each other*.
 If you remove parts and interactions, many such adaptations cease to function well, and problems begin to occur.
-We often see this happen if we reduce the diversity of a natural system, or of a semi-natural system such as agriculture.
+We often see this happen if we reduce the diversity of a natural system, or of a semi-natural system such as agriculture. An example of this is the occurrence of pests in agriculture. Pests are generally made worse by removal of natural predators or competitors that help keep down their numbers. Another example is the rapid decline of pollinating insects. Both problems are partially caused by decrease of diversity through pesticide use and the "optimisation" of agricultural landscapes for maximum yield. 
 
 ### Health despite uncertainty
 
@@ -274,27 +279,33 @@ A good example of this is human health.
 After more than a century of intense collective research effort, we know quite a lot about the various parts of the human body.
 Yet we still don't fully understand how some of its most basic control mechanisms operate.
 
-The complexity involved in something like the immune system or the body's energy regulation processes is enormous.
-Every part seems connected to everything else, and it is often very hard to distinguish causes from effects.
-We are able to replace some mechanical parts when they are broken, which in itself is very impressive.
+The complexity involved in something like the immune system or the body's energy regulation is enormous.
+Every part seems connected to everything else, and it is often very hard to distinguish cause from effect.
+We are able to replace some mechanical parts when they are broken, which in itself is very impressive.[^chemicalparts]
 But when it comes to the major regulatory mechanisms that maintain our health, we are mostly unable to "fix" problems when they occur.
-We simply do not understand the body well enough, and the exact cause of problems often remains elusive.
+We simply do not understand the body well enough, and the exact cause of many problems still remains elusive.
 It is at least clear that our body is very unlike a machine. We cannot simply shut it down, locate and replace the broken part and start it back up again.
 
 However, this does not mean that we cannot improve our health or reduce the effects of disease.
-We may not be able to fully control or understand the human body, but we are often quite capable of nudging it toward a more healthy state. 
+We may not be able to fully control or understand the human body, but we are often quite capable of nudging it towards a more healthy state. 
 And even if we can't, we can at least slow down damage and reduce its effects.
 Even better, we can reduce the risks of disease occurring in the first place.
 
 The above does not just apply to the human body, but to many other complex systems as well.
-We may not be able to fully control or fix them, but we can try to understand them *better* while at the same time keeping in mind that we do not know all relevant details.
+We may not be able to fully control or fix them, but we can try to understand them *better* while keeping in mind that we do not know all relevant details.
 Partial understanding may already allow us to prevent problems.
-And when problems do occur, we can often steer a system toward a healthier state, step by step through careful observation and management.
+And when problems do occur, we can often steer a system towards a healthier state, step by step through careful observation and management.
 
 We certainly shouldn't ignore complexity, but we also shouldn't be overly afraid of it. 
 The living world has always been complex, and in recent years we have learned a lot about the ways in which living systems don't just deal with complexity and unpredictability, but in some ways even use it to their advantage.
 
------
+
+<div style="text-align: center; margin-left: auto; margin-right: auto;">
+<img src="{static}/images/small-tangle.jpg" style="width: 25%; height: auto; border: 0px;">
+</div>
+
+
+*Images by Io Cooman.*
 
 Do you want to be notified when future articles in this series are published? Subscribe to my [Substack](https://lvzon.substack.com/), or follow me on [Facebook](https://www.facebook.com/sustainsubstance), [Instagram](https://www.instagram.com/sustainsubstance), [Bluesky](https://bsky.app/profile/lvzon.bsky.social) or [Twitter/X](https://twitter.com/levienvanzon). You can also subscribe to our [Atom-feed](/feeds/all.atom.xml).
 
@@ -327,16 +338,16 @@ on to reductionism (which makes for a good story but is not entirely accurate).
 Also, the book is now three decades old, and some of its
 hopes for complexity science seem a little optimistic with current-day knowledge.
 Especially the life sciences have progressed a lot since the early 1990s in their understanding of complex living systems, as is described for instance by Philip Ball in his book [How Life Works](https://how-life-works.philipball.co.uk), which is listed below. 
-Yet despite these critical notes, *Complexity* still provides an attractive and readable introduction to many aspects of complex adaptive systems.
+Yet despite such critical notes, *Complexity* still provides an attractive and readable introduction to many aspects of complex adaptive systems.
 
 Holland, John H. *Complexity: A Very Short Introduction*. Oxford
 University Press, 2014.     
-<https://doi.org/10.1093/actrade/9780199662548.001.0001>
+<https://doi.org/10.1093/actrade/9780199662548.001.0001>     
 A useful if somewhat technical introduction by John Holland, one of the founders of complexity science. Holland makes the distinction between complex physical systems (CPS) and complex adaptive systems (CAS). This to me was a revelation because it makes it much easier to see the limitations of "particle based" analyses and descriptions that were adapted from physics. These often apply quite well to CPS (or approximations thereof), but are often not a good description of CAS because they cannot deal well with adaptation and diversity.
 
 Ball, Philip. *Why Society is a Complex Matter: Meeting Twenty-first Century Challenges with a New Kind of Science*. Springer Berlin Heidelberg, 2012.     
 <https://link.springer.com/book/10.1007/978-3-642-29000-8>     
-In the introduction chapter of this book, science writer Philip Ball offers a good introduction to complexity and its relevance to social systems. The rest of the book discusses examples of (moderately) complex social phenomena that have so far been studied relatively well: the behaviour of traffic and crowds, effects of contagion in how social norms get established, the spread of crime and disease, problems of social cooperation and the dynamics of social networks, financial systems, cities and military conflicts. The book ends with an overview of the ambitious 2013 [FuturICT](https://coss.ethz.ch/research/pastprojects/futurict.html) project, which promised better management of complex social problems through application of big data and complexity science, and which was followed up in 2017 by [FuturICT 2.0](https://coss.ethz.ch/research/pastprojects/FuturICT20.html). Interestingly, the official websites of both projects no longer exist, which makes one wonder to what extent such ambitious tech-driven projects contribute to future solutions.
+In the introduction chapter of this book, science writer Philip Ball offers a good introduction to complexity and its relevance to social systems. The rest of the book discusses examples of (moderately) complex social phenomena that have so far been studied relatively well: the behaviour of traffic and crowds, effects of contagion in how social norms get established, the spread of crime and disease, problems of social cooperation and the dynamics of social networks, financial systems, cities and military conflicts. The book ends with an overview of the ambitious 2013 [FuturICT](https://coss.ethz.ch/research/pastprojects/futurict.html) project, which promised better management of complex social problems through application of big data and complexity science, and which was followed up in 2017 by [FuturICT 2.0](https://coss.ethz.ch/research/pastprojects/FuturICT20.html). Interestingly, the official websites of both projects no longer exist. While ambitious tech-driven projects like these are certainly interesting, one does start to wonder about their ability to offer a significant and robust contribution to future solutions. There may have been valuable results, but it's hard to say. Clearly, the way in which such projects are funded for a limited period already makes it hard to maintain a long-term website describing project outcomes.
 
 Gershenson, Carlos (2013) 'Facing Complexity: Prediction vs.
 Adaptation', in À. Massip-Bonet and A. Bastardas-Boada (eds.)
@@ -348,7 +359,7 @@ Berlin, Heidelberg: Springer (Understanding Complex Systems), pp.
 Gershenson, Carlos (2013) 'The Implications of Interactions for Science and Philosophy', *Foundations of Science*, 18(4), pp. 781--790.     
 <https://doi.org/10.1007/s10699-012-9305-8>
 (or [read PDF here](https://www.academia.edu/download/31338551/ImplicationsInteractions-FoS.pdf))     
-The work of [Carlos Gershenson](https://bingweb.binghamton.edu/~cgershensong/) offers several important insights on how the interactions in complex systems limit their predictability, and how we can deal with this. The two articles above give an accessible overview of these issues. Gershenson discusses problems with reductionism in cases where relevant non-linear interactions add emergent information to the system that cannot be derived from just knowing the parts. This often leads to *computational irreducability*: the only way to determine the future state of a system is to run it. Due to their inherent unpredictability, the perfect control of complex, open systems is utopic. Therefore systems should be made to be robust and adaptive. Engineered systems usually are neither.
+The work of [Carlos Gershenson](https://bingweb.binghamton.edu/~cgershensong/) offers several important insights on how the interactions in complex systems limit their predictability, and how we can deal with this. The two articles above give an accessible overview of these issues. Gershenson discusses problems with reductionism in cases where relevant nonlinear interactions add emergent information to the system that cannot be derived from just knowing the parts. This often leads to *computational irreducibility*: the only way to determine the future state of a system is to run it. Due to their inherent unpredictability, the perfect control of complex, open systems is utopic. Therefore systems should be made to be robust and adaptive. Engineered systems usually are neither.
 
 Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven: Yale University Press, 1998.     
 <https://yalebooks.yale.edu/book/9780300246759/seeing-like-a-state/>     
@@ -366,14 +377,12 @@ Ball proposes that the metaphors we use for understanding living systems should 
 This is also discussed in the [Big Biology podcast, episode 119](https://www.bigbiology.org/episodes/2024/4/4/ep-119-biology-as-its-own-metaphor-with-phil-ball).
 
 
-Merchant, Carolyn. *Autonomous Nature: Problems of Prediction and Control from Ancient Times to the Scientific Revolution*. Routledge, 2016.     
-<http://www.bikingbooks.com/html/merchant.html>
-
-
-
 -----------
 
 #### Footnotes
+
+[^taylorism]: *In the 20th century, the efficiency of factories was maximised according to the "rational" principles of "scientific management" devised by Frederick Taylor and others.*     
+The ideas of Taylor and his followers are still known as *Taylorism*, and were influential far beyond their original context of factory organisation. Many politicians, policy makers and designers saw scientific management as the key to designing a more rational and efficient society. The essay [*Between Taylorism and Technocracy*](https://doi.org/10.1177/002200947000500202) by Charles S. Maier (1970) discusses some of the main influences of Taylorism on European policies, politics and ideas in the decades leading up to the Second World War. Unfortunately this article is behind a paywall, if you do not have academic access you can read parts of it on [Google Books](https://books.google.nl/books?id=pmtFnrYHFOgC&lpg=PA211&ots=OUbqonk2zQ&lr&pg=PA211#v=onepage&f=false). For a more complete overview, see the [book](https://books.google.com/books?id=BFzpCgAAQBAJ&lpg=PR5&ots=MHNyDci-Wa&lr&pg=PP1#v=onepage) *Scientism and Technocracy in the Twentieth Century: The Legacy of Scientific Management*, by Richard G. Olson (2016).
 
 [^bayesianbrain]: *To find out how accurate our explanations and predictions are, our brains constantly compare our expectations with our actual observations and experiences.*     
 In its most concrete form, this is known as [Bayesian Brain](https://en.wikipedia.org/wiki/Bayesian_approaches_to_brain_function) Theory. A very readable account of the underlying ideas and their consequences is given by neuroscientist Anil Seth in his book [Being You: A New Science of Consciousness](https://www.anilseth.com/being-you/).
@@ -381,11 +390,14 @@ In its most concrete form, this is known as [Bayesian Brain](https://en.wikipedi
 [^emergence]: Those familiar with [emergence](https://en.wikipedia.org/wiki/Emergence) may note that I use quite a broad definition of the concept here, which is certainly not universally used or accepted. While the idea may be very useful, emergence can also be a tricky and slippery concept once you try to get into the details---something which I shall not do here.
 
 [^epa]: *As long as the interacting parts (say, molecules) and their surroundings are constant over time, their collective behaviour is often well-defined.*     
-Why the derivation of macroscopic descriptions and laws from the microscopic behaviour of dynamically interacting parts is possible, is described in [Strevens (2005)](https://www.strevens.org/chaos/chaos_paper.shtml). It works by using probability theory to derive average group outcomes from individual behaviour plus interactions. It is actually quite surprising that this works as well as it does. This approach mostly works in cases where there are *many* identical parts, and strong interactions are relatively rare. It has even been applied to *adaptive* systems, for instance in population ecology and genetics. This does however require us to treat adaptive systems as if they are physical systems: the parts are assumed to be mostly identical and not to change much over time.
+Why the derivation of macroscopic descriptions and laws from the microscopic behaviour of dynamically interacting parts is possible, is described in [Strevens (2005)](https://www.strevens.org/chaos/chaos_paper.shtml). It works by using probability theory to derive average group outcomes from individual behaviour plus interactions. It is actually quite surprising that this works as well as it does. This approach mostly works well in cases where there are *many* identical parts, and strong interactions are relatively rare. It has even been applied to *adaptive* systems, for instance in population ecology and genetics. This does however require us to treat adaptive systems as if they are physical systems: the parts are assumed to be mostly identical and not to change much over time.
 
 [^chaos]: *Because interactions take time and this time may vary, it becomes impossible to predict the precise order in which interactions take place. This creates an uncertainty about the outcome of interactions, which can rapidly get worse with time.*     
 Such unpredictability is often referred to as *chaos*, but chaos is a subtly different phenomenon that does not strictly require complexity. See [Gershenson & Heylighen (2004)](https://doi.org/10.48550/arXiv.nlin/0402023) and [Gershenson (2013)](https://doi.org/10.48550/arXiv.1105.2827) for a somewhat more detailed description of the distinction between deterministic chaos (i.e. sensitive dependence on initial conditions due to positive feedback) and the effect of variable time delays in complex interaction networks. Such complex networks have many possible interaction paths that may result in amplifying or attenuating feedback. If interaction times are not roughly constant, it is impossible to know beforehand which paths get activated in which order, and thus what the net outcome of interactions will be. Of course deterministic chaos and random noise may further compound the difficulties in predicting the behaviour of complex systems. However if there are large numbers of *similar* parts, strong interactions are relatively rare and the behaviour of parts is fairly consistent, variations tend to average out and system behaviour becomes much more predictable, as described in [Strevens (2005)](https://www.strevens.org/chaos/chaos_paper.shtml).
 
 [^reductionism]: *What happens in, say, regional politics cannot really be reduced to physics and chemistry, or even to neuroscience.*     
-It is a long-standing [discussion](https://en.wikipedia.org/wiki/Reductionism) whether this is possible *in principle*. But even if it would be, it wouldn't be possible in practice, so such discussions need not concern us here. There is however evidence that implementing aspects of human decision making into computer simulations can reproduce some collective social phenomena, including perhaps some voting behaviour. See for instance the work of [Joshua M. Epstein](https://www.jimruttshow.com/joshua-epstein/). While such simulations may contribute to our mechanistic understanding of system dynamics, they have little predictive power under real-world conditions, which are much too complex to simulate. 
+It is a long-standing [discussion](https://en.wikipedia.org/wiki/Reductionism) whether this is possible *in principle*. But even if it would be, it wouldn't be possible in practice, so such discussions need not concern us here. There is however evidence that implementing aspects of human decision making into computer simulations can reproduce some collective social phenomena, including perhaps some voting behaviour. See for instance the work of [Joshua M. Epstein](https://www.jimruttshow.com/joshua-epstein/). While such simulations may contribute to our mechanistic understanding of system dynamics, they have little predictive power under real-world conditions, which are much too complex to simulate.
+
+[^chemicalparts]: *We are able to replace some mechanical parts when they are broken, which in itself is very impressive.*     
+We are even able to replace some body parts involved in chemical or electrical control or perception. Usually however these are not full replacements: they offer a simplified version of the original biological functions. Think of pacemakers, insulin pumps, bionic eyes and robotic prosthetic limbs and hands.
 
