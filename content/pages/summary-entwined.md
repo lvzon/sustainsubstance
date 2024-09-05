@@ -1,0 +1,62 @@
+Title: Summary of Entwined: Matters of Complexity
+Authors: Levien van Zon
+Date: 2024-06-21
+Tags: complexity
+Slug: summary-entwined
+Status: hidden
+
+Reading time: 6-10 minutes
+
+**By Levien van Zon**
+
+In my [previous article](https://sustainsubstance.org/beyond-optimists-and-pessimists.html) I discussed the role of stories as internal models that we use to understand the world. We can share these models with others through language. In this article we look at how science also constructs stories, although these are more formal and more precise than "regular" stories. We will then examine how trouble can arise when studying so-called complex systems.
+
+Since the Renaissance, our view of the world has increasingly been determined by science and technology. Especially the concept of "the machine" has been important. Many early scientists considered the universe, including human societies, to be a kind of giant clockwork. Later, human endeavours increasingly came to be treated as machines. The organisation of plantations and factories was gradually optimised by a succession of  industrialists. In the late 19th century, Frederick Taylor and others formulated principles for "scientific management" of factory work. This kind of "optimisation thinking" became very influential in the 20th century and affected all parts of society. Also agriculture was made more "efficient" by organising it according to industrial principles of mechanisation, standardisation, scale and control.
+
+The scientific approach led to an enormous increase in our understanding of the world. This allowed us to try and improve human wellbeing through the use of technology. Much of this was quite successful. Yet there have also been negative side-effects, and many of these were unexpected. Technological progress helped increase life expectancy, food production and quality of life in many ways. However it also contributed to climate change, soil degradation, chronic disease, biodiversity loss, water shortage, microbial resistance and a host of other unintended "modern problems". Proponents of technological solutions often claim that these are temporary issues that will be solved by further development of science and technology. Is this a realistic expectation, or is it wishful thinking? To better understand this, it helps to comprehend how science works and what its strengths and weaknesses are. 
+
+Science provides stories to explain why things are they way they are. In this respect it isn't much different from what we humans have always done: all of us constantly use stories to explain and understand our world. What makes science special however, is what the philosopher [Michael Strevens](https://www.strevens.org/scientia/) has called its "iron rule". This rule says that observations are *always* more important than the stories used to explain them. Normally our stories serve to provide us with basic certainties. If observations conflict with stories we cherish, we tend to ignore or explain away the observations. The iron rule says that, at least in the arena of scientific publications, *this is not allowed*. If observations consistently conflict with a story, the story has to be modified (eventually).
+
+Observations in science are often combined with experiments, in which we manipulate things under controlled conditions to see what happens. To study complicated things, we can break them down into smaller parts that we can more easily manipulate and study in isolation. This approach is called *reductionism* and it is very powerful. However, it encounters difficulties when the parts we study have many, strong interactions that are important for the functioning of the whole. In such cases, we are dealing with a *complex system*. Studying its parts in isolation is no longer sufficient, we have to look at their interactions. 
+
+A *system* is a collection of interconnected elements that produce some collective behaviour. If a system is *complex*, it usually has many parts, and interactions between these parts are important for collective behaviour. The word "complex" comes from Latin, and basically means "entwined". In a complex system, the parts are hard to separate. Take a living system, such as your body: if you start taking it apart, at some point it will stop working well. Living systems are hard to study using the reductionist method, you cannot really take them apart without changing the way they work. And performing controlled experiments on the interacting parts of a fully functional system isn't easy.
+
+It's not that things are either simple or complex, some systems are just *more* complex than others. More complexity can result from more parts or interactions, or because interactions are stronger or more varied. It can be useful to distinguish between *complex physical systems* (CPS) and *complex adaptive systems* (CAS). Complex *physical* systems have many parts that interact, but the parts themselves *don't change much over time*. Examples include (simple) interacting molecules, sand grains and the weather. In a complex *adaptive* system on the other hand, the *parts aren't static*, they can change over time. This means that they can become different from each other, so this can lead to *diversity*. It also means that parts can *adapt* to changing conditions. All living systems are complex adaptive systems. Examples include biological cells, tissues and organs, organisms, ecosystems and human societies and economies.
+
+In both types of complex systems, interactions between the parts can lead to interesting things. 
+One of these is *emergence*. This basically means that an assemblage of parts has properties that its parts do not have. 
+Think for instance of water, which (in its liquid form) can flow and is wet. 
+Water is formed from interacting molecules, but a single water molecule cannot be said to be "wet". 
+A large number of molecules however, can interact to form a new "level of organisation", like a gas, a fluid or a solid. 
+A fluid or solid thus *emerges* from the interactions of molecules, but at the same time it is a "thing" in itself, which has its own properties and follows its own peculiar rules. 
+Emergence thus make the world manageable for us: even if we don't know anything about molecules, we can interact with things that are made up of molecules, because such emergent levels of organisation have their own emergent properties of "thingness". We can mostly understand how things in the world work without needing to know all the underlying details.
+
+Since the 17th century, scientists have been trying to find the rules or "laws" that govern the behaviour of things in the universe. This has been very successful at the level of physics and chemistry, where such "scientific laws" are quite reliable in predicting how stuff behaves. Some of these laws seem to be fixed properties of the universe in some way. Other laws result from the statistical behaviour of large numbers of interacting elements, often atoms or molecules. But the more complex the system under study, the harder it is to find rules that can predict its behaviour. For ecosystems, societies or economies, the regularities we find are often large-scale trends that depend on context, rather than "hard" and universal scientific laws. In such complex adaptive systems, the parts and their interactions can change over time, and therefore the emergent behaviour of the system can change over time as well. 
+
+This situation presents a problem, if our aim is to predict and control what will happen. For a specific system at a specific point in time, we may be able to find rules that enable us to understand and manipulate its behaviour. But this requires a lot of work, and the results often don't generalise well to other complex adaptive systems. Small details can sometimes make a large difference in collective behaviour. Such details can vary between systems and change over time.
+
+To make matters worse, when there are many strong interactions, every element can end up influencing many other elements, including itself. And because interactions take time and this time may vary, it may become impossible to predict the precise order in which interactions take place. This creates an uncertainty about the outcome of interactions, which can rapidly get worse with time. This is the main reason why we cannot predict the weather with good accuracy more than a few days ahead.  
+
+Finally, knowing about parts and their interactions, doesn't always tell us much about what will happen at higher emergent levels of organisation. For example, what happens in regional politics cannot really be reduced to physics, chemistry or neuroscience. It depends mostly on interactions between, in this case, politicians and other groups in a society. It also depends on interactions with other systems (for instance, economies) and other levels of organisation (like
+national and international politics and geopolitical power relations).
+
+All of this means that there is a limit to how much we can predict and control what goes on in more complex systems, notably living systems and human societies. Whether this is really a problem, depends on our goals and expectations. 
+The "industrial approach" to solving problems, which became quite dominant in the 19th and 20th century, depends on maximising predictability and control. This doesn't work well if a system is more complex, especially if it can also adapt. To get around this issue, people have often tried to simplify such complex systems by removing parts and interactions and thus reducing diversity. This makes a system more predictable, and easier to control and optimise. Industrial agriculture is an example of this approach.
+
+The problem is that in complex *adaptive* systems, the parts have usually adapted *to each other*.
+If you remove parts and interactions, many such adaptations cease to function well, and problems begin to occur.
+In agriculture, pests, soil degradation and the decline of pollinators are all caused or made worse by the simplification of agricultural ecosystems.
+
+An additional problem is that complex systems are hard to study, as we've seen.
+Reductionism is important for the scientific method, but if we cannot study the parts of a system under controlled conditions, it becomes hard to understand how things work. We see this problem clearly in human health. We know a lot about the human body, yet we still don't understand some of its fundamental control mechanisms. Many modern diseases seem to result from a dysfunction of energy regulation or the immune system, both of which are extremely hard to study because these systems interact with almost everything else in our body.
+
+However, our lack of understanding does not mean that we cannot improve our health or reduce the effects of disease. We are often quite capable of nudging the body towards a more healthy state. Or we can at least slow down damage and reduce its effects. Even better, we can reduce the risks of disease occurring in the first place.
+
+The above does not just apply to the human body. We may not be able to fully control or fix many complex systems, but we can try to understand them *better* while being aware that our knowledge is incomplete. Partial understanding may already allow us to prevent problems. And when problems do occur, we can often steer a system towards a healthier state, step by step through careful observation and management.
+
+We certainly shouldn't ignore complexity, but we also shouldn't be overly afraid of it. 
+The living world has always been complex, and life has always dealt with that pretty well.
+
+Did this summary interest you? You can [read the full article here](https://sustainsubstance.org/entwined.html) or on [Substack](https://lvzon.substack.com/p/entwined), or listen to a narrated version on [Youtube](https://youtu.be/UtJgkYCqjgc), [Spotify](https://open.spotify.com/episode/0urK3kecS0DIGs5XZz5Zfy?si=F9l0LvNJTY2rYqyUzPtOXA) or [Apple Podcasts](https://podcasts.apple.com/us/podcast/entwined/id1745586120?i=1000659742373).
+You can also subscribe to my [Substack](https://lvzon.substack.com/) to be notified when new articles are published, or follow me on [Facebook](https://www.facebook.com/sustainsubstance), [Instagram](https://www.instagram.com/sustainsubstance), [Bluesky](https://bsky.app/profile/lvzon.bsky.social) or [Twitter/X](https://twitter.com/levienvanzon).
+

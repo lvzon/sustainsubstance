@@ -1,19 +1,19 @@
 Title: Entwined: Matters of Complexity
 Authors: Levien van Zon
-Date: 2024-06-17
+Date: 2024-06-21
 Tags: complexity
-Slug: matters-of-complexity
-Status: draft
+Slug: entwined
 
-Reading time: ca. 15-25 minutes
+Reading time: ca. 15-25 minutes.     
+Too long? Read the [8 minute summary]({filename}/pages/summary-entwined.md) instead!
 
-*This is a draft version (revision 5), the final version will be published on [https://lvzon.substack.com](https://lvzon.substack.com) and here on [https://sustainsubstance.org](http://sustainsubstance.org).*
+*This article has been published on [https://lvzon.substack.com](https://lvzon.substack.com/p/entwined), and is also available as [PDF]({static}/offline/sustainsubstance-20240618-matters-of-complexity.pdf) or ebook ([EPUB]({static}/offline/sustainsubstance-20240618-matters-of-complexity.epub) and [Kindle]({static}/offline/sustainsubstance-20240618-matters-of-complexity.azw3)) for offline reading. You can  listen to a narrated version on [Substack](https://lvzon.substack.com/p/entwined), [Youtube](https://youtu.be/UtJgkYCqjgc), [Spotify](https://open.spotify.com/episode/0urK3kecS0DIGs5XZz5Zfy?si=F9l0LvNJTY2rYqyUzPtOXA) or [Apple Podcasts](https://podcasts.apple.com/us/podcast/entwined/id1745586120?i=1000659742373).*
 
 This article and the next will be a little more technical, we will look at so-called *complex systems*. 
 I will refer to complexity in future articles, and here I will explain what it is, how we can talk about it and what this all means for scientific understanding, predictability and the possibilities of control.
 
 <div style="text-align: center; margin-left: auto; margin-right: auto;">
-<img src="{static}/images/red-thread.jpg" style="width: 80%; height: auto; border: 0px;">
+<img src="{static}/images/red-thread.jpg" style="width: 100%; height: auto; border: 0px;"/>
 </div>
 
 
@@ -128,7 +128,7 @@ And performing controlled experiments on the interacting parts of a fully functi
 Reliably repeating such experiments is even harder.
 
 <div style="text-align: center; margin-left: auto; margin-right: auto;">
-<img src="{static}/images/complexity-tangle-cropped-small.jpg" style="border: 0px;">
+<img src="{static}/images/complexity-tangle-cropped-small.jpg" style="border: 0px;"/>
 </div>
 
 We should point out that complexity isn't a binary category. 
@@ -220,7 +220,7 @@ This is not just because elements and interactions may sometimes change.
 The problem also exists in many complex physical systems, in which the parts themselves do not change. 
 
 When there are many strong interactions, every element can end up influencing many other elements, including itself. 
-And because interactions take time and this time may vary, it becomes impossible to predict the precise order in which interactions take place. 
+And because interactions take time and this time may vary, it may become impossible to predict the precise order in which interactions take place. 
 This creates an uncertainty about the outcome of interactions, which can rapidly get worse with time.[^chaos] 
 This is the main reason why we cannot predict the weather with good accuracy more than a few days ahead.
 
@@ -301,7 +301,7 @@ The living world has always been complex, and in recent years we have learned a 
 
 
 <div style="text-align: center; margin-left: auto; margin-right: auto;">
-<img src="{static}/images/small-tangle.jpg" style="width: 25%; height: auto; border: 0px;">
+<img src="{static}/images/small-tangle.jpg" style="width: 25%; height: auto; border: 0px;"/>
 </div>
 
 
