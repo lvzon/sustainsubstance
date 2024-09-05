@@ -466,8 +466,9 @@ with all stories, when offered a choice between alternatives, we tend to
 pick the explanations that suit us best. Still, at least the explanatory
 stories of science constantly evolve as new observations are made and
 some explanations are shown to be incomplete or incorrect. Therefore, it
-is to science that we shall turn first. Specifically in the next
-articles we will look at the fairly young science of complex systems. We
+is to science that we shall turn first. Specifically in the 
+[next articles](https://sustainsubstance.org/entwined.html) 
+we will look at the fairly young science of complex systems. We
 will also examine some reasons why biological life is so robust that it
 has managed not just to survive but to flourish, despite several truly
 cataclysmic events that occurred over the long history of our planet.
